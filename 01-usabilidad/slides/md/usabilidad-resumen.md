@@ -47,11 +47,35 @@
 
 - Vamos a ver que es la **usabilidad de un sitio web y como mejorarla**.
 
-## ¿Por qué?
+## ¿Por qué? (I)
 
 - **Mejora en la calidad del producto**: los sistemas que mejor se ajustan a las necesidades del usuario mejoran la productividad y la calidad de las acciones y las decisiones.
 
+- **Reducción de los costes de mantenimiento**: los sistemas que son fáciles de usar requieren menos entrenamiento, menos soporte para el usuario y menos mantenimiento.
+
+## ¿Por qué? (II)
+
+- **Reducción de los costes de producción**: los costes y tiempos de desarrollo totales pueden ser reducidos evitando el sobrediseño y reduciendo el número de cambios posteriores requeridos en el producto.
+
 - **Un caso real**, después de ser rediseñado prestándose especial atención a la usabilidad, el sitio web de IBM incrementó sus ventas en un 400%
+
+## ¿Cómo? (I)
+
+- Primero **definiremos varios términos importantes**: usabilidad, accesibilidad, arquitectura de la información, experiencia de usuario y diseño centrado en el usuario.
+
+- Luego intentaremos **conocer al usuario**, saber como ve, como piensa y como actúa.
+
+## ¿Cómo? (II)
+
+- Después veremos como **evitando que el usuario cometa errores, y simplificando el diseño**, podemos mejorar la usabilidad.
+
+- También veremos la metodología del **diseño centrado en el usuario**, que se compone de varias fases: planificación, diseño, prototipado, evaluación, implementación y lanzamiento, y mantenimiento y seguimiento.
+
+## ¿Cómo? (III)
+
+- Seguidamente veremos **los principios de usabilidad y las técnicas de evaluación**: card-sorting, evaluación heurística, test de usuarios, eye-tracking, feedback, analítica web, tests A/B.
+
+- Para terminar propondremos varios varios **ejercicios** para realizar en clase en gruposde 3-4.
 
 
 
@@ -59,21 +83,53 @@
 
 
 
-## Usabilidad
+## Usabilidad (I)
 
 - La usabilidad se refiere a la capacidad de un software de ser **comprendido, aprendido, usado y ser atractivo para el usuario**, en condiciones específicas de uso. (ISO/IEC 9126)
 
 - La usabilidad se refiere al **grado de eficacia, eficiencia y satisfacción** con la que un producto permite alcanzar objetivos, a usuarios, en un contexto de uso específico. (ISO/IEC 9241)
 
+## Usabilidad (II)
+
+- Podemos observar que la usabilidad se compone de dos tipos de atributos:
+
+    - **Atributos cuantificables de forma objetiva**: como son la eficacia o número de errores cometidos por el usuario durante la realización de una tarea, y eficiencia o tiempo empleado por el usuario para la consecución de una tarea.
+
+    - **Atributos cuantificables de forma subjetiva**: como es la satisfacción de uso, medible a través de la interrogación al usuario.
+
+## Usabilidad (III)
+
+- Los usuarios no buscan usabilidad, buscan utilidad, entendida como el **provecho, beneficio e interés que produce su uso**.
+
+- Un producto será usable en la medida en que el **beneficio que se obtenga de usarlo justifique el esfuerzo necesario para su uso**.
+
+- Pensemos por ejemplo en los **automóviles**: son herramientas que requieren de un gran esfuerzo de aprendizaje y adaptación por parte de sus usuarios, aunque no por ello son percibidos como artefactos poco usables.
+
+## Usabilidad (IV)
+
+- La usabilidad **no sólo es relativa a sus usuarios, sino también a los usos**. Por ejemplo, un **microondas** puede ser usado para guardar zapatos, pero no se pensó para eso, por lo tanto puede resultar no usable en ese contexto.
+
+- Además, **los objetivos y contextos previstos determinarán la importancia de su usabilidad**. Por ejemplo, un **teléfono móvil** puede ser usado para realizar una llamada de emergencia, o para escuchar las diferentes melodías que incorpora, un objetivo este último para el que la usabilidad puede que no sea tan relevante como para el primero.
+
 ## Accesibilidad
 
 - La accesibilidad se refiere a la capacidad del sistema a para **facilitar el acceso a todas las personas** en igualdad de condiciones, independientemente de la tecnología o soporte que utilicen y de la discapacidad que puedan presentar.
 
-## Arquitectura Información
+## Arquitectura Información (I)
 
 - Disciplina que busca **organizar espacios de información** con el fin de ayudar a los usuarios a satisfacer sus necesidades de información.
 
+- La actividad de organizar **comporta la estructuración, clasificación y rotulado** de los contenidos.
+
+- La AI es el elemento que sostiene estructuralmente el contenido, por tanto, debe **definirse en las primeras etapas**, ya que de ella dependerán otros elementos del diseño.
+
+## Arquitectura Información (II)
+
 - El objetivo principal es **facilitar al usuario la recuperación de información**.
+
+- La recuperación de información es **una de las tareas de mayor importancia** para los usuarios.
+
+- Una **mala AI dificulta la búsqueda, y a la larga realizar otras tareas** (como comprar).
 
 ## Experiencia Usuario
 
@@ -91,13 +147,45 @@
 
 ## ¿Cómo ve? (I)
 
-- Nos vemos involuntariamente atraídos por lo inusual.
+- Decidimos qué queremos atender visualmente, pero **nuestra atención se ve interferida involuntariamente y de forma automática por determinadas características visuales**, aún cuando hagan presencia en zonas de visión periférica.
 
-![Fuente: nosolousabilidad.com](../img/inusual.png)
+## ¿Cómo ve? (II)
+
+- En las interfaces web sucede igual: los usuarios escanearán visualmente la interfaz en busca de propiedades gráficas propias de los objetos deseados –enlaces, textos, imágenes, ...–, y esta **exploración puede verse facilitada si el diseñador enfatiza aquellos elementos potencialmente más relevantes**, o por el contrario entorpecida cuando nada parece visualmente más relevante que el resto.
+
+## ¿Cómo ve? (III)
+
+- La capacidad que tiene un elemento visual de atraer la atención del usuario se encuentra en directa **relación con sus diferencias gráficas** respecto a los elementos colindantes.
+
+![Nos vemos involuntariamente atraídos por lo inusual. Fuente: nosolousabilidad.com](../img/inusual.png)
 
 ## ¿Cómo ve? (IV)
 
 - Un elemento con **mayor tamaño** que el resto, con un **color distinto** a los demás, con una **orientación diferente**, o **en movimiento**, tendrá más probabilidad de atraer nuestra atención.
+
+## ¿Cómo ve? (V)
+
+- Esto es algo que comprendieron los **diseñadores de banners**, pero los usuarios aprendieron a ignorar automáticamente todo aquello que, por sus propiedades gráficas (y ubicación), pareciera información publicitaria (lo fuera o no).
+
+- La **publicidad contextual**, popularizada por Google, intenta atraer nuestra atención por el camino contrario: en vez de por medio de su diferenciación gráfica, mediante su similitud, de tal forma que el usuario tenga la impresión de que por su aspecto pueda tratarse de contenido de interés.
+
+## ¿Cómo ve? (VI)
+
+- Mejorar el **diseño visual**:
+
+![Mejorar el diseño visual. Fuente: nosolousabilidad.com](../img/principios-disenio-visual.png)
+
+## ¿Cómo ve? (VII)
+
+- **Enfatizar**: implica hacer visible lo relevante, establecer una clara jerarquía visual entre elementos y zonas de la interfaz, de modo que la atención del usuario se vea guiada de forma lógica y secuencial de lo más relevante hacia lo secundario.
+
+## ¿Cómo ve? (VIII)
+
+- **Organizar**: significa establecer relaciones visuales lógicas, que faciliten de este modo al usuario relacionar o diferenciar elementos automáticamente. Por ejemplo, que los enlaces tengan todos una misma caracterización gráfica (color, tipografía, efectos), facilita al usuario que, una vez detectado un enlace, pueda diferenciarlos automáticamente.
+
+## ¿Cómo ve? (IX)
+
+- **Hacer reconocible**: considerar con especial cuidado el uso de iconos, encabezados, enlaces... de tal forma que se requiera del usuario el menor de los esfuerzos para comprender y predecir el funcionamiento interactivo de la interfaz.
 
 
 
