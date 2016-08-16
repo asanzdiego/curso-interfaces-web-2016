@@ -1,6 +1,6 @@
 % Bootstrap, un framework CSS
 % Adolfo Sanz De Diego
-% Septiembre 2014
+% Septiembre 2016
 
 
 
@@ -10,32 +10,21 @@
 
 ## Adolfo Sanz De Diego
 
-- **Antiguo programador web JEE (6 años)**
+- Empecé **desarrollando aplicaciones web**, hasta que di el salto a la docencia.
 
-- Hoy en día:
+- Actualmente soy **Asesor Técnico Docente** en el servicio TIC de la D.G de Infraestructuras y Servicios de la Consejería de Educación, Juventud y Deporte de la Comunidad de Madrid.
 
-    - **Profesor de FP (6 años)**:
-        - Hardware, Sistemas Operativos
-        - Redes, Programación
+- Además colaboro como **formador especializado en tecnologías de desarrollo**.
 
-    - **Formador Freelance (3 años)**:
-        - Java, Android
-        - JavaScript, jQuery
-        - JSF, Spring, Hibernate
-        - Groovy & Grails
 
 ## Algunos proyectos
 
-- Fundador y/o creador:
+- **Hackathon Lovers** <http://hackathonlovers.com>: un grupo creado para emprendedores y desarrolladores amantes de los hackathones.
 
-    - **Hackathon Lovers**: <http://hackathonlovers.com>
-    - **Tweets Sentiment**: <http://tweetssentiment.com>
-    - **MarkdownSlides**: <https://github.com/asanzdiego/markdownslides>
+- **Password Manager Generator** <http://pasmangen.github.io>: un gestor de contraseñas online.
 
-- Co-fundador y/o co-creador:
+- **MarkdownSlides** <https://github.com/asanzdiego/markdownslides>: un script para crear slides a partir de ficheros MD.
 
-    - **PeliTweets**: <http://pelitweets.com>
-    - **Password Manager Generator**: <http://pasmangen.github.io>
 
 ## ¿Donde encontrarme?
 
@@ -1343,7 +1332,7 @@ bootstrap/
   <li class="disabled">
     <span>&laquo;</span></li>
   <li class="active">
-    <span>1 
+    <span>1
       <span class="sr-only">
       (current)</span>
       </span></li>
@@ -1352,7 +1341,7 @@ bootstrap/
   <li><a href="#">4</a></li>
   <li><a href="#">5</a></li>
   <li><a href="#">&raquo;</a></li>
-</ul> 
+</ul>
 ~~~
 
 ## Pager (I)
@@ -1429,7 +1418,7 @@ bootstrap/
 <div class="jumbotron">
   <h1>Hello, world!</h1>
   <p>...</p>
-  <p><a 
+  <p><a
     class="btn btn-primary btn-lg"
     role="button">
     Learn more</a></p>

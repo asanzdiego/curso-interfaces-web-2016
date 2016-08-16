@@ -1,6 +1,6 @@
 % Responsive Web Design
 % Adolfo Sanz De Diego
-% Septiembre 2014
+% Septiembre 2016
 
 
 
@@ -10,32 +10,21 @@
 
 ## Adolfo Sanz De Diego
 
-- **Antiguo programador web JEE (6 años)**
+- Empecé **desarrollando aplicaciones web**, hasta que di el salto a la docencia.
 
-- Hoy en día:
+- Actualmente soy **Asesor Técnico Docente** en el servicio TIC de la D.G de Infraestructuras y Servicios de la Consejería de Educación, Juventud y Deporte de la Comunidad de Madrid.
 
-    - **Profesor de FP (6 años)**:
-        - Hardware, Sistemas Operativos
-        - Redes, Programación
+- Además colaboro como **formador especializado en tecnologías de desarrollo**.
 
-    - **Formador Freelance (3 años)**:
-        - Java, Android
-        - JavaScript, jQuery
-        - JSF, Spring, Hibernate
-        - Groovy & Grails
 
 ## Algunos proyectos
 
-- Fundador y/o creador:
+- **Hackathon Lovers** <http://hackathonlovers.com>: un grupo creado para emprendedores y desarrolladores amantes de los hackathones.
 
-    - **Hackathon Lovers**: <http://hackathonlovers.com>
-    - **Tweets Sentiment**: <http://tweetssentiment.com>
-    - **MarkdownSlides**: <https://github.com/asanzdiego/markdownslides>
+- **Password Manager Generator** <http://pasmangen.github.io>: un gestor de contraseñas online.
 
-- Co-fundador y/o co-creador:
+- **MarkdownSlides** <https://github.com/asanzdiego/markdownslides>: un script para crear slides a partir de ficheros MD.
 
-    - **PeliTweets**: <http://pelitweets.com>
-    - **Password Manager Generator**: <http://pasmangen.github.io>
 
 ## ¿Donde encontrarme?
 
@@ -459,7 +448,7 @@ Un Media Query **no sólo nos permite seleccionar el tipo de medio** (all, brail
 ## Ejemplo not (I)
 
 ~~~
-@media not tv and max-width(800px), 
+@media not tv and max-width(800px),
   not screen and max-width(400px) {
 
   /* reglas que queremos que

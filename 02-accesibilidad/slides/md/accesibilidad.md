@@ -1,6 +1,6 @@
 % Accesibilidad Web
 % Adolfo Sanz De Diego
-% Septiembre 2014
+% Septiembre 2016
 
 
 
@@ -10,32 +10,21 @@
 
 ## Adolfo Sanz De Diego
 
-- **Antiguo programador web JEE (6 años)**
+- Empecé **desarrollando aplicaciones web**, hasta que di el salto a la docencia.
 
-- Hoy en día:
+- Actualmente soy **Asesor Técnico Docente** en el servicio TIC de la D.G de Infraestructuras y Servicios de la Consejería de Educación, Juventud y Deporte de la Comunidad de Madrid.
 
-    - **Profesor de FP (6 años)**:
-        - Hardware, Sistemas Operativos
-        - Redes, Programación
+- Además colaboro como **formador especializado en tecnologías de desarrollo**.
 
-    - **Formador Freelance (3 años)**:
-        - Java, Android
-        - JavaScript, jQuery
-        - JSF, Spring, Hibernate
-        - Groovy & Grails
 
 ## Algunos proyectos
 
-- Fundador y/o creador:
+- **Hackathon Lovers** <http://hackathonlovers.com>: un grupo creado para emprendedores y desarrolladores amantes de los hackathones.
 
-    - **Hackathon Lovers**: <http://hackathonlovers.com>
-    - **Tweets Sentiment**: <http://tweetssentiment.com>
-    - **MarkdownSlides**: <https://github.com/asanzdiego/markdownslides>
+- **Password Manager Generator** <http://pasmangen.github.io>: un gestor de contraseñas online.
 
-- Co-fundador y/o co-creador:
+- **MarkdownSlides** <https://github.com/asanzdiego/markdownslides>: un script para crear slides a partir de ficheros MD.
 
-    - **PeliTweets**: <http://pelitweets.com>
-    - **Password Manager Generator**: <http://pasmangen.github.io>
 
 ## ¿Donde encontrarme?
 
@@ -296,7 +285,7 @@
 - Normalmente, problemas relacionados con:
     - la discapacidad **visual**,
     - la discapacidad **auditiva** y
-    - la discapacidad **física**. 
+    - la discapacidad **física**.
 
 ## Tecnológica
 
@@ -334,7 +323,7 @@
 
 ## Con discapacidad cognitiva
 
-- Suelen emplear **navegadores accesibles** que simplifican la navegación. 
+- Suelen emplear **navegadores accesibles** que simplifican la navegación.
 
 
 
@@ -557,13 +546,13 @@
 
 - El texto alternativo proporciona una alternativa textual **a los contenidos que no son texto** en las páginas web.
 
-- Es especialmente útil para las personas que son ciegas y dependen de un **lector de pantalla** para acceder al contenido de un sitio web. 
+- Es especialmente útil para las personas que son ciegas y dependen de un **lector de pantalla** para acceder al contenido de un sitio web.
 
 ## Proporciona encabezados para las tablas de datos
 
 - Las tablas que se utilizan para organizar datos tabulados deben tener encabezados adecuados (el **elemento \<th\>**).
 
-- Las celdas de datos deben estar asociadas con sus cabeceras adecuadas, lo que hace que sea **más fácil para los usuarios de lectores de pantalla navegar y entender las tablas** de datos. 
+- Las celdas de datos deben estar asociadas con sus cabeceras adecuadas, lo que hace que sea **más fácil para los usuarios de lectores de pantalla navegar y entender las tablas** de datos.
 
 ## Garantiza que los usuarios pueden completar y enviar todos los formularios
 
@@ -601,11 +590,11 @@
 
 - El uso del color puede mejorar la comprensión, pero no uses sólo el color para transmitir información.
 
-- Esa información puede no estar disponible para una **persona que es daltónica** y no estará disponible para **usuarios de lectores de pantalla**. 
+- Esa información puede no estar disponible para una **persona que es daltónica** y no estará disponible para **usuarios de lectores de pantalla**.
 
 ## Asegúrate de que el contenido está claramente escrito y es fácil de leer
 
-- Escribe con claridad, utiliza tipos de letras evidentes, y **emplea los encabezados y las listas adecuadamente**. 
+- Escribe con claridad, utiliza tipos de letras evidentes, y **emplea los encabezados y las listas adecuadamente**.
 
 ## Haz accesible el Javascript
 
@@ -630,7 +619,7 @@
 ## Auda a los usuarios
 
 - El **texto alternativo** ayuda a los usuarios:
-    - que no tengan terminales gráficas, 
+    - que no tengan terminales gráficas,
     - cuyos navegadores no soporten formularios,
     - con discapacidades visuales,
     - que utilicen sintetizadores de voz,
@@ -1161,7 +1150,7 @@ a:hover span:before, a:focus span:before, a:active span:before {
 
 - Este tipo de estructura dejaba el eslogan al nivel de cualquier otro texto de la web, cuando es evidente que es un texto más importante.
 
-- Marcarlo con un \<h2\> no era correcto ya que crearía una nueva sección que en realidad no existe. 
+- Marcarlo con un \<h2\> no era correcto ya que crearía una nueva sección que en realidad no existe.
 
 ## hgroup (IV)
 
@@ -1375,7 +1364,7 @@ window.onload = function() {
 
 - Los frames son un elemento del HTML que **siempre han causado problemas**.
 
-    - no se puede enlazar a una combinación particular de marcos, 
+    - no se puede enlazar a una combinación particular de marcos,
     - no se llevan bien con los buscadores,
     - se puede llegar a una situación de múltiples marcos anidados, etc.
 
@@ -1478,7 +1467,7 @@ window.onload = function() {
  <fieldset>
   <legend>Información personal</legend>
    <label for="nombre" tabindex="1">Nombre:</label>
-   <input type="text" id="nombre" name="nombre" autofocus required  ><br> 
+   <input type="text" id="nombre" name="nombre" autofocus required  ><br>
 ~~~
 
 

@@ -1,6 +1,6 @@
 % Usabilidad Web
 % Adolfo Sanz De Diego
-% Agosto 2014
+% Septiembre 2016
 
 
 
@@ -10,32 +10,21 @@
 
 ## Adolfo Sanz De Diego
 
-- **Antiguo programador web JEE (6 años)**
+- Empecé **desarrollando aplicaciones web**, hasta que di el salto a la docencia.
 
-- Hoy en día:
+- Actualmente soy **Asesor Técnico Docente** en el servicio TIC de la D.G de Infraestructuras y Servicios de la Consejería de Educación, Juventud y Deporte de la Comunidad de Madrid.
 
-    - **Profesor de FP (6 años)**:
-        - Hardware, Sistemas Operativos
-        - Redes, Programación
+- Además colaboro como **formador especializado en tecnologías de desarrollo**.
 
-    - **Formador Freelance (3 años)**:
-        - Java, Android
-        - JavaScript, jQuery
-        - JSF, Spring, Hibernate
-        - Groovy & Grails
 
 ## Algunos proyectos
 
-- Fundador y/o creador:
+- **Hackathon Lovers** <http://hackathonlovers.com>: un grupo creado para emprendedores y desarrolladores amantes de los hackathones.
 
-    - **Hackathon Lovers**: <http://hackathonlovers.com>
-    - **Tweets Sentiment**: <http://tweetssentiment.com>
-    - **MarkdownSlides**: <https://github.com/asanzdiego/markdownslides>
+- **Password Manager Generator** <http://pasmangen.github.io>: un gestor de contraseñas online.
 
-- Co-fundador y/o co-creador:
+- **MarkdownSlides** <https://github.com/asanzdiego/markdownslides>: un script para crear slides a partir de ficheros MD.
 
-    - **PeliTweets**: <http://pelitweets.com>
-    - **Password Manager Generator**: <http://pasmangen.github.io>
 
 ## ¿Donde encontrarme?
 
@@ -66,7 +55,7 @@
 
 ## ¿Por qué? (II)
 
-- **Reducción de los costes de producción**: los costes y tiempos de desarrollo totales pueden ser reducidos evitando el sobrediseño y reduciendo el número de cambios posteriores requeridos en el producto. 
+- **Reducción de los costes de producción**: los costes y tiempos de desarrollo totales pueden ser reducidos evitando el sobrediseño y reduciendo el número de cambios posteriores requeridos en el producto.
 
 - **Un caso real**, después de ser rediseñado prestándose especial atención a la usabilidad, el sitio web de IBM incrementó sus ventas en un 400%
 
@@ -277,7 +266,7 @@
 
 ## ¿Cómo actúa? (VII)
 
-- Los usuarios sean idiotas, sino que **tienen mejores asuntos en los que emplear su esfuerzo cognitivo** que en comprender nuestro diseño. 
+- Los usuarios sean idiotas, sino que **tienen mejores asuntos en los que emplear su esfuerzo cognitivo** que en comprender nuestro diseño.
 
 - No todo a lo que atendemos es procesado racionalmente, lo que **nos lleva a cometer errores** frecuentemente.
 
@@ -633,7 +622,7 @@
 
 - En el reclutamiento de participantes debemos asegurarnos de que:
     - los elegidos tienen **perfiles acordes con los usuarios reales** o potenciales del sitio web,
-    - **muestran interés** por el tipo de sitio web a evaluar y, 
+    - **muestran interés** por el tipo de sitio web a evaluar y,
     - a ser posible, **tienen experiencia usando sitios web de naturaleza similar**.
 
 ## Card-sorting (III)
@@ -826,7 +815,7 @@
     - analizar las **rutas de navegación** que siguen los usuarios,
     - detectar donde se producen mayor número de **errores**,
     - analizar **las consultas** que hacen los usuarios en el buscador interno,
-    - conocer **de donde llegan** los usuarios a nuestra página, 
+    - conocer **de donde llegan** los usuarios a nuestra página,
     - etc.
 
 

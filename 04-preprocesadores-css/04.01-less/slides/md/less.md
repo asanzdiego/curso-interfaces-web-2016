@@ -1,6 +1,6 @@
 % Less, un preprocesador CSS
 % Adolfo Sanz De Diego
-% Septiembre 2014
+% Septiembre 2016
 
 
 
@@ -10,32 +10,21 @@
 
 ## Adolfo Sanz De Diego
 
-- **Antiguo programador web JEE (6 años)**
+- Empecé **desarrollando aplicaciones web**, hasta que di el salto a la docencia.
 
-- Hoy en día:
+- Actualmente soy **Asesor Técnico Docente** en el servicio TIC de la D.G de Infraestructuras y Servicios de la Consejería de Educación, Juventud y Deporte de la Comunidad de Madrid.
 
-    - **Profesor de FP (6 años)**:
-        - Hardware, Sistemas Operativos
-        - Redes, Programación
+- Además colaboro como **formador especializado en tecnologías de desarrollo**.
 
-    - **Formador Freelance (3 años)**:
-        - Java, Android
-        - JavaScript, jQuery
-        - JSF, Spring, Hibernate
-        - Groovy & Grails
 
 ## Algunos proyectos
 
-- Fundador y/o creador:
+- **Hackathon Lovers** <http://hackathonlovers.com>: un grupo creado para emprendedores y desarrolladores amantes de los hackathones.
 
-    - **Hackathon Lovers**: <http://hackathonlovers.com>
-    - **Tweets Sentiment**: <http://tweetssentiment.com>
-    - **MarkdownSlides**: <https://github.com/asanzdiego/markdownslides>
+- **Password Manager Generator** <http://pasmangen.github.io>: un gestor de contraseñas online.
 
-- Co-fundador y/o co-creador:
+- **MarkdownSlides** <https://github.com/asanzdiego/markdownslides>: un script para crear slides a partir de ficheros MD.
 
-    - **PeliTweets**: <http://pelitweets.com>
-    - **Password Manager Generator**: <http://pasmangen.github.io>
 
 ## ¿Donde encontrarme?
 
@@ -124,7 +113,7 @@ less.render(
 - **Rhino te permite usar JavaScript desde una Máquina Virtual de Java**
 
 ~~~
-java -jar js.jar 
+java -jar js.jar
      -f less-rhino-<version>.js
      lessc-rhino-<version>.js
      styles.less styles.css
@@ -986,7 +975,7 @@ button:hover {
 - Se pueden usar **parámetros con nombre**:
 
 ~~~
-.mixin(  @color: black; 
+.mixin(  @color: black;
         @margin: 10px;
        @padding: 20px) {
   ...
@@ -1259,7 +1248,7 @@ div {
 
 ~~~
 .mixin (@a)
-  when (@a > 10), 
+  when (@a > 10),
        (@a < -10) { ... }
 ~~~
 
