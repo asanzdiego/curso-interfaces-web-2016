@@ -89,96 +89,21 @@
 
 
 
-## ¿Cómo ve? (I)
+## ¿Cómo ve?
 
-- Nos vemos involuntariamente atraídos por lo inusual.
+- Un elemento con **mayor tamaño**, con un **color distinto**, con una **orientación diferente**, o **en movimiento**, tendrá más probabilidad de atraer nuestra atención.
 
 ![Fuente: nosolousabilidad.com](../img/inusual.png)
 
-## ¿Cómo ve? (IV)
-
-- Un elemento con **mayor tamaño** que el resto, con un **color distinto** a los demás, con una **orientación diferente**, o **en movimiento**, tendrá más probabilidad de atraer nuestra atención.
-
-
-
-## ¿Cómo piensa? (I)
-
-- Cada vez que aprendemos algo extraemos nuestro propio **mapa mental**.
-
-![Extracción de nuestro propio mapa mental. Fuente: nosolousabilidad.com](../img/extraccion-mapa-mental-2.jpg)
-
-## ¿Cómo piensa? (II)
-
-- ¿Cómo **clasificaríamos** los colores?
-
-## ¿Cómo piensa? (III)
-
-- ¿Primarios, secundarios y terciarios?
-- ¿O cálidos y fríos?
-
-![Clasificación de los colores](../img/colores.jpg)
-
-## ¿Cómo piensa? (IV)
-
-- ¿Cúal de las 2 clasificaciones es mejor para mi interfaz?
-
-- Dependerá de nuestros usuarios.
-
-- Hay que intentar **adaptar nuestros contenidos a los mapas mentales** de nuestros usuarios.
-
-## ¿Cómo piensa? (V)
+## ¿Cómo piensa?
 
 - Un usuario será capaz de identificar la función de cada elemento sólo **si ha aprendido previamente su significado**.
 
-- Además **el significado dependerá del contexto**. Un mismo usuario asociará sentidos diferentes a un enlace con el rótulo “Archivos”, en función de si se encuentra visitando un sitio web de noticias, un repositorio de software o la página web de una asociación de Bibliotecas, Museos y Archivos.
+- Además **el significado dependerá del contexto**. (“Archivos”, tendrá distinto significado en una webweb de noticias que en una tienda de informica).
 
-## ¿Cómo piensa? (VI)
-
-- ¿Cuales de estos formularios de búsqueda no utilizarías para tu interfaz web?
-
-![Formularios de búsqueda. Fuente: nosolousabilidad.com](../img/busqueda.png)
-
-## ¿Cómo piensa? (VII)
-
-- ¿Cuales de estos calendarios no utilizarías para tu interfaz web?
-
-![Calendarios. Fuente: nosolousabilidad.com](../img/calendarios.png)
-
-
-
-## ¿Cómo actúa? (I)
-
-- Mecanismo **intuitivo**:
-    - se caracteriza por ser muy rápido, susceptible a errores y fundamentalmente emocional
-    - se disparan reglas automáticas o heurísticas –adquiridas en base a nuestra experiencia– que nos ofrecen una solución rápida, y nos posibilitan un comportamiento eficiente.
-
-## ¿Cómo actúa? (II)
-
-- Mecanismo **racional**:
-    - es un proceso lineal, lógico, consciente y que requiere esfuerzo y tiempo
-    - es menos propenso a errores, además de que podemos –frente a un error– modificar el proceso, corrigiendo el resultado.
-
-## ¿Cómo actúa? (III)
+## ¿Cómo actúa?
 
 - Normalmente empleamos el **sistema intuitivo pues nos permite economizar nuestro esfuerzo cognitivo**, y sólo usamos  **sistema racional para las decisiones realmente importantes**.
-
-- Esto explica por qué, por ejemplo, ante una ventana de alerta en la que se nos pregunta algo y se nos ofrecen dos posibles respuestas (sí y no), **es frecuente que automáticamente hagamos clic sin leer o procesar el contenido de la pregunta**.
-
-## ¿Cómo actúa? (IV)
-
-- El usuario explorará los ítems y **elegirá el primero que crea se corresponde con el contenido deseado**, aún cuando no todos hayan sido valorados.
-
-## ¿Cómo actúa? (V)
-
-- La **ordenación alfabética sería una solución universal**, si no fuera porque no siempre somos capaces de verbalizar nuestra necesidad informativa y, aún cuando lo somos, dicha representación sintáctica no tiene por qué coincidir con el término utilizado en la interfaz.
-
-## ¿Cómo actúa? (VI)
-
-- La mejor solución es reducir el número de ítems, **agrupando aquellos semánticamente similares bajo rótulos descriptivos**, de tal forma que el usuario primero explorará los rótulos de cada grupo, y sólo cuando estime que se encuentran relacionados con su necesidad, explorará los ítems contenidos en el grupo.
-
-## ¿Cómo actúa? (VII)
-
-- Los usuarios sean idiotas, sino que **tienen mejores asuntos en los que emplear su esfuerzo cognitivo** que en comprender nuestro diseño.
 
 - No todo a lo que atendemos es procesado racionalmente, lo que **nos lleva a cometer errores** frecuentemente.
 
@@ -230,12 +155,6 @@
 
 ![Mensajes de error para humanos. Fuente: duckduckgo.com](../img/mensaje-error.png)
 
-
-
-# Simplicidad
-
-
-
 ## Reducción
 
 - Si prescindimos de un elemento, y el cambio no afecta a la comprensión del usuario, entonces su presencia no era necesaria.
@@ -244,23 +163,15 @@
 
 ## Espacios vacíos
 
-- Cuando separamos elementos en pantalla con espacios vacíos, o cuando eliminamos información irrelevante de ciertas zonas, **estamos guiando la atención del usuario hacia aquello que permanece y es relevante**.
+- Al contar **con menos elementos valoramos y confiamos más en aquello que es visible**.
 
-- Al contar **con menos elementos valoramos y confiamos más en aquello que es visible**, reforzando su percepción.
+![Buscadores en abril de 1999. Fuente: //web.archive.org/](../img/buscadores-abril-1999.png)
 
 ## Equilibrio de características
 
 - Al incrementar el número de características se observa **un efecto positivo sobre las capacidades percibidas, pero un efecto negativo sobre la usabilidad percibida**.
 
-## Gráfico de Rob Tanenn
-
 ![Gráfico de Rob Tanenn. Fuente: nosolousabilidad.com](../img/grafico-de-rob-tanenn-2.png)
-
-## Organizar, clasificar y ordenar
-
-- Organizar, clasificar y ordenar **son también formas de simplificar**.
-
-- Por ejemplo, Google no simplifica los resultados de búsqueda por clasificación, sino por ordenación.
 
 
 
@@ -272,45 +183,11 @@
 
 ![Fases del diseño centrado en el usuario. Fuente: upf.edu](../img/disenio-centrado-usuario.png)
 
-## Planificación
+### Modelado usuario
 
-- Se basa en la **recogida, análisis y ordenación de toda la información posible**, con el objetivo de tener una base sólida sobre la que poder tomar decisiones de diseño en las siguientes etapas del proceso.
+- Se crean arquetipos, llamados "**personas**", con descripciones de usuarios, a los que se les da una identidad inventada: fotografía, nombre,... pero con los atributos, características y necesidades basados en información real extraída de la audiencia objetiva del sitio web.
 
-## Diseño (I)
-
-- Diseñar o rediseñar, **en base al conocimiento obtenido** en la etapa de planificación, y en las etapas de prototipado y evaluación.
-
-## Diseño (II)
-
-- Dividido en varias subfases:
-    - Modelado usuario
-    - Diseño conceptual
-    - Diseño de interacción
-    - Diseño visual
-    - Definición de estilo
-    - Diseño contenidos
-
-
-
-### Modelado usuario (I)
-
-- Definición de **arquetipos de usuarios** que representan patrones de conducta, objetivos y necesidades.
-
-### Modelado usuario (II)
-
-- Estos arquetipos, llamados "**personas**", son descripciones de usuarios, a los que se les da una identidad inventada: fotografía, nombre,... pero con los atributos, características y necesidades del arquetipo basados en información real extraída de la audiencia objetiva del sitio web.
-
-- Además se deben definir "**scenarios**" sobre los que poder contextualizar la interacción persona-aplicación web.
-
-### Modelado usuario (III)
-
-![Arquetipo 'persona'. Fuente: upf.edu](../img/persona.png)
-
-### Modelado usuario (IV)
-
-- El diseñador **suele imaginarse a sí mismo usando el sitio** y por tanto suele ser incapaz de comprender por qué a alguien le puede resultar difícil, incomodo y hasta frustrante su uso.
-
-- Estos arquetipos de usuarios conseguirán que el diseñador **tenga en mente a un usuario 'real'**, con limitaciones, habilidades y necesidades reales.
+- El diseñador **suele imaginarse a sí mismo usando el sitio** y estos arquetipos permiten que el diseñador **tenga en mente a un usuario 'real'**, con limitaciones, habilidades y necesidades reales.
 
 ### Diseño conceptual
 
@@ -324,24 +201,12 @@
 
 ![Diagrama de diseño de interacción. Fuente: sopadepixels.com](../img/disenio-interaccion.png)
 
-### Diseño visual (I)
+### Diseño visual
 
 - Se especifica:
     - **composición** de cada tipo de página,
     - **aspecto y comportamiento** de los elementos de interacción y
     - **presentación** de elementos multimedia.
-
-### Diseño visual (II)
-
-- **“lo bonito” es percibido por el usuario automáticamente como más fácil de usar** (aunque desde un punto de vista objetivo realmente no sea tan fácil de usar).
-
-![Botones. Fuente: nosolousabilidad.com](../img/botones.png)
-
-### Diseño visual (III)
-
-- Ahora bien, **ofrecer un aspecto gráfico aparentemente tosco y poco cuidado puede aportar valor** en determinados contextos.
-
-- La estética, al igual que la usabilidad, es relativa a sus usuarios y contextos de uso.
 
 ### Definición de estilo
 
@@ -349,27 +214,17 @@
 
 - Es útil elaborar una **guía de estilo** que sirva de documento referencia para todo el equipo de desarrollo.
 
-### Diseño contenidos (I)
+### Diseño contenidos
 
-- **Seguir una estructura piramidal**: La parte más importante del mensaje debe ir al principio.
+- La parte más importante del mensaje debe ir al principio.
 
-- **Evitar ser irrespetuoso**: Intentar no dañar sensibilidades culturales, sociales, políticas, religiosas, o de cualquier otro tipo.
+- Permitir una fácil exploración del contenido poniendo en relieve las partes fundamentales.
 
-### Diseño contenidos (II)
+- Evitar párrafos vacíos o varios mensajes en un mismo párrafo.
 
-- **Permitir una fácil exploración del contenido**: El lector en entornos Web, antes de empezar a leer, suele explorar visualmente el contenido para comprobar si le interesa. Usar los niveles de encabezado (h1, h2, h3, etc.), poner en relieve (negrita y/o distinto color) las partes fundamentales.
+- Hay que intentar eliminar los textos superfluos. Las páginas web no son novelas.
 
-### Diseño contenidos (II)
-
-- **Un párrafo, una idea**: Cada párrafo es un objeto informativo. Se deben trasmitir ideas, mensajes... evitando párrafos vacíos o varios mensajes en un mismo párrafo.
-
-- **Ser conciso y preciso**: Al lector no le gusta leer en pantalla. Hay que intentar eliminar los textos superfluos. Las páginas web no son novelas.
-
-### Diseño contenidos (III)
-
-- **Usar el vocabulario del usuario**: No se debe utilizar el vocabulario de la empresa o institución, sino el del usuario. Además debe ser sencillo y fácilmente comprensible.
-
-- **Tono familiar y cercano**: Así el lector prestará más atención. No hay que caer en la ordinariez.
+- No se debe utilizar el vocabulario de la empresa o institución, sino el del usuario.
 
 
 
@@ -377,9 +232,9 @@
 ## Prototipado
 
 - Algunas herramientas:
+    - <https://github.com/prikhi/pencil>
     - <http://moqups.com>
     - <http://gomockingbird.com>
-    - <http://pencil.evolus.vn>
     - <http://balsamiq.com>
     - <http://www.mockflow.com>
     - <http://wireframe.cc>
@@ -459,6 +314,10 @@
 
 
 
+## Jakob Nielsen
+
+- <https://es.wikipedia.org/wiki/Jakob_Nielsen>
+
 ## Visibilidad estado
 
 - El sistema (o sitio web) siempre debe **informar al usuario acerca de lo que está sucediendo**, como por ejemplo, cuando en una interfaz tipo webmail se adjuntan ficheros a un mensaje, el sistema debe informar del hecho mostrando un mensaje de espera.
@@ -524,187 +383,45 @@
 
 
 
-## Card-sorting (I)
+## Card-sorting
 
 - Esta técnica consiste en solicitar a un grupo de participantes que **agrupen los conceptos representados en tarjetas** por su similitud semántica.
 
+- Su utilización nos ofrecerno una **imagen del modelo mental del usuario**.
+
 ![Card-sorting. Fuente: nosolousabilidad.com](../img/card-sorting.png)
 
-## Card-sorting (II)
-
-- En el reclutamiento de participantes debemos asegurarnos de que:
-    - los elegidos tienen **perfiles acordes con los usuarios reales** o potenciales del sitio web,
-    - **muestran interés** por el tipo de sitio web a evaluar y,
-    - a ser posible, **tienen experiencia usando sitios web de naturaleza similar**.
-
-## Card-sorting (III)
-
-- El que los participantes estén motivados resulta crucial para el éxito de la prueba, por lo que será muy importante ofrecerles algún tipo de **remuneración o recompensa** por su colaboración en la prueba.
-
-## Card-sorting (IV)
-
-- El card-sorting **abierto (sin categorias) tiene el objetivo de descubrir qué tipo de categorización o agrupación de los conceptos resultará más natural y acorde con el modelo mental** compartido de la audiencia del sitio web.
-
-- El card-sorting **cerrado (con categorias) es recomendable para evaluar si una categorización resulta predecible** para el usuario.
-
-## Card-sorting (V)
-
-- Dado que el abierto ayuda en la toma de decisiones organizativas, y el cerrado evalúa esas decisiones, **el abierto debe preceder al cerrado**.
-
-- Ambos tienen propósitos diferentes y complementarios y **su utilización combinada puede ofrecernos una imagen más fiel** el modelo mental del usuario.
-
-## Card-sorting (VI)
-
-- Existen **aplicaciones que automatizan y facilitan la recogida de datos y su análisis estadístico**, por lo que son recomendables cuando el propósito es el análisis cuantitativo.
-
-- Como desventaja podemos señalar que **los participantes suelen encontrar más divertido el card-sorting manual**, y por tanto suelen estar más concentrados durante la tarea.
-
-## Card-sorting (VII)
-
-- Los "conceptos" suelen **representar categorías u opciones de navegación**, y por tanto lo que se pretende es extraer cuál sería la mejor forma de agruparlas o clasificarlas.
-
-- Es una prueba destinada a adaptar la arquitectura de información al modelo mental del usuario, por tanto **tiene lugar en etapas tempranas** del proyecto.
-
-
-
-## Evaluación heurística (I)
+## Evaluación heurística
 
 - Método de inspección de un sitio web que se basa en el **recorrido y análisis del sitio identificando errores y problemas de diseño**.
 
 - Normalmente la lleva a cabo un grupo reducido de evaluadores que, en base a **su propia experiencia**, fundamentándose en reconocidos **principios de usabilidad**, y apoyándose en **guías elaboradas para tal fin**, evalúan de forma independiente el sitio web, contrastando finalmente los resultados con el resto de evaluadores.
 
-## Evaluación heurística (II)
-
-- El número ideal de evaluadores debe ser entre 3 y 5: **con menos de 3 muchos problemas quedarán sin detectar, y con más de 5 aumentaría el coste** sin ofrecer resultados que los justificasen.
-
-- Cada evaluados examinará el diseño de forma independiente, y una vez finalicen, hacenn una puesta en común de los problemas, y elaborarán un **informe final consensuado**.
-
-## Evaluación heurística (III)
-
-- Cuanto más esperamos para su realización, más costoso resultará la reparación de los errores, por lo que **no sólo debemos realizar este tipo de pruebas una vez implementado, sino también, sobre los prototipos**.
-
-## Evaluación heurística (IV)
-
 - Tiene como ventaja la **facilidad y rapidez** con la que se puede llevar a cabo.
 
-## Evaluación heurística (V)
-
-- Permite identificar **más problemas de usabilidad menores**, pero menos problemas de usabilidad mayores.
-
-- No puede sustituir al test de usuarios, ya que resulta **menos eficaz en la detección de problemas de usabilidad que mayor impacto** tendrán en el usuario final.
-
-- Puede reportar **falsas alarmas**, es decir, identificar como un problema de usabilidad aquello que realmente no lo es.
-
-
-
-## Test de usuarios (I)
+## Test de usuarios
 
 - Se basa en la **observación y análisis de cómo un grupo de usuarios reales utiliza el sitio web**, anotando los problemas de uso con los que se encuentran.
-
-## Test de usuarios (II)
-
-- El número de participantes que son necesarios para detectar los problemas más importantes de usabilidad de un diseño se encuentra **en torno a 15**.
-
-- Es mejor llevar a cabo **3 pruebas, con 5 participantes por cada una, repartidas en diferentes momentos** del proceso de desarrollo.
-
-## Test de usuarios (III)
-
-- El **reclutamiento de participantes, y su remuneración, es similar a la técnica de Card-Sorting**, anteriormente mencionada.
-
-## Test de usuarios (IV)
-
-- La **primera impresión** que se lleve el participante supone una información de gran relevancia para entender la capacidad comunicativa del diseño.
-
-- "**Test de 5 segundos**", con o sin objetivo concreto: mostrándole la página durante 5 segundos y preguntándole posteriormente cuál ha sido su primera impresión, qué contenidos cree que ofrece o puede encontrar en ese sitio web.
-
-## Test de usuarios (V)
-
-- A continuación solicitaremos al participante una serie de tareas a realizar, analizando los errores que cometa, el tiempo empleado y su satisfacción. Es decir, **medimos tanto la usabilidad objetiva, como la usabilidad subjetiva**.
-
-## Test de usuarios (VI)
-
-- Requisitos de las tareas:
-    - **Ser razonables**: Es decir, tareas típicas que un usuario real llevaría a cabo.
-    - **Ser específicas**: La tarea no puede se demasiado genérica, sino que debe describir objetivos concretos.
-    - **Ser factibles**: Encomendar al usuario tareas irrealizables no aporta información útil sobre los problemas reales.
-
-## Test de usuarios (VII)
-
-- Requisitos de las tareas:
-    - **Estar descritas en términos de objetivos finales**: La tarea debe contextualizarse bajo un objetivo o motivación mayor.
-    - **Duración razonable**: Si la tarea requiere demasiado tiempo, sería recomendable descomponerla en sub-tareas.
-
-## Test de usuarios (VIII)
-
-- Una forma valiosa de obtener información consiste en **solicitar al participante que exprese verbalmente** durante la prueba qué está pensando, qué no entiende, por qué lleva a cabo una acción o duda.
-
-- Este protocolo tiene tiene el inconveniente de que el hecho de contar lo que uno hace y por qué lo hace **altera** la forma en la que se hacen las cosas.
-
-## Test de usuarios (IX)
-
-- Una alternativa consiste en que el participante **primero realiza la tarea y, una vez finalizada, expresa verbalmente** cómo recuerda que ha sido su proceso interactivo.
-
-## Test de usuarios (X)
-
-- Cuanto más esperamos para su realización, más costoso resultará la reparación de los errores, por lo que **no sólo debemos realizar este tipo de pruebas una vez implementado, sino también, sobre los prototipos**.
-
-## Test de usuarios (XI)
 
 - Es una prueba complementaria a la evaluación heurística, pero **es más costosa, por lo que es recomendable realizarla siempre después de una evaluación heurística**.
 
 - Sus **resultados son más fiables, y posibilitan el descubrimiento de errores de diseño** imposibles o difíciles de descubrir mediante la evaluación heurística.
 
+## Eye-tracking
 
-
-## Eye-tracking (I)
-
-- Conjunto de tecnologías (hardware y software) que permiten **monitorizar y registrar la forma en la que una persona mira una determinada escena o imagen**, en concreto en qué áreas fija su atención, durante cuánto tiempo y qué orden sigue en su exploración visuales.
-
-## Eye-tracking (II)
-
-![Eye-tracking. Fuente: nosolousabilidad.com](../img/eye-tracking.png)
-
-## Eye-tracking (III)
-
-- Resultan **muy similares a los test con usuarios**, siendo diferente la tecnología usada para registrar el comportamiento del usuario, y siendo diferente lo que se pretende analizar con mayor detalle: la exploración visual del usuario.
-
-## Eye-tracking (IV)
-
-- Pequeños cambios en estos diseños, pueden hacer que los patrones de exploración varíen, por lo que es una técnica **recomendable sólo sobre diseños elaborados**.
-
-## Eye-tracking (V)
+- Conjunto de tecnologías que permiten **monitorizar y registrar la forma en la que una persona mira una determinada escena o imagen**.
 
 - Sigue siendo una **tecnología cara**.
 
-- Hay que tener en cuenta que ofrecen **datos cualitativos escondidos bajo la apariencia de datos cuantitativos**: analizar una interfaz con 5 participantes generará una gran cantidad de datos, pero desde el punto de vista estadístico, sigue siendo una muestra de 5 sujetos.
-
-
-
-## Feedback (I)
+## Feedback
 
 - La información más valiosa sobre la usabilidad de un diseño **la obtenemos observando el comportamiento de los usuarios**, no preguntándoles.
 
 - Esto no quiere decir que el feedback de usuario no sea útil, sino todo lo contrario, pues nos ayuda a conocer la **satisfacción subjetiva del usuario**.
 
-## Feedback (II)
-
-- Esta información puede ser obtenida:
-    - **de forma pasiva**: a través de los mensajes enviados por los usuarios
-    - **de forma activa**: por medio de entrevistas, cuestionarios y encuestas
-
-## Feedback (III)
-
 - Las opiniones expresadas por los usuarios indican posibles problemas de usabilidad, pero **no son en sí mismas la respuesta a los problemas**.
 
-- Si un usuario envía un email preguntando por qué desde la home no encuentra un enlace al recurso X, no significa que debamos implementar este enlace, sino que posiblemente el recurso X sea poco visible o de difícil localización.
-
-## Feedback (IV)
-
-- No se deben hacer preguntas del tipo "¿Preferiría que el diseño fuera de tal forma?", sino del tipo **"¿Ha tenido algún problema para localizar el recurso X?" ó "¿Le ha resultado fácil el uso de la herramienta X?"**.
-
-
-
-## Analítica Web (I)
+## Analítica Web
 
 - Es una técnica que sólo puede llevarse a cabo **una vez que el sitio web ha sido lanzado** y es usado diariamente.
 
@@ -712,72 +429,11 @@
 
 - Se trata de una información muy valiosa que puede servirnos para la **toma de decisiones sobre el rediseño** en sitios web implementados.
 
-## Analítica Web (II)
-
-- Existen muy diversas formas de aprovechar los datos a fin de mejorar la usabilidad:
-    - **identificar los usuarios** de nuestra web (edad, sexo, estudios, etc.)
-    - analizar dónde **hacen clic**,
-    - comprobar **las horas de mayor uso** de nuestra web,
-    - analizar que páginas de nuestro site son las **más visitadas**,
-    - comparar dos páginas con la misma función pero diferente diseño (**Test A/B**),
-
-## Analítica Web (III)
-
-- Existen muy diversas formas de aprovechar los datos a fin de mejorar la usabilidad:
-    - analizar las **rutas de navegación** que siguen los usuarios,
-    - detectar donde se producen mayor número de **errores**,
-    - analizar **las consultas** que hacen los usuarios en el buscador interno,
-    - conocer **de donde llegan** los usuarios a nuestra página,
-    - etc.
-
-
-
 ## Test A/B (I)
 
 - Consiste en **comparar dos versiones** de una misma página y ver cuál funciona mejor.
 
-- Se divide el tráfico de la página, de tal forma que **el un porcentaje vea la versión A y el otro la versión B**.
-
-- La alternativa que consiga **el objetivo buscado en más usuarios gana**.
-
-## Test A/B (II)
-
 ![Test A/B. Fuente: elultimoblog.com](../img/test-a-b.jpg)
-
-## Test A/B (III)
-
-- **Cualquier elemento** de una página web (versión A) es susceptible de ser cambiado para generar una alternativa (versión B).
-
-- Puedes probar **títulos, subtítulos, o entradillas** alternativas para tus contenidos, puedes jugar con diferentes versiones de **color** y texto del botón de compra, puedes variar el **tamaño** de las ofertas, de los precios, del **orden** del menú...
-
-## Test A/B (IV)
-
-- **Identifica un problema o un punto de mejora**. “Muy pocos usuarios de los que vienen a mi web acaban visitando la página de precios de mi servicio, donde tengo el botón de comprar”.
-
-- **Investiga qué hacen los demás y cómo lo hacen**. Mira las páginas de inicio de tu competencia y aprende cómo otros incitan, desde su página de inicio, a visitar la página de precios.
-
-## Test A/B (V)
-
-- **Plantea una posible solución**. “Si pongo un botón aquí haciendo hincapié en que las dos primeras semanas son gratis, creo que conseguiré aumentar las visitas a la página de precios.”
-
-- **Define la métrica para determinar el éxito del test**. Dependiendo del objetivo, podremos elegir: la tasa de conversión, la tasa de rebote, número de clicks, incluso si testamos una página de atención al cliente podemos poner como métrica el número de llamadas, o el número de mails.
-
-## Test A/B (VI)
-
-- **Crea la alternativa e inicia el experimento**. Crea la versión B con la solución que intuyes es mejor.
-
-- **Analiza los resultados**. Pasado un cierto tiempo, si la solución alternativa:
-    - es mejor, establece esa alternativa como la versión por defecto
-    - iguales, quédate con la que más te guste
-    - es peor, has evitado integrar en tu web un cambio que te perjudicaría
-
-## Test A/B (VII)
-
-- Una herramienta gratuita y muy popular es **Google Website Optimizer**:
-    - <http://www.google.com/websiteoptimizer>
-
-- Existen **otras alternativas** más completas, aunque de pago:
-    - <http://www.ricardotayar.com/2012/01/15/herramientas-software-ab-testing-multivariante/>
 
 
 
@@ -885,10 +541,10 @@
 ## Fuentes
 
 - Transparencias:
-    - <https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/01-usabilidad/slides>
+    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/slides>
 
 - Código:
-    - <https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/01-usabilidad/src>
+    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/src>
 
 ## Bibliografía (I)
 

@@ -27,12 +27,12 @@ Alternativas:
 
 ## Ejemplos
 
-- [01-imagenes](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/02-accesibilidad/src/01-imagenes)
-- [02-mapas](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/02-accesibilidad/src/02-mapas)
-- [04-enlaces](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/02-accesibilidad/src/04-enlaces)
-- [05-organizacion](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/02-accesibilidad/src/05-organizacion)
-- [06-diagramas](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/02-accesibilidad/src/06-diagramas)
-- [07-scripts](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/02-accesibilidad/src/07-scripts)
-- [08-tablas](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/02-accesibilidad/src/08-tablas)
-- [09-formularios](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/02-accesibilidad/src/09-formularios)
-- [10-repeticion](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/02-accesibilidad/src/10-repeticion)
+- [01-imagenes](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/01-imagenes)
+- [02-mapas](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/02-mapas)
+- [04-enlaces](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/04-enlaces)
+- [05-organizacion](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/05-organizacion)
+- [06-diagramas](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/06-diagramas)
+- [07-scripts](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/07-scripts)
+- [08-tablas](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/08-tablas)
+- [09-formularios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/09-formularios)
+- [10-repeticion](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/10-repeticion)

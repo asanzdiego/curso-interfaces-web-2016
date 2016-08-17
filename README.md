@@ -2,7 +2,7 @@
 
 ## Usabilidad, tan de moda hoy en día
 
-En el [apartado de usabilidad](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/01-usabilidad):
+En el [apartado de usabilidad](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad):
 
 - Primero se definen varios términos importantes: **usabilidad, accesibilidad, arquitectura de la información, experiencia de usuario y diseño centrado en el usuario**.
 - Luego se intenta conocer al usuario de aplicaciones web, **saber como ve, como piensa y como actúa**.
@@ -12,11 +12,11 @@ En el [apartado de usabilidad](https://github.com/asanzdiego/curso-interfaces-we
 
 **Recursos**:
 
-- [Slides](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/01-usabilidad#slides)
+- [Slides](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad#slides)
 
 ## Accesibilidad, esa gran olvidada
 
-En el [apartado de accesibilidad](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/02-accesibilidad):
+En el [apartado de accesibilidad](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad):
 
 - Primero veremos una breve introducción sobre accesibilidad web: **objetivos, WAI, WCAG, etc**.
 - Después se enumeran las **directrices POUR**: Perceptible, Operable, Comprensible, Robusto
@@ -29,12 +29,12 @@ En el [apartado de accesibilidad](https://github.com/asanzdiego/curso-interfaces
 
 **Recursos**:
 
-- [Slides](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/02-accesibilidad/#slides)
-- [Ejemplos](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/02-accesibilidad/#ejemplos)
+- [Slides](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/#slides)
+- [Ejemplos](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/#ejemplos)
 
 ## Responsive Web Design (Diseño Web Adaptable)
 
-En el [apartado de Responsive Web Design](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/03-rwd):
+En el [apartado de Responsive Web Design](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd):
 
 - Veremos en primer lugar una introducción, contando que es eso del 'Responsive Web Design' (Diseño Web Adaptable), que **beneficios** tiene, y cual es la diferencia entre '**Graceful degradation**' y '**Progessive enhancement**'.
 - Seguidamente, se exponen varios **ejemplos de sitios web** realizados con esa filosofía.
@@ -43,12 +43,12 @@ En el [apartado de Responsive Web Design](https://github.com/asanzdiego/curso-in
 
 **Recursos**:
 
-- [Slides](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/03-rwd#slides)
-- [Ejemplos](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/03-rwd#ejemplos)
+- [Slides](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd#slides)
+- [Ejemplos](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd#ejemplos)
 
 ## LESS, un preprocesador CSS
 
-En el [apartado de LESS](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/04-less):
+En el [apartado de LESS](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-less):
 
 - Veremos primero una breve introducción, contando **qué es 'LESS'** y cuales son sus **principales ventajas**.
 - Siguiendo con una explicación de las distintas formas con las que podemos **trabajar con 'LESS'**.
@@ -57,12 +57,12 @@ En el [apartado de LESS](https://github.com/asanzdiego/curso-interfaces-web-2014
 
 **Recursos**:
 
-- [Slides](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/04-less/#slides)
-- [Ejemplos](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/04-less/#ejemplos)
+- [Slides](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-less/#slides)
+- [Ejemplos](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-less/#ejemplos)
 
 ## Bootstrap, un framework CSS
 
-En el  [apartado de Bootstrap](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/05-bootstrap):
+En el  [apartado de Bootstrap](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap):
 
 - Veremos primero qué es Bootstrap, sus **ventajas e inconvenientes**, y como empezar a usarlo.
 - Luego veremos las distintas **características del framework**: el sistema de rejilla, la tipografía, las tablas, los formularios, los botones, las imágenes, los helpers...
@@ -72,5 +72,5 @@ En el  [apartado de Bootstrap](https://github.com/asanzdiego/curso-interfaces-we
 
 **Recursos**:
 
-- [Slides](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/05-bootstrap/#slides)
-- [Ejemplos](https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/05-bootstrap/#ejemplos)
+- [Slides](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap/#slides)
+- [Ejemplos](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap/#ejemplos)

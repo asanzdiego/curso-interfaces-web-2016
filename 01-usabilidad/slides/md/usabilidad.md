@@ -266,7 +266,7 @@
 
 ## ¿Cómo actúa? (VII)
 
-- Los usuarios sean idiotas, sino que **tienen mejores asuntos en los que emplear su esfuerzo cognitivo** que en comprender nuestro diseño.
+- Los usuarios no son idiotas, sino que **tienen mejores asuntos en los que emplear su esfuerzo cognitivo** que en comprender nuestro diseño.
 
 - No todo a lo que atendemos es procesado racionalmente, lo que **nos lleva a cometer errores** frecuentemente.
 
@@ -335,6 +335,8 @@
 - Cuando separamos elementos en pantalla con espacios vacíos, o cuando eliminamos información irrelevante de ciertas zonas, **estamos guiando la atención del usuario hacia aquello que permanece y es relevante**.
 
 - Al contar **con menos elementos valoramos y confiamos más en aquello que es visible**, reforzando su percepción.
+
+![Buscadores en abril de 1999. Fuente: //web.archive.org/](../img/buscadores-abril-1999.png)
 
 ## Equilibrio de características
 
@@ -465,9 +467,9 @@
 ## Prototipado
 
 - Algunas herramientas:
+    - <https://github.com/prikhi/pencil>
     - <http://moqups.com>
     - <http://gomockingbird.com>
-    - <http://pencil.evolus.vn>
     - <http://balsamiq.com>
     - <http://www.mockflow.com>
     - <http://wireframe.cc>
@@ -546,6 +548,10 @@
 # Principios usabilidad
 
 
+
+## Jakob Nielsen
+
+- <https://es.wikipedia.org/wiki/Jakob_Nielsen>
 
 ## Visibilidad estado
 
@@ -973,10 +979,10 @@
 ## Fuentes
 
 - Transparencias:
-    - <https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/01-usabilidad/slides>
+    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/slides>
 
 - Código:
-    - <https://github.com/asanzdiego/curso-interfaces-web-2014/tree/master/01-usabilidad/src>
+    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/src>
 
 ## Bibliografía (I)
 
