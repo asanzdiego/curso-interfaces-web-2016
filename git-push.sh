@@ -1,10 +1,10 @@
 #! /bin/bash
 
 echo "**************************"
-echo "* PUSH CHANGES TO GITHUB *"
+echo "* PUSH CHANGES TO REMOTE *"
 echo "**************************"
 
-git diff | grep +++
+git status
 
 read -p "You want to continue? [y|*N*]: " OPTION
 
@@ -14,5 +14,5 @@ if [ "$OPTION" == "y" ]; then
 
     git add . && \
     git commit -m "$MESSAGE" && \
-    git push
+    git push origin master
 fi
