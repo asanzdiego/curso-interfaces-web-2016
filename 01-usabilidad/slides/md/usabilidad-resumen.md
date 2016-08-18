@@ -49,9 +49,7 @@
 
 ## ¿Por qué?
 
-- **Mejora en la calidad del producto**: los sistemas que mejor se ajustan a las necesidades del usuario mejoran la productividad y la calidad de las acciones y las decisiones.
-
-- **Un caso real**, después de ser rediseñado prestándose especial atención a la usabilidad, el sitio web de IBM incrementó sus ventas en un 400%
+- **Un caso real**: después de ser rediseñado prestándose especial atención a la usabilidad, el sitio web de IBM incrementó sus ventas en un 400%
 
 
 
@@ -254,7 +252,6 @@
 ### Aprendizaje
 
 - Dificultad para llevar a cabo tareas básicas **la primera vez que se enfrentan al diseño**.
-
     - % tareas completadas en el primer intento
     - % de usuarios que completan las tareas en el primer intento
     - % de usuarios que necesitan ayuda en el primer intento
@@ -262,7 +259,6 @@
 ### Efectividad
 
 - Dificultad para llevar a cabo tareas concretas **una vez que los usuarios han aprendido el funcionamiento básico**.
-
     - % tareas completadas
     - % de usuarios que completan las tareas
     - % de usuarios que necesitan ayuda
@@ -270,7 +266,6 @@
 ### Reconocimiento
 
 - Dificultad para llevar a cabo tareas concretas **después de un periodo sin hacerlo**.
-
     - % tareas completadas pasado un cierto tiempo sin usar la interfaz
     - % de usuarios que completan las tareas pasado un cierto tiempo sin usar la interfaz
     - % de usuarios que necesitan ayuda pasado un cierto tiempo sin usar la interfaz
@@ -278,7 +273,6 @@
 ### Eficiencia
 
 - **Esfuerzo** que un usuario tiene que hacer para conseguir un objetivo.
-
     - tiempo en completar cada tarea
     - número de errores cometidos
     - nivel de gravedad de los errores
@@ -290,13 +284,10 @@
 ### Satisfacción
 
 - Variables que tienen que ver más con lo **emocional o subjetivo**.
-
     - % de usuarios que lo recomendaría a un amigo
     - número de adjetivos positivos (o negativos) que cada usuario da al producto
     - % de usuarios que lo califican más fácil de usar que el de la competencia
     - % de usuarios que expresan satisfacción (o insatisfacción)
-
-
 
 ## Implementación y lanzamiento
 
@@ -429,100 +420,11 @@
 
 - Se trata de una información muy valiosa que puede servirnos para la **toma de decisiones sobre el rediseño** en sitios web implementados.
 
-## Test A/B (I)
+## Test A/B
 
 - Consiste en **comparar dos versiones** de una misma página y ver cuál funciona mejor.
 
 ![Test A/B. Fuente: elultimoblog.com](../img/test-a-b.jpg)
-
-
-
-# Ejercicios
-
-
-
-## Normas generales
-
-- Dividir la clase en grupos de 3-4
-- Dividir los grupos en 2: izquierda y derecha
-- Cuando haya que puntuar:
-    - 1 punto: muy mal
-    - 2 puntos: mal
-    - 3 puntos: bien
-    - 4 puntos: muy bien
-- Una vez terminado el ejercicio se harán públicos los resultados y se comentarán en clase
-
-## Card-sorting abierto
-
-- Grupo izquierda: usuarios
-    - Hacen lo que les digan los diseñadores
-
-- Grupo derecha: evaluadores
-    - Identificar items de una tienda de informática
-    - Poner items en Post-It
-    - Pasar Post-It a usuarios y que hagan agrupación libre
-    - Después de resultados escoger categorías principales
-
-## Card-sorting cerrado
-
-- Grupo izquierda: evaluadores
-    - Pasar categorías y Post-It a usuarios y que hagan agrupación por categoría
-    - Después de resultados hacer mapa mental de items
-
-- Grupo derecha: usuarios
-    - Hacen lo que les digan los diseñadores
-
-## Checklist de usabilidad
-
-- Los 2 grupos utilizarán la hoja de cálculo proporcionada en:
-    - <http://olgacarreras.blogspot.com.es/2011/07/sirius-nueva-sistema-para-la-evaluacion.html>
-
-- Grupo izquierda: evaluará
-    - <http://www.pccomponentes.com>
-    - Poner los datos de varios evaluadores en común
-
-- Grupo derecha: evaluará
-    - <http://www.latiendadeinformaticaonline.com>
-    - Poner los datos de varios evaluadores en común
-
-## Evaluación heurística
-
-- Grupo izquierda: maquetadores
-    - Hacer prototipo de la tienda (las pantallas que hagan falta)
-
-- Grupo derecha: evaluadores
-    - Consensuar puntos importantes a evaluar
-    - Una vez terminados los prototipos, puntuarlos
-    - Poner los datos de varios evaluadores en común
-
-## Test de usuarios (I)
-
-- Grupo izquierda: evaluadores
-    - Consensuar puntos importantes a evaluar
-    - Dar ordenes a los usuarios para hacer el test de los 5 segundos
-    - Después de preguntar a los usuarios, puntuar los prototipos
-    - Poner los datos de varios evaluadores en común
-
-- Grupo derecha: usuarios
-    - Hacen lo que les digan los diseñadores
-
-
-## Test de usuarios (II)
-
-- Grupo izquierda: usuarios
-    - Hacen lo que les digan los diseñadores
-
-- Grupo derecha: evaluadores
-    - Consensuar puntos importantes a evaluar
-    - Dar ordenes a los usuarios para testear los prototipos
-    - Después de observar como usan los usuarios los prototipos, puntuarlos
-    - Poner los datos de varios evaluadores en común
-
-## Test A/B
-
-- El profesor cogerá un prototipo y hará una pequeña modificación
-- El profesor enseñará los 2 prototipos a los alumnos
-- Los alumnos votarán a mano alzada cual les parece mejor
 
 
 
