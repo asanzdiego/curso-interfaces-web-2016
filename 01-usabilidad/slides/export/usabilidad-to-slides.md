@@ -1,6 +1,6 @@
 % Usabilidad Web
 % Adolfo Sanz De Diego
-% Agosto 2014
+% Septiembre 2016
 
 
 
@@ -10,32 +10,21 @@
 
 ## Adolfo Sanz De Diego
 
-- **Antiguo programador web JEE (6 años)**
+- Empecé **desarrollando aplicaciones web**, hasta que di el salto a la docencia.
 
-- Hoy en día:
+- Actualmente soy **Asesor Técnico Docente** en el servicio TIC de la D.G de Infraestructuras y Servicios de la Consejería de Educación, Juventud y Deporte de la Comunidad de Madrid.
 
-    - **Profesor de FP (6 años)**:
-        - Hardware, Sistemas Operativos
-        - Redes, Programación
+- Además colaboro como **formador especializado en tecnologías de desarrollo**.
 
-    - **Formador Freelance (3 años)**:
-        - Java, Android
-        - JavaScript, jQuery
-        - JSF, Spring, Hibernate
-        - Groovy & Grails
 
 ## Algunos proyectos
 
-- Fundador y/o creador:
+- **Hackathon Lovers** <http://hackathonlovers.com>: un grupo creado para emprendedores y desarrolladores amantes de los hackathones.
 
-    - **Hackathon Lovers**: <http://hackathonlovers.com>
-    - **Tweets Sentiment**: <http://tweetssentiment.com>
-    - **MarkdownSlides**: <https://github.com/asanzdiego/markdownslides>
+- **Password Manager Generator** <http://pasmangen.github.io>: un gestor de contraseñas online.
 
-- Co-fundador y/o co-creador:
+- **MarkdownSlides** <https://github.com/asanzdiego/markdownslides>: un script para crear slides a partir de ficheros MD.
 
-    - **PeliTweets**: <http://pelitweets.com>
-    - **Password Manager Generator**: <http://pasmangen.github.io>
 
 ## ¿Donde encontrarme?
 
@@ -66,7 +55,7 @@
 
 ## ¿Por qué? (II)
 
-- **Reducción de los costes de producción**: los costes y tiempos de desarrollo totales pueden ser reducidos evitando el sobrediseño y reduciendo el número de cambios posteriores requeridos en el producto. 
+- **Reducción de los costes de producción**: los costes y tiempos de desarrollo totales pueden ser reducidos evitando el sobrediseño y reduciendo el número de cambios posteriores requeridos en el producto.
 
 - **Un caso real**, después de ser rediseñado prestándose especial atención a la usabilidad, el sitio web de IBM incrementó sus ventas en un 400%
 
@@ -277,7 +266,7 @@
 
 ## ¿Cómo actúa? (VII)
 
-- Los usuarios sean idiotas, sino que **tienen mejores asuntos en los que emplear su esfuerzo cognitivo** que en comprender nuestro diseño. 
+- Los usuarios no son idiotas, sino que **tienen mejores asuntos en los que emplear su esfuerzo cognitivo** que en comprender nuestro diseño.
 
 - No todo a lo que atendemos es procesado racionalmente, lo que **nos lleva a cometer errores** frecuentemente.
 
@@ -346,6 +335,8 @@
 - Cuando separamos elementos en pantalla con espacios vacíos, o cuando eliminamos información irrelevante de ciertas zonas, **estamos guiando la atención del usuario hacia aquello que permanece y es relevante**.
 
 - Al contar **con menos elementos valoramos y confiamos más en aquello que es visible**, reforzando su percepción.
+
+![Buscadores en abril de 1999. Fuente: //web.archive.org/](../img/buscadores-abril-1999.png)
 
 ## Equilibrio de características
 
@@ -476,9 +467,9 @@
 ## Prototipado
 
 - Algunas herramientas:
+    - <https://github.com/prikhi/pencil>
     - <http://moqups.com>
     - <http://gomockingbird.com>
-    - <http://pencil.evolus.vn>
     - <http://balsamiq.com>
     - <http://www.mockflow.com>
     - <http://wireframe.cc>
@@ -558,6 +549,10 @@
 
 
 
+## Jakob Nielsen
+
+- <https://es.wikipedia.org/wiki/Jakob_Nielsen>
+
 ## Visibilidad estado
 
 - El sistema (o sitio web) siempre debe **informar al usuario acerca de lo que está sucediendo**, como por ejemplo, cuando en una interfaz tipo webmail se adjuntan ficheros a un mensaje, el sistema debe informar del hecho mostrando un mensaje de espera.
@@ -633,7 +628,7 @@
 
 - En el reclutamiento de participantes debemos asegurarnos de que:
     - los elegidos tienen **perfiles acordes con los usuarios reales** o potenciales del sitio web,
-    - **muestran interés** por el tipo de sitio web a evaluar y, 
+    - **muestran interés** por el tipo de sitio web a evaluar y,
     - a ser posible, **tienen experiencia usando sitios web de naturaleza similar**.
 
 ## Card-sorting (III)
@@ -826,7 +821,7 @@
     - analizar las **rutas de navegación** que siguen los usuarios,
     - detectar donde se producen mayor número de **errores**,
     - analizar **las consultas** que hacen los usuarios en el buscador interno,
-    - conocer **de donde llegan** los usuarios a nuestra página, 
+    - conocer **de donde llegan** los usuarios a nuestra página,
     - etc.
 
 
@@ -877,95 +872,6 @@
 
 - Existen **otras alternativas** más completas, aunque de pago:
     - <http://www.ricardotayar.com/2012/01/15/herramientas-software-ab-testing-multivariante/>
-
-
-
-# Ejercicios
-
-
-
-## Normas generales
-
-- Dividir la clase en grupos de 3-4
-- Dividir los grupos en 2: izquierda y derecha
-- Cuando haya que puntuar:
-    - 1 punto: muy mal
-    - 2 puntos: mal
-    - 3 puntos: bien
-    - 4 puntos: muy bien
-- Una vez terminado el ejercicio se harán públicos los resultados y se comentarán en clase
-
-## Card-sorting abierto
-
-- Grupo izquierda: usuarios
-    - Hacen lo que les digan los diseñadores
-
-- Grupo derecha: evaluadores
-    - Identificar items de una tienda de informática
-    - Poner items en Post-It
-    - Pasar Post-It a usuarios y que hagan agrupación libre
-    - Después de resultados escoger categorías principales
-
-## Card-sorting cerrado
-
-- Grupo izquierda: evaluadores
-    - Pasar categorías y Post-It a usuarios y que hagan agrupación por categoría
-    - Después de resultados hacer mapa mental de items
-
-- Grupo derecha: usuarios
-    - Hacen lo que les digan los diseñadores
-
-## Checklist de usabilidad
-
-- Los 2 grupos utilizarán la hoja de cálculo proporcionada en:
-    - <http://olgacarreras.blogspot.com.es/2011/07/sirius-nueva-sistema-para-la-evaluacion.html>
-
-- Grupo izquierda: evaluará
-    - <http://www.pccomponentes.com>
-    - Poner los datos de varios evaluadores en común
-
-- Grupo derecha: evaluará
-    - <http://www.latiendadeinformaticaonline.com>
-    - Poner los datos de varios evaluadores en común
-
-## Evaluación heurística
-
-- Grupo izquierda: maquetadores
-    - Hacer prototipo de la tienda (las pantallas que hagan falta)
-
-- Grupo derecha: evaluadores
-    - Consensuar puntos importantes a evaluar
-    - Una vez terminados los prototipos, puntuarlos
-    - Poner los datos de varios evaluadores en común
-
-## Test de usuarios (I)
-
-- Grupo izquierda: evaluadores
-    - Consensuar puntos importantes a evaluar
-    - Dar ordenes a los usuarios para hacer el test de los 5 segundos
-    - Después de preguntar a los usuarios, puntuar los prototipos
-    - Poner los datos de varios evaluadores en común
-
-- Grupo derecha: usuarios
-    - Hacen lo que les digan los diseñadores
-
-
-## Test de usuarios (II)
-
-- Grupo izquierda: usuarios
-    - Hacen lo que les digan los diseñadores
-
-- Grupo derecha: evaluadores
-    - Consensuar puntos importantes a evaluar
-    - Dar ordenes a los usuarios para testear los prototipos
-    - Después de observar como usan los usuarios los prototipos, puntuarlos
-    - Poner los datos de varios evaluadores en común
-
-## Test A/B
-
-- El profesor cogerá un prototipo y hará una pequeña modificación
-- El profesor enseñará los 2 prototipos a los alumnos
-- Los alumnos votarán a mano alzada cual les parece mejor
 
 
 

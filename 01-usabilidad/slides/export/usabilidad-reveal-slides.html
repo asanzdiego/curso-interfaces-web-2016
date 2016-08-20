@@ -10,50 +10,50 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/reveal.min.css">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/reveal.css">
+  <link rel="stylesheet" href="../lib/reveal.js-menu-master/menu.css">
 	<!-- For syntax highlighting -->
 	<link rel="stylesheet" href="lib/css/zenburn.css">
 
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/default.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/league.css" id="theme">
   <!--
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/default.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/black.css" id="theme">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/beige.css" id="theme">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/blood.css" id="theme">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/default.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/league.css" id="theme">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/moon.css" id="theme">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/night.css" id="theme">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/serif.css" id="theme">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/simple.css" id="theme">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/sky.css" id="theme">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/solarized.css" id="theme">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/white.css" id="theme">
   -->
 
 
 	<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 	<link rel="stylesheet" href="../lib/reveal.js-master/css/print/pdf.css" type="text/css" media="print">
 
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/default.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/league.css" type="text/css" media="print">
   <!--
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/default.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/black.css" type="text/css" media="print">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/beige.css" type="text/css" media="print">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/blood.css" type="text/css" media="print">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/default.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/league.css" type="text/css" media="print">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/moon.css" type="text/css" media="print">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/night.css" type="text/css" media="print">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/serif.css" type="text/css" media="print">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/simple.css" type="text/css" media="print">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/sky.css" type="text/css" media="print">
   <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/solarized.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/white.css" type="text/css" media="print">
   -->
 
   <!-- Overwrite images -->
   <style type="text/css">
-    pre {
-      background: rgba(255, 255, 255, 0.9);
-      color: #222;
-    }
-    code {
-      white-space: pre;
+    .reveal pre code {
+      background: rgba(255, 255, 255, 0.7);
+      color: rgba(0, 0, 0, 0.7);
     }
     .reveal section img {
       margin: 15px 0px;
@@ -78,8 +78,8 @@
     h3 {
       font-size: 100% !important;
     }
-    @media print { 
-      #only-print-parent { display: table !important; } 
+    @media print {
+      #only-print-parent { display: table !important; }
       #only-print-child { display: table-cell !important; vertical-align: middle;}
       h1.title { font-size: 400% !important;}
       h1 { font-size: 300% !important; }
@@ -101,56 +101,35 @@
     <div id="only-print-child">
       <h1 class="title">Usabilidad Web</h2>
       <h2 class="author">Adolfo Sanz De Diego</h2>
-      <h3 class="date">Agosto 2014</h3>
+      <h3 class="date">Septiembre 2016</h3>
     </div>
 </section>
 
 <section><section id="el-autor" class="titleslide slide level1"><h1><span class="header-section-number">1</span> El autor</h1></section><section id="adolfo-sanz-de-diego" class="slide level2">
 <h2><span class="header-section-number">1.1</span> Adolfo Sanz De Diego</h2>
 <ul>
-<li><p><strong>Antiguo programador web JEE (6 años)</strong></p></li>
-<li><p>Hoy en día:</p>
-<ul>
-<li><strong>Profesor de FP (6 años)</strong>:
-<ul>
-<li>Hardware, Sistemas Operativos</li>
-<li>Redes, Programación</li>
-</ul></li>
-<li><strong>Formador Freelance (3 años)</strong>:
-<ul>
-<li>Java, Android</li>
-<li>JavaScript, jQuery</li>
-<li>JSF, Spring, Hibernate</li>
-<li>Groovy &amp; Grails</li>
-</ul></li>
-</ul></li>
+<li><p>Empecé <strong>desarrollando aplicaciones web</strong>, hasta que di el salto a la docencia.</p></li>
+<li><p>Actualmente soy <strong>Asesor Técnico Docente</strong> en el servicio TIC de la D.G de Infraestructuras y Servicios de la Consejería de Educación, Juventud y Deporte de la Comunidad de Madrid.</p></li>
+<li><p>Además colaboro como <strong>formador especializado en tecnologías de desarrollo</strong>.</p></li>
 </ul>
 </section><section id="algunos-proyectos" class="slide level2">
 <h2><span class="header-section-number">1.2</span> Algunos proyectos</h2>
 <ul>
-<li><p>Fundador y/o creador:</p>
-<ul>
-<li><strong>Hackathon Lovers</strong>: <a href="http://hackathonlovers.com">http://hackathonlovers.com</a></li>
-<li><strong>Tweets Sentiment</strong>: <a href="http://tweetssentiment.com">http://tweetssentiment.com</a></li>
-<li><strong>MarkdownSlides</strong>: <a href="https://github.com/asanzdiego/markdownslides">https://github.com/asanzdiego/markdownslides</a></li>
-</ul></li>
-<li><p>Co-fundador y/o co-creador:</p>
-<ul>
-<li><strong>PeliTweets</strong>: <a href="http://pelitweets.com">http://pelitweets.com</a></li>
-<li><strong>Password Manager Generator</strong>: <a href="http://pasmangen.github.io">http://pasmangen.github.io</a></li>
-</ul></li>
+<li><p><strong>Hackathon Lovers</strong> <a href="http://hackathonlovers.com" class="uri">http://hackathonlovers.com</a>: un grupo creado para emprendedores y desarrolladores amantes de los hackathones.</p></li>
+<li><p><strong>Password Manager Generator</strong> <a href="http://pasmangen.github.io" class="uri">http://pasmangen.github.io</a>: un gestor de contraseñas online.</p></li>
+<li><p><strong>MarkdownSlides</strong> <a href="https://github.com/asanzdiego/markdownslides" class="uri">https://github.com/asanzdiego/markdownslides</a>: un script para crear slides a partir de ficheros MD.</p></li>
 </ul>
 </section><section id="donde-encontrarme" class="slide level2">
 <h2><span class="header-section-number">1.3</span> ¿Donde encontrarme?</h2>
 <ul>
 <li><p>Mi nick: <strong>asanzdiego</strong></p>
 <ul>
-<li>AboutMe: <a href="http://about.me/asanzdiego">http://about.me/asanzdiego</a></li>
-<li>GitHub: <a href="http://github.com/asanzdiego">http://github.com/asanzdiego</a></li>
-<li>Twitter: <a href="http://twitter.com/asanzdiego">http://twitter.com/asanzdiego</a></li>
-<li>Blog: <a href="http://asanzdiego.blogspot.com.es">http://asanzdiego.blogspot.com.es</a></li>
-<li>LinkedIn: <a href="http://www.linkedin.com/in/asanzdiego">http://www.linkedin.com/in/asanzdiego</a></li>
-<li>Google+: <a href="http://plus.google.com/+AdolfoSanzDeDiego">http://plus.google.com/+AdolfoSanzDeDiego</a></li>
+<li>AboutMe: <a href="http://about.me/asanzdiego" class="uri">http://about.me/asanzdiego</a></li>
+<li>GitHub: <a href="http://github.com/asanzdiego" class="uri">http://github.com/asanzdiego</a></li>
+<li>Twitter: <a href="http://twitter.com/asanzdiego" class="uri">http://twitter.com/asanzdiego</a></li>
+<li>Blog: <a href="http://asanzdiego.blogspot.com.es" class="uri">http://asanzdiego.blogspot.com.es</a></li>
+<li>LinkedIn: <a href="http://www.linkedin.com/in/asanzdiego" class="uri">http://www.linkedin.com/in/asanzdiego</a></li>
+<li>Google+: <a href="http://plus.google.com/+AdolfoSanzDeDiego" class="uri">http://plus.google.com/+AdolfoSanzDeDiego</a></li>
 </ul></li>
 </ul>
 </section></section>
@@ -393,7 +372,7 @@
 </section><section id="cómo-actúa-vii" class="slide level2">
 <h2><span class="header-section-number">4.23</span> ¿Cómo actúa? (VII)</h2>
 <ul>
-<li><p>Los usuarios sean idiotas, sino que <strong>tienen mejores asuntos en los que emplear su esfuerzo cognitivo</strong> que en comprender nuestro diseño.</p></li>
+<li><p>Los usuarios no son idiotas, sino que <strong>tienen mejores asuntos en los que emplear su esfuerzo cognitivo</strong> que en comprender nuestro diseño.</p></li>
 <li><p>No todo a lo que atendemos es procesado racionalmente, lo que <strong>nos lleva a cometer errores</strong> frecuentemente.</p></li>
 </ul>
 </section></section>
@@ -468,6 +447,9 @@
 <li><p>Cuando separamos elementos en pantalla con espacios vacíos, o cuando eliminamos información irrelevante de ciertas zonas, <strong>estamos guiando la atención del usuario hacia aquello que permanece y es relevante</strong>.</p></li>
 <li><p>Al contar <strong>con menos elementos valoramos y confiamos más en aquello que es visible</strong>, reforzando su percepción.</p></li>
 </ul>
+<figure>
+<img src="../img/buscadores-abril-1999.png" alt="Buscadores en abril de 1999. Fuente: //web.archive.org/" /><figcaption>Buscadores en abril de 1999. Fuente: //web.archive.org/</figcaption>
+</figure>
 </section><section id="equilibrio-de-características" class="slide level2">
 <h2><span class="header-section-number">6.3</span> Equilibrio de características</h2>
 <ul>
@@ -607,13 +589,13 @@
 <ul>
 <li>Algunas herramientas:
 <ul>
-<li><a href="http://moqups.com">http://moqups.com</a></li>
-<li><a href="http://gomockingbird.com">http://gomockingbird.com</a></li>
-<li><a href="http://pencil.evolus.vn">http://pencil.evolus.vn</a></li>
-<li><a href="http://balsamiq.com">http://balsamiq.com</a></li>
-<li><a href="http://www.mockflow.com">http://www.mockflow.com</a></li>
-<li><a href="http://wireframe.cc">http://wireframe.cc</a></li>
-<li><a href="http://www.axure.com">http://www.axure.com</a></li>
+<li><a href="https://github.com/prikhi/pencil" class="uri">https://github.com/prikhi/pencil</a></li>
+<li><a href="http://moqups.com" class="uri">http://moqups.com</a></li>
+<li><a href="http://gomockingbird.com" class="uri">http://gomockingbird.com</a></li>
+<li><a href="http://balsamiq.com" class="uri">http://balsamiq.com</a></li>
+<li><a href="http://www.mockflow.com" class="uri">http://www.mockflow.com</a></li>
+<li><a href="http://wireframe.cc" class="uri">http://wireframe.cc</a></li>
+<li><a href="http://www.axure.com" class="uri">http://www.axure.com</a></li>
 </ul></li>
 </ul>
 </section><section id="evaluación" class="slide level2">
@@ -695,24 +677,29 @@
 <li><p>Estos <strong>rediseños deben ser muy sutiles</strong>, pues aunque estos cambios estén fundamentados en problemas de usabilidad descubiertos post-lanzamiento, los cambios pueden resultar dramáticos para los actuales usuarios que ya estaban acostumbrados y familiarizados con el actual diseño.</p></li>
 </ul>
 </section></section>
-<section><section id="principios-usabilidad" class="titleslide slide level1"><h1><span class="header-section-number">8</span> Principios usabilidad</h1></section><section id="visibilidad-estado" class="slide level2">
-<h2><span class="header-section-number">8.1</span> Visibilidad estado</h2>
+<section><section id="principios-usabilidad" class="titleslide slide level1"><h1><span class="header-section-number">8</span> Principios usabilidad</h1></section><section id="jakob-nielsen" class="slide level2">
+<h2><span class="header-section-number">8.1</span> Jakob Nielsen</h2>
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/Jakob_Nielsen" class="uri">https://es.wikipedia.org/wiki/Jakob_Nielsen</a></li>
+</ul>
+</section><section id="visibilidad-estado" class="slide level2">
+<h2><span class="header-section-number">8.2</span> Visibilidad estado</h2>
 <ul>
 <li>El sistema (o sitio web) siempre debe <strong>informar al usuario acerca de lo que está sucediendo</strong>, como por ejemplo, cuando en una interfaz tipo webmail se adjuntan ficheros a un mensaje, el sistema debe informar del hecho mostrando un mensaje de espera.</li>
 </ul>
 </section><section id="adecuación-al-mundo-real" class="slide level2">
-<h2><span class="header-section-number">8.2</span> Adecuación al mundo real</h2>
+<h2><span class="header-section-number">8.3</span> Adecuación al mundo real</h2>
 <ul>
 <li>El sistema debe hablar el <strong>lenguaje del usuario</strong>, huyendo de tecnicismos incomprensibles o mensajes crípticos.</li>
 </ul>
 </section><section id="libertad-y-control" class="slide level2">
-<h2><span class="header-section-number">8.3</span> Libertad y control</h2>
+<h2><span class="header-section-number">8.4</span> Libertad y control</h2>
 <ul>
 <li><p>El usuario debe tener el control del sistema, ser él el que decida.</p></li>
 <li><p>Se debe ofrecer siempre una forma de &quot;<strong>salida de emergencia</strong>&quot;, como por ejemplo la opción para &quot;saltar&quot; animaciones de introducción</p></li>
 </ul>
 </section><section id="consistencia-y-estándares" class="slide level2">
-<h2><span class="header-section-number">8.4</span> Consistencia y estándares</h2>
+<h2><span class="header-section-number">8.5</span> Consistencia y estándares</h2>
 <ul>
 <li><p>Consistencia en el <strong>estilo</strong> (enlaces iguales, pestañas iguales, etc.)</p></li>
 <li>Seguir <strong>estándares de diseño</strong> ampliamente aceptados:
@@ -725,37 +712,37 @@
 </ul></li>
 </ul>
 </section><section id="prevención-de-errores" class="slide level2">
-<h2><span class="header-section-number">8.5</span> Prevención de errores</h2>
+<h2><span class="header-section-number">8.6</span> Prevención de errores</h2>
 <ul>
 <li>Mejor que un buen mensaje de error es un <strong>diseño que prevenga</strong> que ocurra el error.</li>
 </ul>
 </section><section id="reconocimiento-antes-que-recuerdo" class="slide level2">
-<h2><span class="header-section-number">8.6</span> Reconocimiento antes que recuerdo</h2>
+<h2><span class="header-section-number">8.7</span> Reconocimiento antes que recuerdo</h2>
 <ul>
 <li><p>Hacer <strong>visibles objetos, acciones y opciones</strong> para que el usuario no tenga por qué recordar información entre distintas secciones o partes del sitio web o aplicación.</p></li>
 <li><p>El usuario <strong>no tiene por qué recordar</strong> dónde se encontraba cierta información, o cómo se llegaba a determinada página.</p></li>
 </ul>
 </section><section id="flexibilidad-y-eficiencia" class="slide level2">
-<h2><span class="header-section-number">8.7</span> Flexibilidad y eficiencia</h2>
+<h2><span class="header-section-number">8.8</span> Flexibilidad y eficiencia</h2>
 <ul>
 <li><p>El sitio debe ser <strong>fácil de usar para usuarios inexpertos</strong>.</p></li>
 <li><p>Pero también proporcionar <strong>atajos o aceleradores para usuarios avanzados</strong>.</p></li>
 </ul>
 </section><section id="diseño-estético-y-minimalista" class="slide level2">
-<h2><span class="header-section-number">8.8</span> Diseño estético y minimalista</h2>
+<h2><span class="header-section-number">8.9</span> Diseño estético y minimalista</h2>
 <ul>
 <li><p>Las páginas <strong>no deben contener información irrelevante o innecesaria</strong>.</p></li>
 <li><p>Cada <strong>información extra compite con la información relevante</strong> y disminuye su visibilidad.</p></li>
 </ul>
 </section><section id="manejo-de-errores" class="slide level2">
-<h2><span class="header-section-number">8.9</span> Manejo de errores</h2>
+<h2><span class="header-section-number">8.10</span> Manejo de errores</h2>
 <ul>
 <li><p>Los mensajes de error deben <strong>expresar claramente cuál ha sido la causa</strong> del problema.</p></li>
 <li><p>También deben <strong>sugerir las posibles alternativas o soluciones</strong>, como por ejemplo mensajes del tipo &quot;Usted quiso decir...&quot;.</p></li>
 <li><p>Además se debe <strong>guardar el contenido</strong> introducido por el usuario para que no tenga que volver introducirlo y pueda subsanar el error.</p></li>
 </ul>
 </section><section id="ayuda-y-documentación" class="slide level2">
-<h2><span class="header-section-number">8.10</span> Ayuda y documentación</h2>
+<h2><span class="header-section-number">8.11</span> Ayuda y documentación</h2>
 <ul>
 <li>Aunque es mejor que un sitio web se pueda utilizar sin necesidad de ayuda o documentación, <strong>en sitios web extensos o en procesos de interacción complejos se debe proporcionar información de ayuda</strong> al usuario.</li>
 </ul>
@@ -1033,192 +1020,80 @@
 <ul>
 <li>Una herramienta gratuita y muy popular es <strong>Google Website Optimizer</strong>:
 <ul>
-<li><a href="http://www.google.com/websiteoptimizer">http://www.google.com/websiteoptimizer</a></li>
+<li><a href="http://www.google.com/websiteoptimizer" class="uri">http://www.google.com/websiteoptimizer</a></li>
 </ul></li>
 <li>Existen <strong>otras alternativas</strong> más completas, aunque de pago:
 <ul>
-<li><a href="http://www.ricardotayar.com/2012/01/15/herramientas-software-ab-testing-multivariante/">http://www.ricardotayar.com/2012/01/15/herramientas-software-ab-testing-multivariante/</a></li>
+<li><a href="http://www.ricardotayar.com/2012/01/15/herramientas-software-ab-testing-multivariante/" class="uri">http://www.ricardotayar.com/2012/01/15/herramientas-software-ab-testing-multivariante/</a></li>
 </ul></li>
 </ul>
 </section></section>
-<section><section id="ejercicios" class="titleslide slide level1"><h1><span class="header-section-number">10</span> Ejercicios</h1></section><section id="normas-generales" class="slide level2">
-<h2><span class="header-section-number">10.1</span> Normas generales</h2>
-<ul>
-<li>Dividir la clase en grupos de 3-4</li>
-<li>Dividir los grupos en 2: izquierda y derecha</li>
-<li>Cuando haya que puntuar:
-<ul>
-<li>1 punto: muy mal</li>
-<li>2 puntos: mal</li>
-<li>3 puntos: bien</li>
-<li>4 puntos: muy bien</li>
-</ul></li>
-<li>Una vez terminado el ejercicio se harán públicos los resultados y se comentarán en clase</li>
-</ul>
-</section><section id="card-sorting-abierto" class="slide level2">
-<h2><span class="header-section-number">10.2</span> Card-sorting abierto</h2>
-<ul>
-<li>Grupo izquierda: usuarios
-<ul>
-<li>Hacen lo que les digan los diseñadores</li>
-</ul></li>
-<li>Grupo derecha: evaluadores
-<ul>
-<li>Identificar items de una tienda de informática</li>
-<li>Poner items en Post-It</li>
-<li>Pasar Post-It a usuarios y que hagan agrupación libre</li>
-<li>Después de resultados escoger categorías principales</li>
-</ul></li>
-</ul>
-</section><section id="card-sorting-cerrado" class="slide level2">
-<h2><span class="header-section-number">10.3</span> Card-sorting cerrado</h2>
-<ul>
-<li>Grupo izquierda: evaluadores
-<ul>
-<li>Pasar categorías y Post-It a usuarios y que hagan agrupación por categoría</li>
-<li>Después de resultados hacer mapa mental de items</li>
-</ul></li>
-<li>Grupo derecha: usuarios
-<ul>
-<li>Hacen lo que les digan los diseñadores</li>
-</ul></li>
-</ul>
-</section><section id="checklist-de-usabilidad" class="slide level2">
-<h2><span class="header-section-number">10.4</span> Checklist de usabilidad</h2>
-<ul>
-<li>Los 2 grupos utilizarán la hoja de cálculo proporcionada en:
-<ul>
-<li><a href="http://olgacarreras.blogspot.com.es/2011/07/sirius-nueva-sistema-para-la-evaluacion.html">http://olgacarreras.blogspot.com.es/2011/07/sirius-nueva-sistema-para-la-evaluacion.html</a></li>
-</ul></li>
-<li>Grupo izquierda: evaluará
-<ul>
-<li><a href="http://www.pccomponentes.com">http://www.pccomponentes.com</a></li>
-<li>Poner los datos de varios evaluadores en común</li>
-</ul></li>
-<li>Grupo derecha: evaluará
-<ul>
-<li><a href="http://www.latiendadeinformaticaonline.com">http://www.latiendadeinformaticaonline.com</a></li>
-<li>Poner los datos de varios evaluadores en común</li>
-</ul></li>
-</ul>
-</section><section id="evaluación-heurística" class="slide level2">
-<h2><span class="header-section-number">10.5</span> Evaluación heurística</h2>
-<ul>
-<li>Grupo izquierda: maquetadores
-<ul>
-<li>Hacer prototipo de la tienda (las pantallas que hagan falta)</li>
-</ul></li>
-<li>Grupo derecha: evaluadores
-<ul>
-<li>Consensuar puntos importantes a evaluar</li>
-<li>Una vez terminados los prototipos, puntuarlos</li>
-<li>Poner los datos de varios evaluadores en común</li>
-</ul></li>
-</ul>
-</section><section id="test-de-usuarios-i-1" class="slide level2">
-<h2><span class="header-section-number">10.6</span> Test de usuarios (I)</h2>
-<ul>
-<li>Grupo izquierda: evaluadores
-<ul>
-<li>Consensuar puntos importantes a evaluar</li>
-<li>Dar ordenes a los usuarios para hacer el test de los 5 segundos</li>
-<li>Después de preguntar a los usuarios, puntuar los prototipos</li>
-<li>Poner los datos de varios evaluadores en común</li>
-</ul></li>
-<li>Grupo derecha: usuarios
-<ul>
-<li>Hacen lo que les digan los diseñadores</li>
-</ul></li>
-</ul>
-</section><section id="test-de-usuarios-ii-1" class="slide level2">
-<h2><span class="header-section-number">10.7</span> Test de usuarios (II)</h2>
-<ul>
-<li>Grupo izquierda: usuarios
-<ul>
-<li>Hacen lo que les digan los diseñadores</li>
-</ul></li>
-<li>Grupo derecha: evaluadores
-<ul>
-<li>Consensuar puntos importantes a evaluar</li>
-<li>Dar ordenes a los usuarios para testear los prototipos</li>
-<li>Después de observar como usan los usuarios los prototipos, puntuarlos</li>
-<li>Poner los datos de varios evaluadores en común</li>
-</ul></li>
-</ul>
-</section><section id="test-ab" class="slide level2">
-<h2><span class="header-section-number">10.8</span> Test A/B</h2>
-<ul>
-<li>El profesor cogerá un prototipo y hará una pequeña modificación</li>
-<li>El profesor enseñará los 2 prototipos a los alumnos</li>
-<li>Los alumnos votarán a mano alzada cual les parece mejor</li>
-</ul>
-</section></section>
-<section><section id="acerca-de" class="titleslide slide level1"><h1><span class="header-section-number">11</span> Acerca de</h1></section><section id="licencia" class="slide level2">
-<h2><span class="header-section-number">11.1</span> Licencia</h2>
+<section><section id="acerca-de" class="titleslide slide level1"><h1><span class="header-section-number">10</span> Acerca de</h1></section><section id="licencia" class="slide level2">
+<h2><span class="header-section-number">10.1</span> Licencia</h2>
 <ul>
 <li>Estas <strong>transparencias</strong> están hechas con:
 <ul>
-<li>MarkdownSlides: <a href="https://github.com/asanzdiego/markdownslides">https://github.com/asanzdiego/markdownslides</a></li>
+<li>MarkdownSlides: <a href="https://github.com/asanzdiego/markdownslides" class="uri">https://github.com/asanzdiego/markdownslides</a></li>
 </ul></li>
 <li>Estas <strong>transparencias</strong> están bajo una licencia Creative Commons Reconocimiento-CompartirIgual 3.0:
 <ul>
-<li><a href="http://creativecommons.org/licenses/by-sa/3.0/es">http://creativecommons.org/licenses/by-sa/3.0/es</a></li>
+<li><a href="http://creativecommons.org/licenses/by-sa/3.0/es" class="uri">http://creativecommons.org/licenses/by-sa/3.0/es</a></li>
 </ul></li>
 </ul>
 </section><section id="fuentes" class="slide level2">
-<h2><span class="header-section-number">11.2</span> Fuentes</h2>
+<h2><span class="header-section-number">10.2</span> Fuentes</h2>
 <ul>
 <li>Transparencias:
 <ul>
-<li><a href="https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/slides">https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/slides</a></li>
+<li><a href="https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/slides" class="uri">https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/slides</a></li>
 </ul></li>
 <li>Código:
 <ul>
-<li><a href="https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/src">https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/src</a></li>
+<li><a href="https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/src" class="uri">https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/src</a></li>
 </ul></li>
 </ul>
 </section><section id="bibliografía-i" class="slide level2">
-<h2><span class="header-section-number">11.3</span> Bibliografía (I)</h2>
+<h2><span class="header-section-number">10.3</span> Bibliografía (I)</h2>
 <ul>
 <li>Diseño Web Centrado en el Usuario: Usabilidad y Arquitectura de la Información
 <ul>
-<li><a href="http://www.upf.edu/hipertextnet/numero-2/diseno_web.html">http://www.upf.edu/hipertextnet/numero-2/diseno_web.html</a></li>
+<li><a href="http://www.upf.edu/hipertextnet/numero-2/diseno_web.html" class="uri">http://www.upf.edu/hipertextnet/numero-2/diseno_web.html</a></li>
 </ul></li>
 <li>Informe APIE sobre Usabilidad
 <ul>
-<li><a href="http://www.nosolousabilidad.com/manual/index.htm">http://www.nosolousabilidad.com/manual/index.htm</a></li>
+<li><a href="http://www.nosolousabilidad.com/manual/index.htm" class="uri">http://www.nosolousabilidad.com/manual/index.htm</a></li>
 </ul></li>
 <li>Unas notas sobre Usabilidad
 <ul>
-<li><a href="http://www.slideshare.net/betabeers/usabilidad-18953630">http://www.slideshare.net/betabeers/usabilidad-18953630</a></li>
+<li><a href="http://www.slideshare.net/betabeers/usabilidad-18953630" class="uri">http://www.slideshare.net/betabeers/usabilidad-18953630</a></li>
 </ul></li>
 </ul>
 </section><section id="bibliografía-ii" class="slide level2">
-<h2><span class="header-section-number">11.4</span> Bibliografía (II)</h2>
+<h2><span class="header-section-number">10.4</span> Bibliografía (II)</h2>
 <ul>
 <li>Pruebas de Usabilidad
 <ul>
-<li><a href="http://www.slideshare.net/pecesama/pruebas-de-usabilidad-10112899">http://www.slideshare.net/pecesama/pruebas-de-usabilidad-10112899</a></li>
+<li><a href="http://www.slideshare.net/pecesama/pruebas-de-usabilidad-10112899" class="uri">http://www.slideshare.net/pecesama/pruebas-de-usabilidad-10112899</a></li>
 </ul></li>
 <li>Métodos de Usabilidad y Diseño Centrado en el Usuario
 <ul>
-<li><a href="http://www.slideshare.net/GUINALIU/mtodos-de-evaluacin-de-usabilidad">http://www.slideshare.net/GUINALIU/mtodos-de-evaluacin-de-usabilidad</a></li>
+<li><a href="http://www.slideshare.net/GUINALIU/mtodos-de-evaluacin-de-usabilidad" class="uri">http://www.slideshare.net/GUINALIU/mtodos-de-evaluacin-de-usabilidad</a></li>
 </ul></li>
 <li>Prototipado
 <ul>
-<li><a href="http://www.slideshare.net/olgacarreras/prototipado-14077585">http://www.slideshare.net/olgacarreras/prototipado-14077585</a></li>
+<li><a href="http://www.slideshare.net/olgacarreras/prototipado-14077585" class="uri">http://www.slideshare.net/olgacarreras/prototipado-14077585</a></li>
 </ul></li>
 </ul>
 </section><section id="bibliografía-iii" class="slide level2">
-<h2><span class="header-section-number">11.5</span> Bibliografía (III)</h2>
+<h2><span class="header-section-number">10.5</span> Bibliografía (III)</h2>
 <ul>
 <li>Usabilidad y diseño centrado en la experiencia del usuario
 <ul>
-<li><a href="http://www.slideshare.net/laceves/usabilidad-y-diseo-centrado-en-la-experiencia-del-usuario">http://www.slideshare.net/laceves/usabilidad-y-diseo-centrado-en-la-experiencia-del-usuario</a></li>
+<li><a href="http://www.slideshare.net/laceves/usabilidad-y-diseo-centrado-en-la-experiencia-del-usuario" class="uri">http://www.slideshare.net/laceves/usabilidad-y-diseo-centrado-en-la-experiencia-del-usuario</a></li>
 </ul></li>
 <li>¿A qué esperas para usar Test A/B en tu web? ¡Tu competencia ya lo hace!
 <ul>
-<li><a href="http://www.elultimoblog.com/test-ab/">http://www.elultimoblog.com/test-ab/</a></li>
+<li><a href="http://www.elultimoblog.com/test-ab/" class="uri">http://www.elultimoblog.com/test-ab/</a></li>
 </ul></li>
 </ul>
 </section></section>
@@ -1226,7 +1101,8 @@
   </div>
 
   <script src="../lib/reveal.js-master/lib/js/head.min.js"></script>
-  <script src="../lib/reveal.js-master/js/reveal.min.js"></script>
+  <script src="../lib/reveal.js-master/js/reveal.js"></script>
+  <script src="../lib/reveal.js-menu-master/menu.js"></script>
 
   <script>
 
