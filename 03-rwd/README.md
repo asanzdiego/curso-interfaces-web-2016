@@ -15,11 +15,11 @@ Principal:
 
 Alternativas:
 
-- [deck](http://asanzdiego.github.io/curso-interfaces-web-2014/03-rwd/slides/export/rwd-deck-slides.html)
-- [reveal](http://asanzdiego.github.io/curso-interfaces-web-2014/03-rwd/slides/export/rwd-reveal-slides.html)
-- [html](http://asanzdiego.github.io/curso-interfaces-web-2014/03-rwd/slides/export/rwd.html)
-- [odt](http://asanzdiego.github.io/curso-interfaces-web-2014/03-rwd/slides/export/rwd.odt)
-- [md](http://asanzdiego.github.io/curso-interfaces-web-2014/03-rwd/slides/md/rwd.md)
+- [deck](http://asanzdiego.github.io/curso-interfaces-web-2016/03-rwd/slides/export/rwd-deck-slides.html)
+- [reveal](http://asanzdiego.github.io/curso-interfaces-web-2016/03-rwd/slides/export/rwd-reveal-slides.html)
+- [html](http://asanzdiego.github.io/curso-interfaces-web-2016/03-rwd/slides/export/rwd.html)
+- [odt](http://asanzdiego.github.io/curso-interfaces-web-2016/03-rwd/slides/export/rwd.odt)
+- [md](http://asanzdiego.github.io/curso-interfaces-web-2016/03-rwd/slides/md/rwd.md)
 
 ## Ejemplos
 

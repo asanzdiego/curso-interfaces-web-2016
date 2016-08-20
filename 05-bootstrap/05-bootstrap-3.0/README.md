@@ -16,24 +16,24 @@ Principal:
 
 Alternativas:
 
-- [deck](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/slides/export/bootstrap-deck-slides.html)
-- [reveal](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/slides/export/bootstrap-reveal-slides.html)
-- [html](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/slides/export/bootstrap.html)
-- [odt](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/slides/export/bootstrap.odt)
-- [md](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/slides/md/bootstrap.md)
+- [deck](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/slides/export/bootstrap-deck-slides.html)
+- [reveal](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/slides/export/bootstrap-reveal-slides.html)
+- [html](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/slides/export/bootstrap.html)
+- [odt](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/slides/export/bootstrap.odt)
+- [md](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/slides/md/bootstrap.md)
 
 ## Ejemplos
 
-- [01-grid.html](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/src/test/01-grid.html)
-- [02-tipografia.html](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/src/test/02-tipografia.html)
-- [03-tablas.html](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/src/test/03-tablas.html)
-- [04-formularios.html](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/src/test/04-formularios.html)
-- [05-botones.html](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/src/test/05-botones.html)
-- [06-imagenes.html](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/src/test/06-imagenes.html)
-- [07-helpers.html](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/src/test/07-helpers.html)
-- [08-responsive.html](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/src/test/08-responsive.html)
-- [09-iconos.html](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/src/test/09-iconos.html)
-- [10-componentes.html](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/src/test/10-componentes.html)
-- [11-javascript.html](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/src/test/11-javascript.html)
-- [otro ejemplos](http://asanzdiego.github.io/curso-interfaces-web-2014/05-bootstrap/src/test/examples/index.html)
+- [01-grid.html](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/src/test/01-grid.html)
+- [02-tipografia.html](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/src/test/02-tipografia.html)
+- [03-tablas.html](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/src/test/03-tablas.html)
+- [04-formularios.html](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/src/test/04-formularios.html)
+- [05-botones.html](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/src/test/05-botones.html)
+- [06-imagenes.html](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/src/test/06-imagenes.html)
+- [07-helpers.html](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/src/test/07-helpers.html)
+- [08-responsive.html](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/src/test/08-responsive.html)
+- [09-iconos.html](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/src/test/09-iconos.html)
+- [10-componentes.html](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/src/test/10-componentes.html)
+- [11-javascript.html](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/src/test/11-javascript.html)
+- [otro ejemplos](http://asanzdiego.github.io/curso-interfaces-web-2016/05-bootstrap/src/test/examples/index.html)
 

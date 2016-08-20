@@ -15,11 +15,11 @@ Principal:
 
 Alternativas:
 
-- [deck](http://asanzdiego.github.io/curso-interfaces-web-2014/04-less/slides/export/less-deck-slides.html)
-- [reveal](http://asanzdiego.github.io/curso-interfaces-web-2014/04-less/slides/export/less-reveal-slides.html)
-- [html](http://asanzdiego.github.io/curso-interfaces-web-2014/04-less/slides/export/less.html)
-- [odt](http://asanzdiego.github.io/curso-interfaces-web-2014/04-less/slides/export/less.odt)
-- [md](http://asanzdiego.github.io/curso-interfaces-web-2014/04-less/slides/md/less.md)
+- [deck](http://asanzdiego.github.io/curso-interfaces-web-2016/04-less/slides/export/less-deck-slides.html)
+- [reveal](http://asanzdiego.github.io/curso-interfaces-web-2016/04-less/slides/export/less-reveal-slides.html)
+- [html](http://asanzdiego.github.io/curso-interfaces-web-2016/04-less/slides/export/less.html)
+- [odt](http://asanzdiego.github.io/curso-interfaces-web-2016/04-less/slides/export/less.odt)
+- [md](http://asanzdiego.github.io/curso-interfaces-web-2016/04-less/slides/md/less.md)
 
 ## Ejemplos
 
