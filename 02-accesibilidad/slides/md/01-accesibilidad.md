@@ -52,7 +52,7 @@
 - Ofrece **oportunidades sin precedentes** para los discapacitados:
     - Los ciegos pueden leer periódicos gracias a los lectores de pantallas.
     - Los sordos pueden ver vídeos subtitulados.
-    - Las personas con discapacidad motora pueden utilizar programas de "eye-tracking"
+    - Las personas con discapacidad motora pueden utilizar programas de "eye-tracking".
 
 ## Dificultades
 
@@ -99,7 +99,7 @@
 
 ## WCAG
 
-- Las **WCAG (Web Content Accessibility Guidelines)** o Pautas de Accesibilidad al Contenido en la Web son lasprincipales normas de accesibilidad web.
+- Las **WCAG (Web Content Accessibility Guidelines)** o Pautas de Accesibilidad al Contenido en la Web son las principales normas de accesibilidad web.
 
 ### WCAG 1.0
 
