@@ -6,7 +6,7 @@ echo "**************************"
 
 git status
 
-read -p "You want to continue? [y|*N*]: " OPTION
+read -p "Do you want to continue? [y|*N*]: " OPTION
 
 if [ "$OPTION" == "y" ]; then
 
