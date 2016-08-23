@@ -21,3 +21,16 @@ Alternativas:
 - [html](http://asanzdiego.github.io/curso-interfaces-web-2016/01-usabilidad/slides/export/usabilidad.html)
 - [odt](http://asanzdiego.github.io/curso-interfaces-web-2016/01-usabilidad/slides/export/usabilidad.odt)
 - [md](http://asanzdiego.github.io/curso-interfaces-web-2016/01-usabilidad/slides/md/usabilidad.md)
+
+## Enunciado ejercicios
+
+- [Enunciado ejercicios ODT](https://github.com/asanzdiego/curso-interfaces-web-2016/blob/master/01-usabilidad/src/ejercicios-usabilidad.odt)
+- [Enunciado ejercicios PDF](https://github.com/asanzdiego/curso-interfaces-web-2016/blob/master/01-usabilidad/src/ejercicios-usabilidad.pdf)
+
+## Solución ejercicios
+
+- [01-mini-ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/src/01-mini-ejercicios)
+- [02-mapa-mental](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/src/02-mapa-mental)
+- [03-analisis-de-tareas](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/src/03-analisis-de-tareas)
+- [04-prototipado](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/src/04-prototipado)
+- [05-evaluacion-heuristica](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/src/05-evaluacion-heuristica)

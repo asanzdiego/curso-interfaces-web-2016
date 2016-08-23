@@ -25,14 +25,13 @@ Alternativas:
 - [odt](http://asanzdiego.github.io/curso-interfaces-web-2016/01-accesibilidad/slides/export/accesibilidad.odt)
 - [md](http://asanzdiego.github.io/curso-interfaces-web-2016/01-accesibilidad/slides/md/accesibilidad.md)
 
-## Ejemplos
+## Enunciado ejercicios
 
-- [01-imagenes](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/01-imagenes)
-- [02-mapas](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/02-mapas)
-- [04-enlaces](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/04-enlaces)
-- [05-organizacion](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/05-organizacion)
-- [06-diagramas](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/06-diagramas)
-- [07-scripts](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/07-scripts)
-- [08-tablas](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/08-tablas)
-- [09-formularios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/09-formularios)
-- [10-repeticion](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/10-repeticion)
+- [Enunciado ejercicios ODT](https://github.com/asanzdiego/curso-interfaces-web-2016/blob/master/02-accesibilidad/src/ejercicios-accesibilidad.odt)
+- [Enunciado ejercicios PDF](https://github.com/asanzdiego/curso-interfaces-web-2016/blob/master/02-accesibilidad/src/ejercicios-accesibilidad.pdf)
+
+## Solución ejercicios
+
+- [01-informe-WCAG2](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/01-informe-WCAG2)
+- [02-informe-ATAG](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/02-informe-ATAG)
+- [03-corregir-codigo](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src/03-corregir-codigo)
