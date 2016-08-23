@@ -1,70 +1,62 @@
 % Responsive Web Design
 % Adolfo Sanz De Diego
-% Septiembre 2014
+% Septiembre 2016
+
+
 
 # El autor
 
+
+
 ## Adolfo Sanz De Diego
 
-**Antiguo programador web JEE (6 años)**
+- Empecé **desarrollando aplicaciones web**, hasta que di el salto a la docencia.
 
-Hoy en día:
+- Actualmente soy **Asesor Técnico Docente** en el servicio TIC de la D.G de Infraestructuras y Servicios de la Consejería de Educación, Juventud y Deporte de la Comunidad de Madrid.
 
--  **Profesor de FP (6 años)**:
-    - Hardware, Sistemas Operativos
-    - Redes, Programación
+- Además colaboro como **formador especializado en tecnologías de desarrollo**.
 
--  **Formador Freelance (3 años)**:
-    - Java, Android
-    - JavaScript, jQuery
-    - JSF, Spring, Hibernate
-    - Groovy & Grails
 
 ## Algunos proyectos
 
-Fundador y/o creador:
+- **Hackathon Lovers** <http://hackathonlovers.com>: un grupo creado para emprendedores y desarrolladores amantes de los hackathones.
 
--  **Hackathon Lovers**: <http://hackathonlovers.com>
+- **Password Manager Generator** <http://pasmangen.github.io>: un gestor de contraseñas online.
 
--  **Tweets Sentiment**: <http://tweetssentiment.com>
+- **MarkdownSlides** <https://github.com/asanzdiego/markdownslides>: un script para crear slides a partir de ficheros MD.
 
--  **MarkdownSlides**: <https://github.com/asanzdiego/markdownslides>
-
-Co-fundador y/o co-creador:
-
--  **PeliTweets**: <http://pelitweets.com>
-
--  **Password Manager Generator**: <http://pasmangen.github.io>
 
 ## ¿Donde encontrarme?
 
-Mi nick: **asanzdiego**
+- Mi nick: **asanzdiego**
 
--  AboutMe:  <http://about.me/asanzdiego>
+    - AboutMe:  <http://about.me/asanzdiego>
+    - GitHub:   <http://github.com/asanzdiego>
+    - Twitter:  <http://twitter.com/asanzdiego>
+    - Blog:     <http://asanzdiego.blogspot.com.es>
+    - LinkedIn: <http://www.linkedin.com/in/asanzdiego>
+    - Google+:  <http://plus.google.com/+AdolfoSanzDeDiego>
 
--  GitHub:   <http://github.com/asanzdiego>
 
--  Twitter:  <http://twitter.com/asanzdiego>
-
--  Blog:     <http://asanzdiego.blogspot.com.es>
-
--  LinkedIn: <http://www.linkedin.com/in/asanzdiego>
-
--  Google+:  <http://plus.google.com/+AdolfoSanzDeDiego>
 
 # Introducción
+
+
 
 ## Esto no es la web
 
 <div style="text-align:center">![Esto no es la web. Fuente: bradfostweb.com](../img/brad_frost_1.png)</div>
 
+
 ## Esto es la web
 
 <div style="text-align:center">![Esto es la web. Fuente: bradfostweb.com](../img/brad_frost_2.png)</div>
 
+
 ## ¿Será esto la web?
 
 <div style="text-align:center">![¿Será esto la web?. Fuente: bradfostweb.com](../img/brad_frost_3.png)</div>
+
 
 ## Estadísticas
 
@@ -74,93 +66,111 @@ Mi nick: **asanzdiego**
 
 <div style="text-align:center">![El desarrollador atual. Fuente: globalmoxie.com](../img/globalmoxie.png)</div>
 
+
 ## Responsive Web Design
 
 <div style="text-align:center">![Responsive Web Design. Fuente: flickr.com/photos/zergev/](../img/rwd.png)</div>
 
+
 ## Content is like water
 
-<div style="text-align:center">![Content is like water. Fuente: fr.wikipedia.org/wiki/Site_web_adaptatif](../img/content-is-like-water.jpg)</div>
+<div style="text-align:center">![Content is like water. Fuente: fr.wikipedia.org/wiki/Site_web_adaptatif](../img/content-is-like-water-bis.jpg)</div>
+
 
 ## Graceful degradation
 
-Se **desarrolla para los últimos navegadores**, con la posibilidad de que funcione en navegadores antiguos.
+- Se **desarrolla para los últimos navegadores**, con la posibilidad de que funcione en navegadores antiguos.
 
 <div style="text-align:center">![Graceful degradation.  Fuente: bradfostweb.com](../img/responsive-design-graceful-degradation.png)</div>
 
+
 ## Progessive enhancement
 
-Se **desarrolla una versión básica** completamente operativa, con la posibilidad de ir añadiendo mejoras para los últimos navegadores.
+- Se **desarrolla una versión básica** completamente operativa, con la posibilidad de ir añadiendo mejoras para los últimos navegadores.
 
 <div style="text-align:center">![Progressive enhancement. Fuente: bradfostweb.com](../img/responsive-design-progressive-enhancement.png)</div>
 
+
 ## Beneficios
 
-**Reducción de costos**. Pues no hay que hacer varias versiones de una misma página.
+- **Reducción de costos**. Pues no hay que hacer varias versiones de una misma página.
 
-**Eficiencia en la actualización**. El sitio solo se debe actualizar una vez y se ve reflejada en todas las plataformas.
+- **Eficiencia en la actualización**. El sitio solo se debe actualizar una vez y se ve reflejada en todas las plataformas.
 
-**Mejora la usabilidad**. El usuario va a tener experiencias de usuario parecidas independientemente del dispositivo que esté usando en cada momento
+- **Mejora la usabilidad**. El usuario va a tener experiencias de usuario parecidas independientemente del dispositivo que esté usando en cada momento
 
-**Mejora el SEO**. Según las Guidelines de Google el tener una web que se vea correctamente en móviles es un factor que tienen en cuenta a la hora de elaborar los rankings.
 
-**Impacto en el visitante**. Esta tecnología por ser nueva genera impacto en las personas que la vean en acción, lo que permitirá asociar a la marca con creatividad e innovación.
+
+- **Mejora el SEO**. Según las Guidelines de Google el tener una web que se vea correctamente en móviles es un factor que tienen en cuenta a la hora de elaborar los rankings.
+
+- **Impacto en el visitante**. Esta tecnología por ser nueva genera impacto en las personas que la vean en acción, lo que permitirá asociar a la marca con creatividad e innovación.
+
+
 
 # Ejemplos
 
+
 ## Matt Kersley
 
-Página de testeo de Matt Kersley
+- <http://mattkersley.com/responsive>
 
--  <http://mattkersley.com/responsive>
+<div style="text-align:center">![Página de testeo de Matt Kersley](../img/pagina-de-testeo-de-matt-kersley.png)</div>
+
 
 ## dConstruct 2011
 
-<http://2011.dconstruct.org>
+- <http://2011.dconstruct.org>
 
 <div style="text-align:center">![Ejemplo RWD: dConstruct 2011. Fuente:ecbloguer.com](../img/dConstruct-2011-ejemplo-de-Responsive-Web-Design.jpg)</div>
 
+
 ## Boston Globe
 
-<http://www.bostonglobe.com>
+- <http://www.bostonglobe.com>
 
 <div style="text-align:center">![Ejemplo RWD: Boston Globe. Fuente:ecbloguer.com](../img/Boston-Globe-ejemplo-de-Responsive-Web-Design.jpg)</div>
 
+
 ## Food Sense
 
-<http://foodsense.is>
+- <http://foodsense.is>
 
 <div style="text-align:center">![Ejemplo RWD: Food Sense. Fuente:ecbloguer.com](../img/Food-Sense-ejemplo-de-Responsive-Web-Design.jpg)</div>
 
+
 ## Deren Keskin
 
-<http://www.deren.me>
+- <http://www.deren.me>
 
 <div style="text-align:center">![Ejemplo RWD: Deren Keskin. Fuente:ecbloguer.com](../img/Deren-Keskin-ejemplo-de-Responsive-Web-Design.jpg)</div>
 
+
+
+
 # Diseño fluido
+
+
 
 ## De PX a EM
 
-Formula: **target ÷ context = result**
+- Formula: **target ÷ context = result**
 
--  target - font-size que tenemos en píxeles
+    - target - font-size que tenemos en píxeles
+    - context - font-size base (por defecto 16px en la mayoría de los navegadores)
+    - result - resultado que obtenemos en em
 
--  context - font-size base (por defecto 16px en la mayoría de los navegadores)
-
--  result - resultado que obtenemos en em
-
-Es recomendable indicar el cálculo realizado junto a la regla de CSS.
+- Es recomendable indicar el cálculo realizado junto a la regla de CSS.
 
 ## On Line
 
-<http://pxtoem.com>
+- <http://pxtoem.com>
 
-<div style="text-align:center">![px to em. Fuente:pxtoem.com](../img/pxtoem.png)</div>
+<div style="text-align:center">![px to em](../img/pxtoem.png)</div>
+
 
 ## Ejemplo
 
-Ejemplo para poner 13px por defecto y luego 18px para h1 en em:
+- Ejemplo para poner 13px por defecto y luego 18px para h1 en em:
 
 ~~~
 body {
@@ -175,31 +185,31 @@ h1 {
 
 ## EM se hereda
 
-Importante: **las medidas em se heredan**, es decir, un elemento dentro de un elemento tomará como referencia el superior para calcular cuánto es un em.
+- Importante: **las medidas em se heredan**, es decir, un elemento dentro de un elemento tomará como referencia el superior para calcular cuánto es un em.
 
-Por ejemplo, si tenemos una caja donde hemos definido una fuente como 0.5em y dentro de esa caja otra con una fuente 0.25em, esta última fuente tendrá 1/4 de tamaño respecto a la 1/2 de tamaño de la fuente general.
+- Por ejemplo, si tenemos una caja donde hemos definido una fuente como 0.5em y dentro de esa caja otra con una fuente 0.25em, esta última fuente tendrá 1/4 de tamaño respecto a la 1/2 de tamaño de la fuente general.
 
 ## De PX a %
 
 <div style="text-align:center">![Cálculo porcentajes. Fuente:aloud.es](../img/porcentajes.jpg)</div>
 
+
+
+
 # Sistema de rejilla
+
 
 ## Ejemplo
 
-1 columna para xs (\<768px)
-
-2 columnas para sm (≥768px)
-
-3 columnas para md (≥992px)
-
-4 columnas para lg (≥1200px)
+- 1 columna para xs (\<768px)
+- 2 columnas para sm (≥768px)
+- 3 columnas para md (≥992px)
+- 4 columnas para lg (≥1200px)
 
 ## Uso de clases
 
-Uso de clases en el HTML como **Bootstrap**
-
--  <http://getbootstrap.com/css>
+- Uso de clases en el HTML como **Bootstrap**
+    - <http://getbootstrap.com/css>
 
 ## Ejemplo Bootstrap
 
@@ -214,9 +224,8 @@ Uso de clases en el HTML como **Bootstrap**
 
 ## Semántico
 
-**The Semantic Grid System**: Mediante layouts, y sin necesidad de usar clases en HTML.
-
--  <http://semantic.gs>
+- **The Semantic Grid System**: Mediante layouts, y sin necesidad de usar clases en HTML.
+    - <http://semantic.gs>
 
 ## Ejemplo semantic.gs (HTML)
 
@@ -243,11 +252,15 @@ aside { .column(3); }
 }
 ~~~
 
+
+
 # Imágenes fluidas
+
+
 
 ## Tamaño máximo
 
-Fijar un **tamaño máximo** (si la imagen no llega, se queda con su tamaño):
+- Fijar un **tamaño máximo** (si la imagen no llega, se queda con su tamaño):
 
 ~~~
 img {
@@ -257,7 +270,7 @@ img {
 
 ## Ancho del contenedor
 
-Ocupar el **ancho del contenedor** (si la imagen no llega, se deforma):
+- Ocupar el **ancho del contenedor** (si la imagen no llega, se deforma):
 
 ~~~
 img {
@@ -265,7 +278,9 @@ img {
 }
 ~~~
 
-Ocupar el **ancho del contenedor** (si la imagen no llega, se queda con su tamaño):
+
+
+- Ocupar el **ancho del contenedor** (si la imagen no llega, se queda con su tamaño):
 
 ~~~
 img {
@@ -273,7 +288,9 @@ img {
 }
 ~~~
 
-Ocupar el **ancho del contenedor hasta un máximo** (si la imagen no llega, se deforma):
+
+
+- Ocupar el **ancho del contenedor hasta un máximo** (si la imagen no llega, se deforma):
 
 ~~~
 img {
@@ -284,7 +301,7 @@ img {
 
 ## Backgrounds
 
-Para los background usar **cover**
+- Para los background usar **cover**
 
 ~~~
 .background-fluid {
@@ -295,39 +312,43 @@ Para los background usar **cover**
 }
 ~~~
 
+
+
 # Viewport
+
+
 
 ## Orígenes
 
-La etiqueta meta para el viewport fue **introducida por Apple** en Safari para móviles en el año 2007, para ayudar a los desarrolladores a mejorar la presentación de sus aplicaciones web en un iPhone.
+- La etiqueta meta para el viewport fue **introducida por Apple** en Safari para móviles en el año 2007, para ayudar a los desarrolladores a mejorar la presentación de sus aplicaciones web en un iPhone.
 
-Hoy en día ha sido **ampliamente adoptada por el resto de navegadores móviles**, convirtiéndose en un estándar de facto.
+- Hoy en día ha sido **ampliamente adoptada por el resto de navegadores móviles**, convirtiéndose en un estándar de facto.
 
 ## ¿Qué nos permite?
 
-La etiqueta viewport nos permite definir el **ancho, alto y escala del área** usada por el navegador para mostrar contenido.
+- La etiqueta viewport nos permite definir el **ancho, alto y escala del área** usada por el navegador para mostrar contenido.
 
 ## Tamaño
 
-Al fijar el ancho (width) o alto (height) del viewport, **podemos usar un número fijo de pixeles** (ej: 320px, 480px, etc) **o usar dos constantes, device-width y device-height** respectivamente.
+- Al fijar el ancho (width) o alto (height) del viewport, **podemos usar un número fijo de pixeles** (ej: 320px, 480px, etc) **o usar dos constantes, device-width y device-height** respectivamente.
 
-Se considera una **buena práctica configurar el viewport con device-width y device-height**, en lugar de utilizar un ancho o alto fijo.
+- Se considera una **buena práctica configurar el viewport con device-width y device-height**, en lugar de utilizar un ancho o alto fijo.
 
 ## Escala
 
-La propiedad **initial-scale** controla el nivel de zoom inicial al cargarse la página.
+- La propiedad **initial-scale** controla el nivel de zoom inicial al cargarse la página.
 
-Las propiedades **maximum-scale, minimum-scale** controlan el nivel máximo y mínimo de zoom que se le va a permitir usar al usuario.
+- Las propiedades **maximum-scale, minimum-scale** controlan el nivel máximo y mínimo de zoom que se le va a permitir usar al usuario.
 
-La propiedad **user-scalable [yes|no]** controlan si el usuario puede o no hacer zoom sobre la página.
+- La propiedad **user-scalable [yes|no]** controlan si el usuario puede o no hacer zoom sobre la página.
 
 ## Accesibilidad
 
-Es una **buena práctica de accesibilidad no bloquear las opciones de zoom** al usuario.
+- Es una **buena práctica de accesibilidad no bloquear las opciones de zoom** al usuario.
 
 ## Ejemplo
 
-Un ejemplo adaptable y accesible sería:
+- Un ejemplo adaptable y accesible sería:
 
 ~~~
 <meta name="viewport"
@@ -336,7 +357,11 @@ Un ejemplo adaptable y accesible sería:
     user-scalable=yes">
 ~~~
 
+
+
 # Media Queries
+
+
 
 ## ¿Qué son?
 
@@ -344,11 +369,11 @@ Un Media Query **no sólo nos permite seleccionar el tipo de medio** (all, brail
 
 ## Ejemplo
 
-**Ejemplo**: aplicar distintas reglas CSS cuando el área de visualización sea mayor que 480px.
+- **Ejemplo**: aplicar distintas reglas CSS cuando el área de visualización sea mayor que 480px.
 
 ## Distintos CSS
 
-Solución 1: **cargar distintas CSS**:
+- Solución 1: **cargar distintas CSS**:
 
 ~~~
 <link rel="stylesheet"
@@ -361,7 +386,7 @@ Solución 1: **cargar distintas CSS**:
 
 ## Mismo CSS
 
-Solución 2: **definir distintas propiedades dentro del mismo CSS**:
+- Solución 2: **definir distintas propiedades dentro del mismo CSS**:
 
 ~~~
 @media all and (min-width: 480px) {
@@ -374,7 +399,7 @@ Solución 2: **definir distintas propiedades dentro del mismo CSS**:
 
 ## Importar CSS
 
-Solución 3: **importar distintas hojas de estilo dentro del mismo CSS**:
+- Solución 3: **importar distintas hojas de estilo dentro del mismo CSS**:
 
 ~~~
 @import url("tablet.css")
@@ -388,7 +413,7 @@ Solución 3: **importar distintas hojas de estilo dentro del mismo CSS**:
 
 ## Operador and
 
-Es usado para combinar múltiples media features en un sólo Media Query, **requiriendo que cada función devuelve true** para que el Query también lo sea.
+- Es usado para combinar múltiples media features en un sólo Media Query, **requiriendo que cada función devuelve true** para que el Query también lo sea.
 
 ## Ejemplo and
 
@@ -408,11 +433,11 @@ Es usado para combinar múltiples media features en un sólo Media Query, **requ
 
 ## Operador 'or'
 
-Se pueden combinar múltiples Media Queries **separados por comas** en una lista, de tal forma que si alguna de las Media Queries devuelve true, todo la sentencia devolverá true.
+- Se pueden combinar múltiples Media Queries **separados por comas** en una lista, de tal forma que si alguna de las Media Queries devuelve true, todo la sentencia devolverá true.
 
-Esto es **equivalente a un operador or**.
+- Esto es **equivalente a un operador or**.
 
-Cada Media Query separado por comas en la lista se trata individualmente.
+- Cada Media Query separado por comas en la lista se trata individualmente.
 
 ## Ejemplo 'or'
 
@@ -432,14 +457,14 @@ Cada Media Query separado por comas en la lista se trata individualmente.
 
 ## Operador not
 
-Se utiliza para **negar un Media Query completo**.
+- Se utiliza para **negar un Media Query completo**.
 
-No se puede negar una característica individualmente, si no solamente el Media Query completo.
+- No se puede negar una característica individualmente, si no solamente el Media Query completo.
 
 ## Ejemplo not
 
 ~~~
-@media not tv and max-width(800px), 
+@media not tv and max-width(800px),
   not screen and max-width(400px) {
 
   /* reglas que queremos que
@@ -452,7 +477,9 @@ No se puede negar una característica individualmente, si no solamente el Media 
 }
 ~~~
 
-El anterior ejemplo sería equivalente a:
+
+
+- El anterior ejemplo sería equivalente a:
 
 ~~~
 @media not (tv and max-width(800px)),
@@ -464,51 +491,53 @@ El anterior ejemplo sería equivalente a:
 
 ## Características
 
-Características que hacen referencia al **área de visualización**:
+- Características que hacen referencia al **área de visualización**:
 
--  **width**
+    - **width**
+    - **height**
+    - **aspect-ratio** [4/3 | 16/9 | ...]
+    - **orientation** [portrait | landscape]
 
--  **height**
 
--  **aspect-ratio** [4/3 | 16/9 | ...]
 
--  **orientation** [portrait | landscape]
+- Características que hacen referencia a la **pantalla del dispositivo**:
 
-Características que hacen referencia a la **pantalla del dispositivo**:
+    - **device-width**
+    - **device-height**
+    - **device-aspect-ratio** [4/3 | 16/9 | ...]
 
--  **device-width**
 
--  **device-height**
 
--  **device-aspect-ratio** [4/3 | 16/9 | ...]
+- **Otras** características:
 
-**Otras** características:
-
--  **color**: El número de bits de profundidad de color
-
--  **monocrome**: El número de bits de profundidad de color, en dispotivos monocromáticos
-
--  **resolution**: Densidad de pixels en el dispositivo, medido en dpi
+    - **color**: El número de bits de profundidad de color
+    - **monocrome**: El número de bits de profundidad de color, en dispotivos monocromáticos
+    - **resolution**: Densidad de pixels en el dispositivo, medido en dpi
 
 ## Min- y Max-
 
-A casi todas las características se les puede adjuntar los **prefijos min- y max-**
+- A casi todas las características se les puede adjuntar los **prefijos min- y max-**
 
-De hecho lo habitual es usar dichos prefijos.
+- De hecho lo habitual es usar dichos prefijos.
+
+
 
 # Metodologías
+
+
 
 ## Desktop VS Mobile
 
 <div style="text-align:center">![Desktop first VS Mobile first. Fuente: brettjankord.com](../img/desktop-first-vs-mobile-first.png)</div>
 
+
 ## Desktop First
 
-Consiste en **desarrollar para pantallas grandes** y posteriormente adaptar el diseño a pantallas pequeñas.
+- Consiste en **desarrollar para pantallas grandes** y posteriormente adaptar el diseño a pantallas pequeñas.
 
 ## DF: utiliza max-width
 
-Normalmente los Media Queries utilizan **max-width**, simplificando y ajustando para las pantallas más pequeñas.
+- Normalmente los Media Queries utilizan **max-width**, simplificando y ajustando para las pantallas más pequeñas.
 
 ~~~
 @media all and (max-width: 320px) {
@@ -523,17 +552,17 @@ Normalmente los Media Queries utilizan **max-width**, simplificando y ajustando 
 
 ## DF: problemas
 
-Los Media Query **no están soportados por todos los móviles**.
+- Los Media Query **no están soportados por todos los móviles**.
 
-La **versión móvil termina siendo una versión descafeinada** de la web original.
+- La **versión móvil termina siendo una versión descafeinada** de la web original.
 
 ## Mobile first
 
-Consiste en **desarrollar para pantallas pequeñas** y posteriormente adaptar el diseño a pantallas grandes.
+- Consiste en **desarrollar para pantallas pequeñas** y posteriormente adaptar el diseño a pantallas grandes.
 
 ## MF: utiliza min-width
 
-Ahora los Media Queries utilizan **min-width**, para ajustar el diseño a medida que aumenta el tamaño de pantalla.
+- Ahora los Media Queries utilizan **min-width**, para ajustar el diseño a medida que aumenta el tamaño de pantalla.
 
 ~~~
 @media all and (min-width: 320px) {
@@ -548,112 +577,104 @@ Ahora los Media Queries utilizan **min-width**, para ajustar el diseño a medida
 
 ## MF: ventajas
 
-Funciona en **móviles y/o navegadores antiguos** que no soportan los Media Queries.
+- Funciona en **móviles y/o navegadores antiguos** que no soportan los Media Queries.
 
-Normalmente la **hoja de estilos resultante suele ser más sencilla** que usando la otra vía.
+- Normalmente la **hoja de estilos resultante suele ser más sencilla** que usando la otra vía.
 
-Empezar por el móvil nos servirá para **determinar de una manera más clara cual es el contenido realmente importante** de nuestra web.
+- Empezar por el móvil nos servirá para **determinar de una manera más clara cual es el contenido realmente importante** de nuestra web.
 
 ## Puntos de rotura
 
-Normalmente:
+- Normalmente:
+    - 320px para el móvil,
+    - 768px para el tablet,
+    - 1024px para el portatil,
+    - 1200px para el sobremesa.
 
--  320px para el móvil,
 
--  768px para el tablet,
 
--  1024px para el portatil,
+- Lo mejor sería que los puntos de rotura que aplicamos en los Media Query, fueran **en función de nuestro contenido**, en vez de en función del tamaño del dispositivo más vendido.
 
--  1200px para el sobremesa.
+- La manera de hacerlo: **ir cambiando poco a poco el ancho del navegador y donde la web se rompa**, aplicar un Media Query.
 
-Lo mejor sería que los puntos de rotura que aplicamos en los Media Query, fueran **en función de nuestro contenido**, en vez de en función del tamaño del dispositivo más vendido.
 
-La manera de hacerlo: **ir cambiando poco a poco el ancho del navegador y donde la web se rompa**, aplicar un Media Query.
 
 # Acerca de
 
+
+
 ## Licencia
 
-Estas **transparencias** están hechas con:
+- Estas **transparencias** están hechas con:
+    - MarkdownSlides: <https://github.com/asanzdiego/markdownslides>
 
--  MarkdownSlides: <https://github.com/asanzdiego/markdownslides>
-
-Estas **transparencias** están bajo una licencia Creative Commons Reconocimiento-CompartirIgual 3.0:
-
--  <http://creativecommons.org/licenses/by-sa/3.0/es>
+- Estas **transparencias** están bajo una licencia Creative Commons Reconocimiento-CompartirIgual 3.0:
+    - <http://creativecommons.org/licenses/by-sa/3.0/es>
 
 ## Fuentes
 
-Transparencias:
+- Transparencias:
+    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/slides>
 
--  <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/slides>
-
-Código:
-
--  <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/src>
+- Código:
+    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/src>
 
 ## Bibliografía
 
-Responsive Web Design
+- Responsive Web Design
+    - <http://www.arkaitzgarro.com/responsive-web-design/index.html>
 
--  <http://www.arkaitzgarro.com/responsive-web-design/index.html>
+- Introducción al Diseño Web Adaptable o Responsive Web Design
+    - <http://www.emenia.es/diseno-web-adaptable-o-responsive-web-design>
 
-Introducción al Diseño Web Adaptable o Responsive Web Design
+- Tutorial: Responsive Web Design
+    - <http://www.mmfilesi.com/blog/tutorial-responsive-web-design-i>
 
--  <http://www.emenia.es/diseno-web-adaptable-o-responsive-web-design>
 
-Tutorial: Responsive Web Design
 
--  <http://www.mmfilesi.com/blog/tutorial-responsive-web-design-i>
+- Tutorial: Transforma tu web en Responsive Design
+    - <http://blog.ikhuerta.com/transforma-tu-web-en-responsive-design>
 
-Tutorial: Transforma tu web en Responsive Design
+- Curso responsive web design - Redradix School
+    - <http://www.slideshare.net/Redradix/curso-responsive-web-design-redradix-school>
 
--  <http://blog.ikhuerta.com/transforma-tu-web-en-responsive-design>
+- Todo lo que necesita saber sobre Responsive Web Design
+    - <http://www.ecbloguer.com/marketingdigital/?p=2635>
 
-Curso responsive web design - Redradix School
 
--  <http://www.slideshare.net/Redradix/curso-responsive-web-design-redradix-school>
 
-Todo lo que necesita saber sobre Responsive Web Design
+- Diseño web fluido y plantilla fluida con HTML5 y CSS3
+    - <http://www.aloud.es/diseno-web-fluido-y-plantilla-fluida>
 
--  <http://www.ecbloguer.com/marketingdigital/?p=2635>
+- Beneficios del Responsive Web Design en SEO
+    - <http://madridnyc.com/blog/2013/01/29/beneficios-del-responsive-web-design-en-seo>
 
-Diseño web fluido y plantilla fluida con HTML5 y CSS3
+- Responsive Web Design Testing Tool
+    - <http://mattkersley.com/responsive>
 
--  <http://www.aloud.es/diseno-web-fluido-y-plantilla-fluida>
 
-Beneficios del Responsive Web Design en SEO
 
--  <http://madridnyc.com/blog/2013/01/29/beneficios-del-responsive-web-design-en-seo>
+- Responsive Web Design
+    - <http://www.ricardocastillo.com/rwd.pdf>
 
-Responsive Web Design Testing Tool
+- Responsive Design y accesibilidad. Buenas y malas prácticas. Errores comunes.
+    - <http://olgacarreras.blogspot.com.es/2014/01/responsive-design-y-accesibilidad.html>
 
--  <http://mattkersley.com/responsive>
+- Diseño web adaptativo: mejores prácticas
+    - <http://www.emenia.es/diseno-web-adaptativo-mejores-practicas>
 
-Responsive Web Design
 
--  <http://www.ricardocastillo.com/rwd.pdf>
 
-Responsive Design y accesibilidad. Buenas y malas prácticas. Errores comunes.
+- Traducción de "Responsive Web Design" de "A List Apart"
+    - <http://diseñowebresponsivo.com.ar>
 
--  <http://olgacarreras.blogspot.com.es/2014/01/responsive-design-y-accesibilidad.html>
+- Responsive Design Exercise
+    - <http://blog.garciaechegaray.com/2013/11/29/responsive-design-exercise.html>
 
-Diseño web adaptativo: mejores prácticas
 
--  <http://www.emenia.es/diseno-web-adaptativo-mejores-practicas>
 
-Traducción de "Responsive Web Design" de "A List Apart"
+- Estadísticas de StatCounter
+    - <http://gs.statcounter.com>
 
--  <http://diseñowebresponsivo.com.ar>
-
-Responsive Design Exercise
-
--  <http://blog.garciaechegaray.com/2013/11/29/responsive-design-exercise.html>
-
-Estadísticas de StatCounter
-
--  <http://gs.statcounter.com>
-
-Página de testeo de Matt Kersley
-
--  <http://mattkersley.com/responsive>
+- Página de testeo de Matt Kersley
+    - <http://mattkersley.com/responsive>

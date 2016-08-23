@@ -69,7 +69,7 @@
 
 ## Content is like water
 
-![Content is like water. Fuente: fr.wikipedia.org/wiki/Site_web_adaptatif](../img/content-is-like-water.jpg)
+![Content is like water. Fuente: fr.wikipedia.org/wiki/Site_web_adaptatif](../img/content-is-like-water-bis.jpg)
 
 ## Graceful degradation
 
@@ -104,8 +104,9 @@
 
 ## Matt Kersley
 
-- Página de testeo de Matt Kersley
-    - <http://mattkersley.com/responsive>
+- <http://mattkersley.com/responsive>
+
+![Página de testeo de Matt Kersley](../img/pagina-de-testeo-de-matt-kersley.png)
 
 ## dConstruct 2011
 
@@ -151,7 +152,7 @@
 
 - <http://pxtoem.com>
 
-![px to em. Fuente:pxtoem.com](../img/pxtoem.png)
+![px to em](../img/pxtoem.png)
 
 ## Ejemplo
 

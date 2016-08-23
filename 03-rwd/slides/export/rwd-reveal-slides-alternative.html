@@ -3,57 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta name="generator" content="pandoc" />
+  <meta name="generator" content="pandoc">
   <meta name="description" content="Responsive Web Design" />
-  <meta name="author" content="Adolfo Sanz De Diego" />
+  <meta name="author" content="Adolfo Sanz De Diego">
   <title>Responsive Web Design</title>
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/reveal.min.css">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/reveal.css">
+  <link rel="stylesheet" href="../lib/reveal.js-menu-master/menu.css">
+  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/simple.css" id="theme">
+
 	<!-- For syntax highlighting -->
 	<link rel="stylesheet" href="lib/css/zenburn.css">
 
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/simple.css" id="theme">
-  <!--
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/default.css" id="theme">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/beige.css" id="theme">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/blood.css" id="theme">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/default.css" id="theme">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/moon.css" id="theme">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/night.css" id="theme">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/serif.css" id="theme">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/simple.css" id="theme">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/sky.css" id="theme">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/solarized.css" id="theme">
-  -->
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? '../lib/reveal.js-master/css/print/pdf.css' : '../lib/reveal.js-master/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
 
-
-	<!-- If the query includes 'print-pdf', use the PDF print sheet -->
-	<link rel="stylesheet" href="../lib/reveal.js-master/css/print/pdf.css" type="text/css" media="print">
-
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/simple.css" type="text/css" media="print">
-  <!--
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/default.css" type="text/css" media="print">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/beige.css" type="text/css" media="print">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/blood.css" type="text/css" media="print">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/default.css" type="text/css" media="print">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/moon.css" type="text/css" media="print">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/night.css" type="text/css" media="print">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/serif.css" type="text/css" media="print">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/simple.css" type="text/css" media="print">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/sky.css" type="text/css" media="print">
-  <link rel="stylesheet" href="../lib/reveal.js-master/css/theme/solarized.css" type="text/css" media="print">
-  -->
-
-  <!-- Overwrite images -->
   <style type="text/css">
-    pre {
-      background: rgba(255, 255, 255, 0.9);
-      color: #222;
-    }
-    code {
+    code{
       white-space: pre;
+    }
+    .reveal pre code {
+      background: rgba(255, 255, 255, 0.7);
+      color: rgba(0, 0, 0, 0.7);
     }
     .reveal section img {
       margin: 15px 0px;
@@ -67,7 +46,7 @@
       text-decoration: underline !important;
     }
     h1.title {
-      font-size: 300% !important;
+      font-size: 350% !important;
     }
     h1 {
       font-size: 250% !important;
@@ -75,19 +54,21 @@
     h2 {
       font-size: 150% !important;
     }
-    @media print { 
-      #only-print-parent { display: table !important; } 
+    h3 {
+      font-size: 100% !important;
+    }
+    @media print {
+      #only-print-parent { display: table !important; }
       #only-print-child { display: table-cell !important; vertical-align: middle;}
-      h1.title { font-size: 350% !important;}
+      h1.title { font-size: 400% !important;}
       h1 { font-size: 300% !important; }
       h2 { font-size: 200% !important; }
+      h3 { font-size: 150% !important; }
     }
   </style>
-
   <!--[if lt IE 9]>
-  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <script src="../lib/reveal.js-master/lib/js/html5shiv.js"></script>
   <![endif]-->
-
 </head>
 <body>
   <div class="reveal">
@@ -97,56 +78,35 @@
     <div id="only-print-child">
       <h1 class="title">Responsive Web Design</h2>
       <h2 class="author">Adolfo Sanz De Diego</h2>
-      <h3 class="date">Septiembre 2014</h3>
+      <h3 class="date">Septiembre 2016</h3>
     </div>
 </section>
 
 <section><section id="el-autor" class="titleslide slide level1"><h1><span class="header-section-number">1</span> El autor</h1></section><section id="adolfo-sanz-de-diego" class="slide level2">
 <h2><span class="header-section-number">1.1</span> Adolfo Sanz De Diego</h2>
 <ul>
-<li><p><strong>Antiguo programador web JEE (6 años)</strong></p></li>
-<li><p>Hoy en día:</p>
-<ul>
-<li><strong>Profesor de FP (6 años)</strong>:
-<ul>
-<li>Hardware, Sistemas Operativos</li>
-<li>Redes, Programación</li>
-</ul></li>
-<li><strong>Formador Freelance (3 años)</strong>:
-<ul>
-<li>Java, Android</li>
-<li>JavaScript, jQuery</li>
-<li>JSF, Spring, Hibernate</li>
-<li>Groovy &amp; Grails</li>
-</ul></li>
-</ul></li>
+<li><p>Empecé <strong>desarrollando aplicaciones web</strong>, hasta que di el salto a la docencia.</p></li>
+<li><p>Actualmente soy <strong>Asesor Técnico Docente</strong> en el servicio TIC de la D.G de Infraestructuras y Servicios de la Consejería de Educación, Juventud y Deporte de la Comunidad de Madrid.</p></li>
+<li><p>Además colaboro como <strong>formador especializado en tecnologías de desarrollo</strong>.</p></li>
 </ul>
 </section><section id="algunos-proyectos" class="slide level2">
 <h2><span class="header-section-number">1.2</span> Algunos proyectos</h2>
 <ul>
-<li><p>Fundador y/o creador:</p>
-<ul>
-<li><strong>Hackathon Lovers</strong>: <a href="http://hackathonlovers.com">http://hackathonlovers.com</a></li>
-<li><strong>Tweets Sentiment</strong>: <a href="http://tweetssentiment.com">http://tweetssentiment.com</a></li>
-<li><strong>MarkdownSlides</strong>: <a href="https://github.com/asanzdiego/markdownslides">https://github.com/asanzdiego/markdownslides</a></li>
-</ul></li>
-<li><p>Co-fundador y/o co-creador:</p>
-<ul>
-<li><strong>PeliTweets</strong>: <a href="http://pelitweets.com">http://pelitweets.com</a></li>
-<li><strong>Password Manager Generator</strong>: <a href="http://pasmangen.github.io">http://pasmangen.github.io</a></li>
-</ul></li>
+<li><p><strong>Hackathon Lovers</strong> <a href="http://hackathonlovers.com" class="uri">http://hackathonlovers.com</a>: un grupo creado para emprendedores y desarrolladores amantes de los hackathones.</p></li>
+<li><p><strong>Password Manager Generator</strong> <a href="http://pasmangen.github.io" class="uri">http://pasmangen.github.io</a>: un gestor de contraseñas online.</p></li>
+<li><p><strong>MarkdownSlides</strong> <a href="https://github.com/asanzdiego/markdownslides" class="uri">https://github.com/asanzdiego/markdownslides</a>: un script para crear slides a partir de ficheros MD.</p></li>
 </ul>
 </section><section id="donde-encontrarme" class="slide level2">
 <h2><span class="header-section-number">1.3</span> ¿Donde encontrarme?</h2>
 <ul>
 <li><p>Mi nick: <strong>asanzdiego</strong></p>
 <ul>
-<li>AboutMe: <a href="http://about.me/asanzdiego">http://about.me/asanzdiego</a></li>
-<li>GitHub: <a href="http://github.com/asanzdiego">http://github.com/asanzdiego</a></li>
-<li>Twitter: <a href="http://twitter.com/asanzdiego">http://twitter.com/asanzdiego</a></li>
-<li>Blog: <a href="http://asanzdiego.blogspot.com.es">http://asanzdiego.blogspot.com.es</a></li>
-<li>LinkedIn: <a href="http://www.linkedin.com/in/asanzdiego">http://www.linkedin.com/in/asanzdiego</a></li>
-<li>Google+: <a href="http://plus.google.com/+AdolfoSanzDeDiego">http://plus.google.com/+AdolfoSanzDeDiego</a></li>
+<li>AboutMe: <a href="http://about.me/asanzdiego" class="uri">http://about.me/asanzdiego</a></li>
+<li>GitHub: <a href="http://github.com/asanzdiego" class="uri">http://github.com/asanzdiego</a></li>
+<li>Twitter: <a href="http://twitter.com/asanzdiego" class="uri">http://twitter.com/asanzdiego</a></li>
+<li>Blog: <a href="http://asanzdiego.blogspot.com.es" class="uri">http://asanzdiego.blogspot.com.es</a></li>
+<li>LinkedIn: <a href="http://www.linkedin.com/in/asanzdiego" class="uri">http://www.linkedin.com/in/asanzdiego</a></li>
+<li>Google+: <a href="http://plus.google.com/+AdolfoSanzDeDiego" class="uri">http://plus.google.com/+AdolfoSanzDeDiego</a></li>
 </ul></li>
 </ul>
 </section></section>
@@ -183,7 +143,7 @@
 </section><section id="content-is-like-water" class="slide level2">
 <h2><span class="header-section-number">2.7</span> Content is like water</h2>
 <figure>
-<img src="../img/content-is-like-water.jpg" alt="Content is like water. Fuente: fr.wikipedia.org/wiki/Site_web_adaptatif" /><figcaption>Content is like water. Fuente: fr.wikipedia.org/wiki/Site_web_adaptatif</figcaption>
+<img src="../img/content-is-like-water-bis.jpg" alt="Content is like water. Fuente: fr.wikipedia.org/wiki/Site_web_adaptatif" /><figcaption>Content is like water. Fuente: fr.wikipedia.org/wiki/Site_web_adaptatif</figcaption>
 </figure>
 </section><section id="graceful-degradation" class="slide level2">
 <h2><span class="header-section-number">2.8</span> Graceful degradation</h2>
@@ -218,15 +178,15 @@
 <section><section id="ejemplos" class="titleslide slide level1"><h1><span class="header-section-number">3</span> Ejemplos</h1></section><section id="matt-kersley" class="slide level2">
 <h2><span class="header-section-number">3.1</span> Matt Kersley</h2>
 <ul>
-<li>Página de testeo de Matt Kersley
-<ul>
-<li><a href="http://mattkersley.com/responsive">http://mattkersley.com/responsive</a></li>
-</ul></li>
+<li><a href="http://mattkersley.com/responsive" class="uri">http://mattkersley.com/responsive</a></li>
 </ul>
+<figure>
+<img src="../img/pagina-de-testeo-de-matt-kersley.png" alt="Página de testeo de Matt Kersley" /><figcaption>Página de testeo de Matt Kersley</figcaption>
+</figure>
 </section><section id="dconstruct-2011" class="slide level2">
 <h2><span class="header-section-number">3.2</span> dConstruct 2011</h2>
 <ul>
-<li><a href="http://2011.dconstruct.org">http://2011.dconstruct.org</a></li>
+<li><a href="http://2011.dconstruct.org" class="uri">http://2011.dconstruct.org</a></li>
 </ul>
 <figure>
 <img src="../img/dConstruct-2011-ejemplo-de-Responsive-Web-Design.jpg" alt="Ejemplo RWD: dConstruct 2011. Fuente:ecbloguer.com" /><figcaption>Ejemplo RWD: dConstruct 2011. Fuente:ecbloguer.com</figcaption>
@@ -234,7 +194,7 @@
 </section><section id="boston-globe" class="slide level2">
 <h2><span class="header-section-number">3.3</span> Boston Globe</h2>
 <ul>
-<li><a href="http://www.bostonglobe.com">http://www.bostonglobe.com</a></li>
+<li><a href="http://www.bostonglobe.com" class="uri">http://www.bostonglobe.com</a></li>
 </ul>
 <figure>
 <img src="../img/Boston-Globe-ejemplo-de-Responsive-Web-Design.jpg" alt="Ejemplo RWD: Boston Globe. Fuente:ecbloguer.com" /><figcaption>Ejemplo RWD: Boston Globe. Fuente:ecbloguer.com</figcaption>
@@ -242,7 +202,7 @@
 </section><section id="food-sense" class="slide level2">
 <h2><span class="header-section-number">3.4</span> Food Sense</h2>
 <ul>
-<li><a href="http://foodsense.is">http://foodsense.is</a></li>
+<li><a href="http://foodsense.is" class="uri">http://foodsense.is</a></li>
 </ul>
 <figure>
 <img src="../img/Food-Sense-ejemplo-de-Responsive-Web-Design.jpg" alt="Ejemplo RWD: Food Sense. Fuente:ecbloguer.com" /><figcaption>Ejemplo RWD: Food Sense. Fuente:ecbloguer.com</figcaption>
@@ -250,7 +210,7 @@
 </section><section id="deren-keskin" class="slide level2">
 <h2><span class="header-section-number">3.5</span> Deren Keskin</h2>
 <ul>
-<li><a href="http://www.deren.me">http://www.deren.me</a></li>
+<li><a href="http://www.deren.me" class="uri">http://www.deren.me</a></li>
 </ul>
 <figure>
 <img src="../img/Deren-Keskin-ejemplo-de-Responsive-Web-Design.jpg" alt="Ejemplo RWD: Deren Keskin. Fuente:ecbloguer.com" /><figcaption>Ejemplo RWD: Deren Keskin. Fuente:ecbloguer.com</figcaption>
@@ -270,10 +230,10 @@
 </section><section id="on-line" class="slide level2">
 <h2><span class="header-section-number">4.2</span> On Line</h2>
 <ul>
-<li><a href="http://pxtoem.com">http://pxtoem.com</a></li>
+<li><a href="http://pxtoem.com" class="uri">http://pxtoem.com</a></li>
 </ul>
 <figure>
-<img src="../img/pxtoem.png" alt="px to em. Fuente:pxtoem.com" /><figcaption>px to em. Fuente:pxtoem.com</figcaption>
+<img src="../img/pxtoem.png" alt="px to em" /><figcaption>px to em</figcaption>
 </figure>
 </section><section id="ejemplo" class="slide level2">
 <h2><span class="header-section-number">4.3</span> Ejemplo</h2>
@@ -313,7 +273,7 @@ h1 {
 <ul>
 <li>Uso de clases en el HTML como <strong>Bootstrap</strong>
 <ul>
-<li><a href="http://getbootstrap.com/css">http://getbootstrap.com/css</a></li>
+<li><a href="http://getbootstrap.com/css" class="uri">http://getbootstrap.com/css</a></li>
 </ul></li>
 </ul>
 </section><section id="ejemplo-bootstrap" class="slide level2">
@@ -329,7 +289,7 @@ h1 {
 <ul>
 <li><strong>The Semantic Grid System</strong>: Mediante layouts, y sin necesidad de usar clases en HTML.
 <ul>
-<li><a href="http://semantic.gs">http://semantic.gs</a></li>
+<li><a href="http://semantic.gs" class="uri">http://semantic.gs</a></li>
 </ul></li>
 </ul>
 </section><section id="ejemplo-semantic.gs-html" class="slide level2">
@@ -524,7 +484,7 @@ aside { .column(3); }
 </ul>
 </section><section id="ejemplo-not-i" class="slide level2">
 <h2><span class="header-section-number">8.11</span> Ejemplo not (I)</h2>
-<pre><code>@media not tv and max-width(800px), 
+<pre><code>@media not tv and max-width(800px),
   not screen and max-width(400px) {
 
   /* reglas que queremos que
@@ -660,11 +620,11 @@ aside { .column(3); }
 <ul>
 <li>Estas <strong>transparencias</strong> están hechas con:
 <ul>
-<li>MarkdownSlides: <a href="https://github.com/asanzdiego/markdownslides">https://github.com/asanzdiego/markdownslides</a></li>
+<li>MarkdownSlides: <a href="https://github.com/asanzdiego/markdownslides" class="uri">https://github.com/asanzdiego/markdownslides</a></li>
 </ul></li>
 <li>Estas <strong>transparencias</strong> están bajo una licencia Creative Commons Reconocimiento-CompartirIgual 3.0:
 <ul>
-<li><a href="http://creativecommons.org/licenses/by-sa/3.0/es">http://creativecommons.org/licenses/by-sa/3.0/es</a></li>
+<li><a href="http://creativecommons.org/licenses/by-sa/3.0/es" class="uri">http://creativecommons.org/licenses/by-sa/3.0/es</a></li>
 </ul></li>
 </ul>
 </section><section id="fuentes" class="slide level2">
@@ -672,11 +632,11 @@ aside { .column(3); }
 <ul>
 <li>Transparencias:
 <ul>
-<li><a href="https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/slides">https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/slides</a></li>
+<li><a href="https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/slides" class="uri">https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/slides</a></li>
 </ul></li>
 <li>Código:
 <ul>
-<li><a href="https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/src">https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/src</a></li>
+<li><a href="https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/src" class="uri">https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/src</a></li>
 </ul></li>
 </ul>
 </section><section id="bibliografía-i" class="slide level2">
@@ -684,15 +644,15 @@ aside { .column(3); }
 <ul>
 <li>Responsive Web Design
 <ul>
-<li><a href="http://www.arkaitzgarro.com/responsive-web-design/index.html">http://www.arkaitzgarro.com/responsive-web-design/index.html</a></li>
+<li><a href="http://www.arkaitzgarro.com/responsive-web-design/index.html" class="uri">http://www.arkaitzgarro.com/responsive-web-design/index.html</a></li>
 </ul></li>
 <li>Introducción al Diseño Web Adaptable o Responsive Web Design
 <ul>
-<li><a href="http://www.emenia.es/diseno-web-adaptable-o-responsive-web-design">http://www.emenia.es/diseno-web-adaptable-o-responsive-web-design</a></li>
+<li><a href="http://www.emenia.es/diseno-web-adaptable-o-responsive-web-design" class="uri">http://www.emenia.es/diseno-web-adaptable-o-responsive-web-design</a></li>
 </ul></li>
 <li>Tutorial: Responsive Web Design
 <ul>
-<li><a href="http://www.mmfilesi.com/blog/tutorial-responsive-web-design-i">http://www.mmfilesi.com/blog/tutorial-responsive-web-design-i</a></li>
+<li><a href="http://www.mmfilesi.com/blog/tutorial-responsive-web-design-i" class="uri">http://www.mmfilesi.com/blog/tutorial-responsive-web-design-i</a></li>
 </ul></li>
 </ul>
 </section><section id="bibliografía-ii" class="slide level2">
@@ -700,15 +660,15 @@ aside { .column(3); }
 <ul>
 <li>Tutorial: Transforma tu web en Responsive Design
 <ul>
-<li><a href="http://blog.ikhuerta.com/transforma-tu-web-en-responsive-design">http://blog.ikhuerta.com/transforma-tu-web-en-responsive-design</a></li>
+<li><a href="http://blog.ikhuerta.com/transforma-tu-web-en-responsive-design" class="uri">http://blog.ikhuerta.com/transforma-tu-web-en-responsive-design</a></li>
 </ul></li>
 <li>Curso responsive web design - Redradix School
 <ul>
-<li><a href="http://www.slideshare.net/Redradix/curso-responsive-web-design-redradix-school">http://www.slideshare.net/Redradix/curso-responsive-web-design-redradix-school</a></li>
+<li><a href="http://www.slideshare.net/Redradix/curso-responsive-web-design-redradix-school" class="uri">http://www.slideshare.net/Redradix/curso-responsive-web-design-redradix-school</a></li>
 </ul></li>
 <li>Todo lo que necesita saber sobre Responsive Web Design
 <ul>
-<li><a href="http://www.ecbloguer.com/marketingdigital/?p=2635">http://www.ecbloguer.com/marketingdigital/?p=2635</a></li>
+<li><a href="http://www.ecbloguer.com/marketingdigital/?p=2635" class="uri">http://www.ecbloguer.com/marketingdigital/?p=2635</a></li>
 </ul></li>
 </ul>
 </section><section id="bibliografía-iii" class="slide level2">
@@ -716,15 +676,15 @@ aside { .column(3); }
 <ul>
 <li>Diseño web fluido y plantilla fluida con HTML5 y CSS3
 <ul>
-<li><a href="http://www.aloud.es/diseno-web-fluido-y-plantilla-fluida">http://www.aloud.es/diseno-web-fluido-y-plantilla-fluida</a></li>
+<li><a href="http://www.aloud.es/diseno-web-fluido-y-plantilla-fluida" class="uri">http://www.aloud.es/diseno-web-fluido-y-plantilla-fluida</a></li>
 </ul></li>
 <li>Beneficios del Responsive Web Design en SEO
 <ul>
-<li><a href="http://madridnyc.com/blog/2013/01/29/beneficios-del-responsive-web-design-en-seo">http://madridnyc.com/blog/2013/01/29/beneficios-del-responsive-web-design-en-seo</a></li>
+<li><a href="http://madridnyc.com/blog/2013/01/29/beneficios-del-responsive-web-design-en-seo" class="uri">http://madridnyc.com/blog/2013/01/29/beneficios-del-responsive-web-design-en-seo</a></li>
 </ul></li>
 <li>Responsive Web Design Testing Tool
 <ul>
-<li><a href="http://mattkersley.com/responsive">http://mattkersley.com/responsive</a></li>
+<li><a href="http://mattkersley.com/responsive" class="uri">http://mattkersley.com/responsive</a></li>
 </ul></li>
 </ul>
 </section><section id="bibliografía-iv" class="slide level2">
@@ -732,15 +692,15 @@ aside { .column(3); }
 <ul>
 <li>Responsive Web Design
 <ul>
-<li><a href="http://www.ricardocastillo.com/rwd.pdf">http://www.ricardocastillo.com/rwd.pdf</a></li>
+<li><a href="http://www.ricardocastillo.com/rwd.pdf" class="uri">http://www.ricardocastillo.com/rwd.pdf</a></li>
 </ul></li>
 <li>Responsive Design y accesibilidad. Buenas y malas prácticas. Errores comunes.
 <ul>
-<li><a href="http://olgacarreras.blogspot.com.es/2014/01/responsive-design-y-accesibilidad.html">http://olgacarreras.blogspot.com.es/2014/01/responsive-design-y-accesibilidad.html</a></li>
+<li><a href="http://olgacarreras.blogspot.com.es/2014/01/responsive-design-y-accesibilidad.html" class="uri">http://olgacarreras.blogspot.com.es/2014/01/responsive-design-y-accesibilidad.html</a></li>
 </ul></li>
 <li>Diseño web adaptativo: mejores prácticas
 <ul>
-<li><a href="http://www.emenia.es/diseno-web-adaptativo-mejores-practicas">http://www.emenia.es/diseno-web-adaptativo-mejores-practicas</a></li>
+<li><a href="http://www.emenia.es/diseno-web-adaptativo-mejores-practicas" class="uri">http://www.emenia.es/diseno-web-adaptativo-mejores-practicas</a></li>
 </ul></li>
 </ul>
 </section><section id="bibliografía-v" class="slide level2">
@@ -748,11 +708,11 @@ aside { .column(3); }
 <ul>
 <li>Traducción de &quot;Responsive Web Design&quot; de &quot;A List Apart&quot;
 <ul>
-<li><a href="http://diseñowebresponsivo.com.ar">http://diseñowebresponsivo.com.ar</a></li>
+<li><a href="http://diseñowebresponsivo.com.ar" class="uri">http://diseñowebresponsivo.com.ar</a></li>
 </ul></li>
 <li>Responsive Design Exercise
 <ul>
-<li><a href="http://blog.garciaechegaray.com/2013/11/29/responsive-design-exercise.html">http://blog.garciaechegaray.com/2013/11/29/responsive-design-exercise.html</a></li>
+<li><a href="http://blog.garciaechegaray.com/2013/11/29/responsive-design-exercise.html" class="uri">http://blog.garciaechegaray.com/2013/11/29/responsive-design-exercise.html</a></li>
 </ul></li>
 </ul>
 </section><section id="bibliografía-vi" class="slide level2">
@@ -760,11 +720,11 @@ aside { .column(3); }
 <ul>
 <li>Estadísticas de StatCounter
 <ul>
-<li><a href="http://gs.statcounter.com">http://gs.statcounter.com</a></li>
+<li><a href="http://gs.statcounter.com" class="uri">http://gs.statcounter.com</a></li>
 </ul></li>
 <li>Página de testeo de Matt Kersley
 <ul>
-<li><a href="http://mattkersley.com/responsive">http://mattkersley.com/responsive</a></li>
+<li><a href="http://mattkersley.com/responsive" class="uri">http://mattkersley.com/responsive</a></li>
 </ul></li>
 </ul>
 </section></section>
@@ -772,15 +732,88 @@ aside { .column(3); }
   </div>
 
   <script src="../lib/reveal.js-master/lib/js/head.min.js"></script>
-  <script src="../lib/reveal.js-master/js/reveal.min.js"></script>
+  <script src="../lib/reveal.js-master/js/reveal.js"></script>
 
   <script>
 
-      // Full list of configuration options available here:
+      // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
 
+        menu: {
+            // Specifies which side of the presentation the menu will
+            // be shown. Use 'left' or 'right'.
+            side: 'left',
+
+            // Add slide numbers to the titles in the slide list.
+            // Use 'true' or format string (same as reveal.js slide numbers)
+            numbers: false,
+
+            // Specifies which slide elements will be used for generating
+            // the slide titles in the menu. The default selects the first
+            // heading element found in the slide, but you can specify any
+            // valid css selector and the text from the first matching
+            // element will be used.
+            // Note: that a section data-menu-title attribute or an element
+            // with a menu-title class will take precedence over this option
+            titleSelector: 'h1, h2, h3, h4, h5, h6',
+
+            // Hide slides from the menu that do not have a title.
+            // Set to 'true' to only list slides with titles.
+            hideMissingTitles: false,
+
+            // Add markers to the slide titles to indicate the
+            // progress through the presentation
+            markers: false,
+
+            // Specify custom panels to be included in the menu, by
+            // providing an array of objects with 'title', 'icon'
+            // properties, and either a 'src' or 'content' property.
+            custom: false,
+
+            // Specifies the themes that will be available in the themes
+            // menu panel. Set to 'false' to hide themes panel.
+            themes: [
+                { name: 'Black', theme: '../lib/reveal.js-master/css/theme/black.css' },
+                { name: 'White', theme: '../lib/reveal.js-master/css/theme/white.css' },
+                { name: 'League', theme: '../lib/reveal.js-master/css/theme/league.css' },
+                { name: 'Sky', theme: '../lib/reveal.js-master/css/theme/sky.css' },
+                { name: 'Beige', theme: '../lib/reveal.js-master/css/theme/beige.css' },
+                { name: 'Simple', theme: '../lib/reveal.js-master/css/theme/simple.css' },
+                { name: 'Serif', theme: '../lib/reveal.js-master/css/theme/serif.css' },
+                { name: 'Blood', theme: '../lib/reveal.js-master/css/theme/blood.css' },
+                { name: 'Night', theme: '../lib/reveal.js-master/css/theme/night.css' },
+                { name: 'Moon', theme: '../lib/reveal.js-master/css/theme/moon.css' },
+                { name: 'Solarized', theme: '../lib/reveal.js-master/css/theme/solarized.css' }
+            ],
+
+            // Specifies if the transitions menu panel will be shown.
+            transitions: true,
+
+            // Adds a menu button to the slides to open the menu panel.
+            // Set to 'false' to hide the button.
+            openButton: true,
+
+            // If 'true' allows the slide number in the presentation to
+            // open the menu panel. The reveal.js slideNumber option must
+            // be displayed for this to take effect
+            openSlideNumber: false,
+
+            // If true allows the user to open and navigate the menu using
+            // the keyboard. Standard keyboard interaction with reveal
+            // will be disabled while the menu is open.
+            keyboard: true
+        },
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '../lib/reveal.js-master/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '../lib/reveal.js-master/plugin/zoom-js/zoom.js', async: true },
+          { src: '../lib/reveal.js-master/plugin/notes/notes.js', async: true },
+          //{ src: '../lib/reveal.js-master/plugin/search/search.js', async: true },
+          { src: '../lib/reveal.js-menu-master/menu.js', async: true }
+        ]
       });
     </script>
-  </body>
+    </body>
 </html>
