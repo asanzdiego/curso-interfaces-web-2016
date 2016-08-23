@@ -7,12 +7,14 @@ En el [apartado de usabilidad](https://github.com/asanzdiego/curso-interfaces-we
 - Primero se definen varios términos importantes: **usabilidad, accesibilidad, arquitectura de la información, experiencia de usuario y diseño centrado en el usuario**.
 - Luego se intenta conocer al usuario de aplicaciones web, **saber como ve, como piensa y como actúa**.
 - Después se intenta explicar como **evitando que el usuario cometa errores, y simplificando el diseño**, podemos mejorar la usabilidad.
-- También se muestra la metodología del **diseño centrado en el usuario**, que se compone de varias fases: planificación, diseño, prototipado, evaluación, implementación y lanzamiento, y mantenimiento y seguimiento. 
+- También se muestra la metodología del **diseño centrado en el usuario**, que se compone de varias fases: planificación, diseño, prototipado, evaluación, implementación y lanzamiento, y mantenimiento y seguimiento.
 - Seguidamente comento los **principios de usabilidad** y las técnicas de evaluación: **card-sorting, evaluación heurística, test de usuarios, eye-tracking, feedback, analítica web, tests A/B**.
 
 **Recursos**:
 
 - [Slides](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad#slides)
+- [Enunciado Ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad#enunciado-ejercicios)
+- [Solución Ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad#solución-ejercicios)
 
 ## Accesibilidad, esa gran olvidada
 
@@ -30,7 +32,8 @@ En el [apartado de accesibilidad](https://github.com/asanzdiego/curso-interfaces
 **Recursos**:
 
 - [Slides](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/#slides)
-- [Ejemplos](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/#ejemplos)
+- [Enunciado Ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad#enunciado-ejercicios)
+- [Solución Ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad#solución-ejercicios)
 
 ## Responsive Web Design (Diseño Web Adaptable)
 

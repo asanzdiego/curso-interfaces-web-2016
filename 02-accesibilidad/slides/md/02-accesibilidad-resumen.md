@@ -88,6 +88,30 @@
 
 - Sitúa únicamente 4 principios en el nivel superior, las 4 directrices POUR (Servir).
 
+### WAI-ARIA 1.0
+
+- **Accessible Rich Internet Applications**
+
+- Accesibilidad de aplicaciones web enriquecidas con contenido dinámico (eg. widgets, AJAX)
+
+### WCAG-EM 1.0
+
+- **Website Accessibility Conformance Evaluation Methodology**
+
+- Metodología de evaluación de la accesibilidad del contenido de páginas web
+
+### ATAG 2.0
+
+- **Authoring Tool Accessibility Guidelines**
+
+- Accesibilidad de editores de páginas web
+
+### UAAG 2.0
+
+- **User Agent Accessibility Guidelines**
+
+- Accesibilidad de navegadores web
+
 
 
 # Directrices POUR
@@ -179,167 +203,11 @@
     - que utilicen sintetizadores de voz,
     - que hayan configurado sus agentes de usuario para no mostrar imágenes, etc.
 
-## No especificar texto alternativo (I)
+## No especificar texto alternativo
 
-- **cuando las imágenes sólo sirven para dar formato a una página**, por ejemplo, alt="bola roja" para una imagen que añade una bola roja para decorar un título o un párrafo; en tales casos, el texto alternativo debería ser la cadena vacía ("").
+- **cuando las imágenes sólo sirven para dar formato a una página**, por ejemplo, alt="bola roja" para una imagen que añade una bola roja para decorar un título o un párrafo
 
-## No especificar texto alternativo (II)
-
-- **cuando el texto carezca de significado** (p.ej., "relleno quequeda bonito"), pues esto no solamente frustrará a los usuarios, sino que ralentizará a los agentes de usuario que deban convertir texto a salida por voz o Braille.
-
-## Ejemplo de página con imágenes
-
-![Ejemplo de página con imágenes.](../img/img-ejemplo.png)
-
-## Mal uso de alt (I)
-
-- Mal uso de alt cuando **describe imagen en vez de su función**
-
-~~~
-<a href="anterior.html">
-  <img src="./img/flecha-izq.gif"
-    alt="Flecha roja izquierda" ></a>
-<a href="indice.html">Índice</a>
-<a href="siguiente.html">
-  <img src="./img/flecha-der.gif"
-    alt="Flecha roja derecha" ></a>
-~~~
-
-## Mal uso de alt (II)
-
-- Mal uso de alt cuando **se usa en imágenes decorativas**
-
-~~~
-<a href="unete.html">
-  <img src="./img/logo.png"
-    alt="Únete" />Únete</a>
-~~~
-
-## Mal uso de alt (III)
-
-- Mal uso de alt cuando **no aporta nada útil**
-
-~~~
-<p>
-  Teléfono de contacto:
-  <img src="./img/telefono.gif"
-    alt="Teléfono de contacto" />
-</p>
-~~~
-
-## Fangs mal
-
-- En **Fangs** no se visiona correctamente
-
-![Resultado de Fangs mal.](../img/img-ejemplo-fangs-mal.png)
-
-## Problemas
-
-- En esta página existen **varios problemas**:
-
-    - El texto alternativo que tienen las flechas describe las imágenes, pero **no indica su función**.
-    - Las imágenes decorativas de las listas **repiten la descripción** del enlace.
-    - La imagen que contiene un número de teléfono tiene un texto alternativo que **no es nada útil**.
-
-## Soluciones
-
-- Para que está página sea accesible existen **las siguientes soluciones**:
-
-    - El texto alternativo de las flechas pasa a **indicar su función**: "Anterior" y "Siguiente".
-    - El texto alternativo de las imágenes decorativas de las listas **lo dejamos vacío**.
-    - El texto alternativo de la imagen con un número de teléfono lo hacemos **útil** indicando el número de teléfono.
-
-## Buen uso de alt (I)
-
-- Buen uso de alt cuando **describe la función de una imagen**
-
-~~~
-<a href="anterior.html">
-  <img src="./img/flecha-izq.gif"
-    alt="Anterior" ></a>
-<a href="indice.html">Índice</a>
-<a href="siguiente.html">
-  <img src="./img/flecha-der.gif"
-    alt="Siguiente" ></a>
-~~~
-
-## Buen uso de alt (II)
-
-- Buen uso de alt cuando **está vacío en imágenes decorativas**
-
-~~~
-<a href="unete.html">
-  <img src="./img/logo.png"
-    alt="" />Únete</a>
-~~~
-
-## Buen uso de alt (III)
-
-- Buen uso de alt cuando **el texto es útil**
-
-~~~
-<p>
-  Teléfono de contacto:
-  <img src="./img/telefono.gif"
-    alt="999123456" />
-</p>
-~~~
-
-## Fangs mejor
-
-- Y ahora en **Fangs** se visiona mejor...
-
-![Resultado de Fangs bien.](../img/img-ejemplo-fangs-bien.png)
-
-## Problemas menores
-
-- En Fangs aparece un problema nuevo: **cuando una imagen no tiene texto alternativo muestra el valor del atributo src**.
-
-- En la mayoría de los casos, este valor no es muy útil, ya que suele incluir nombres de directorios y el nombre del fichero.
-
-## Imágenes decorativas (I)
-
-- Lo mejor es **no incluir las imágenes decorativas en el HTML**
-
-~~~
-<ul>
-  <li><a href="unete.html">Únete</a></li>
-~~~
-
-## Imágenes decorativas (II)
-
-- Lo mejor es **emplear CSS** para su inclusión.
-
-~~~
-ul {
- list-style-image:
-   url(./img/logo.png);
-}
-~~~
-
-## Imágenes con texto (I)
-
-- Lo mejor es **no usar imágenes para mostrar textos** sino usar textos directamente.
-
-~~~
-Teléfono de contacto: <strong>999123456</strong>
-~~~
-
-## Imágenes con texto (II)
-
-- Lo mejor es **decorar el texto con CSS**.
-
-~~~
-strong {
-  font-size: 2em
-}
-~~~
-
-## Fangs mejor
-
-- Y ahora en **Fangs** se visiona mucho mejor...
-
-![Resultado de Fangs rebien.](../img/img-ejemplo-fangs-rebien.png)
+- **cuando el texto carezca de significado** (p.ej., "relleno que queda bonito"), pues esto no solamente frustrará a los usuarios, sino que ralentizará a los agentes de usuario que deban convertir texto a salida por voz o Braille.
 
 
 
@@ -357,40 +225,6 @@ strong {
 
 - Como cada zona activa realiza la misma función que un enlace, el texto alternativo tiene que **ser eficaz**, y tiene que **tener sentido cuando se lea fuera de contexto**.
 
-## Ejemplo regular
-
-- No utiliza la etiqueta \<object\>
-
-~~~
-<img src="img.png" usemap="#map1" >
-<map name="map1" id="map1">
- <area href="index.html" alt="Inicio" >
-~~~
-
-## Visualización mal
-
-- Así **Fangs** no muestra nada.
-
-![Resultado de Fangs mal.](../img/img-map-area-fangs-mal.png)
-
-## Ejemplo bien
-
-- Uutiliza la etiqueta \<object\>
-
-~~~
-<object data="img.png"
- type="image/jpg" usemap="#map1" >
- <map name="map1" id="map1">
-  <p>Navegar por este sitio:
-    <a href="index.html">Inicio</a>
-~~~
-
-## Visualización bien
-
-- En **Fangs** ahora se ve correctamente:
-
-![Resultado de Fang bien.](../img/img-map-area-fangs-bien.png)
-
 
 
 # Multimedia
@@ -407,37 +241,13 @@ strong {
 
 - En el caso de los vídeos también se tiene que proporcionar **una descripción del vídeo en sí (de la imagen)**.
 
-## YouTube (I)
+## YouTube
 
-- A principios de 2010, YouTube empezó a ofrecer un sistema para la **inclusión de subtítulos de forma automática**. Además, cualquiera puede crear un fichero de subtítulos y subirlo a YouTube para que sea empleado.
-
-## YouTube (II)
+- YouTube ofrece un sistema para la **inclusión de subtítulos de forma automática**.
 
 - En YouTube, se puede emplear **"Filtros" de búsqueda** para indicar que se quiere buscar vídeos que tengan subtítulos.
 
-![Opciones de búsqueda en YouTube.](../img/youtube-filtros-busqueda.png)
-
-## YouTube (III)
-
-- Los vídeos que tienen subtítulos aparecen en los resultados de una búsqueda con el marcador **"CC"** (del término inglés "Closed Captions" que significa "Subtítulos Cerrados")
-
-![Resultados de una búsqueda en YouTube.](../img/youtube-listado.png)
-
-## YouTube (IV)
-
-- Los subtítulos aparecen sobreimpresos sobre el vídeo.
-
-![Ejemplo de visualización de subtítulos en YouTube.](../img/youtube-con-subtitulos.png)
-
-## YouTube (V)
-
-- Pinchando en el icono de subtítulos podemos activarlos y desactivarlos. Además, nos permite configurar algunos **parámetros de visualización** de los subtítulos, como el tipo de letra, el tamaño de letra y el más importante, el idioma de los subtítulos.
-
-## YouTube (VI)
-
 - YouTube permite añadir subtítulos en diferentes idiomas, y también permite emplear un servicio de **traducción automática** de los subtítulos.
-
-![Subtítulos traducidos de forma automática en YouTube.](../img/youtube-con-subtitulos-traducidos.png)
 
 
 
@@ -454,62 +264,6 @@ strong {
 ## Evitar "Pincha aquí"
 
 - Intenta **evitar los enlaces tipo "Pincha aquí"**:
-
-![Evitar los enlaces tipo "Pincha aquí"](../img/enlaces-mal.png)
-
-## Ejemplo mal
-
-~~~
-<p>Estabamos desayunando cuando de repente sucedió.
-<a href="noticia-hija-mayor.html">Más información.</a></p>
-~~~
-
-## Ejemplo bien (HTML)
-
-~~~
-<p>Estabamos desayunando cuando de repente sucedió.
-<a href="noticia-hija-mayor.html">Más información
-<span>sobre la noticia titulada
-"A mi hija mayor se le ha caído su primer diente"</span>.</a></p>
-~~~
-
-## Ejemplo bien (CSS)
-
-~~~
-span {
-  position: absolute;
-  left: -9999em;
-  width: 1px;
-  overflow: hidden;
-}
-~~~
-
-## Ejemplo rebien
-
-![Enlaces tipo "Pincha aquí" accesibles](../img/enlaces-rebien.png)
-
-## Ejemplo rebien (HTML)
-
-~~~
-<p>Estabamos desayunando cuando de repente sucedió.
-<a href="noticia-hija-mayor.html">Más información
-<span>sobre la noticia titulada
-"A mi hija mayor se le ha caído su primer diente"</span>.</a></p>
-~~~
-
-## Ejemplo rebien (CSS)
-
-~~~
-a:hover, a:focus, a:active {
-  position: relative;
-}
-a:hover span, a:focus span, a:active span {
-  left: 20px; top: 20px; width: 100px;
-}
-a:hover span:before, a:focus span:before, a:active span:before {
-  content: "Mas informacion ";
-}
-~~~
 
 ## Tamaño
 
@@ -537,15 +291,6 @@ a:hover span:before, a:focus span:before, a:active span:before {
 ## Comportamiento estándar
 
 - **No alteres el comportamiento de los enlaces**, como por ejemplo poner previsualizaciones de la página que enlaza cuando se pasa el ratón por encima.
-
-## Copiar y pegar
-
-- **No enlaces cosas que el usuario puede querer seleccionar y copiar**, pues es bastante difícil hacerlo, incluso para una persona experta y sin discapacidad.
-
-## Contenido independiente
-
-- **No hagas el contenido dependiente de los enlaces para funcionar**.
-- Es importante ofrecer el contexto necesario para hacer el contenido entendible sin la necesidad de visitar todo lo que está detrás de los enlaces.
 
 ## Los enlaces son enlaces
 
@@ -619,11 +364,9 @@ a:hover span:before, a:focus span:before, a:active span:before {
 
 - Para ello, **no utilices display: none;** si no desplaza el encabezado fuera del área de visualización con posicionamiento absoluto, por ejemplo, **position: absolute; top: -500px;**.
 
-## Maquetación (I)
+## Maquetación
 
 - Muchos desarrolladores de páginas web emplean las etiquetas \<div\> y \<span\> para definir encabezados de sección y estructurar el contenido, sin embargo, estas etiquetas **\<div\> y \<span\> no proporcionan contenido semántico**, por lo que se debe evitar su uso.
-
-## Maquetación (II)
 
 - En una página web **nunca se deben utilizar las tablas para maquetar**, ya que suponen un grave problema de accesibilidad.
 
@@ -631,95 +374,17 @@ a:hover span:before, a:focus span:before, a:active span:before {
 
 - Sin perder de vista todo lo mencionado anteriormente, **se pueden empezar a usar las nuevas etiquetas semánticas y estructurales de HTML5**: \<header\>, \<hgroup\>, \<nav\>, \<article\>, \<aside\> o \<footer\>.
 
-## header (I)
+## header
 
 - La etiqueta **\<header\> se usa para marcar un grupo de elementos de introducción o de navegación** dentro de una sección o documento.
 
-## header (II)
-
 - El uso de la etiqueta **\<header\> no está restringido a una por documento**:
 
-~~~
-<header>
- <h1>Título del documento</h1>
- <p>Más información</p>
-</header>
-<article>
- <header>
-  <h2>Título del artículo</h2>
-  <p>Autor del artículo</p>
- </header>
- <p>Texto del artículo</p>
-</article>
-~~~
-
-## header (III)
-
-- Si sólo tenemos un elemento no es necesario usar esta etiqueta:
-
-~~~
-<article>
- <header>
-  <h1>Título del artículo</h1>
- </header>
- <p>Texto del artículo</p>
-</article>
-~~~
-
-## header (IV)
-
-- Sería más correcto de esta forma:
-
-~~~
-<article>
- <h1>Título del artículo</h1>
- <p>Texto del artículo</p>
-</article>
-~~~
-
-## hgroup (I)
+## hgroup
 
 - La etiqueta **\<hgroup\> se usa para agrupar un conjunto de elementos de encabezado** (\<h1\>–\<h6\>).
 
 - El uso más típico de esta etiqueta es para **agrupar el título de la página con su eslogan**.
-
-## hgroup (II)
-
-- Antes de HTML5 lo más típico era que este tipo de estructura se marcase así:
-
-~~~
-<div id="header">
- <h1>Nombre de la empresa</h1>
- <p>Eslogan de la empresa</p>
-</div>
-<div id="content">
- <h2>Noticia 1</h2>
- <p>Desarrollo de la noticia 1</p>
- <h2>Noticia 2</h2>
- <p>Desarrollo de la noticia 2</p>
-</div>
-~~~
-
-## hgroup (III)
-
-- Este tipo de estructura dejaba el eslogan al nivel de cualquier otro texto de la web, cuando es evidente que es un texto más importante.
-
-- Marcarlo con un \<h2\> no era correcto ya que crearía una nueva sección que en realidad no existe.
-
-## hgroup (IV)
-
-- Con HTML5 podemos usar \<hgroup\> para darle la importancia que realmente tiene, asociándolo al título:
-
-~~~
-<hgroup>
- <h1>Nombre de la empresa</h1>
- <h2>Eslogan de la empresa</h2>
-</hgroup>
-<article>
- <h2>Noticia 1</h2>
- <p>Texto del artículo</p>
-</article>
-~~~
 
 ## nav
 
@@ -739,25 +404,6 @@ a:hover span:before, a:focus span:before, a:active span:before {
 
 - Sólo se debería usar \<section\> para contenido independiente al que se podría poner un encabezado y que no sea susceptible de ir marcado con \<article\>, \<aside\> o \<nav\>.
 
-## article VS section
-
-- Ejemplo típico del uso de \<section\> y \<article\>:
-
-~~~
-<h1>Nombre de la empresa</h1>
-<section id="news-list">
- <h2>Noticias</h2>
- <article>
-  <h3>Noticia 1</h3>
-  <p>Desarrollo de la noticia 1</p>
- </article>
- <article>
-  <h3>Noticia 2</h3>
-  <p>Desarrollo de la noticia 2</p>
- </article>
-</section>
-~~~
-
 ## aside
 
 - La etiqueta **\<aside\> se usa para marcar un trozo de contenido que está relacionado con el contenido de la página web, pero que no es parte del mismo**. Ejemplos de uso serían: glosario de términos, grupos de enlaces a páginas relacionadas, barras laterales, ...
@@ -772,48 +418,9 @@ a:hover span:before, a:focus span:before, a:active span:before {
 
 
 
-## longdesc (I)
+## longdesc
 
-- Cuando se utilizan imágenes en una web la práctica habitual es darles un **texto alternativo mediante el atributo alt, o dejar vacío dicho atributo en el caso de que la función de la imagen sea meramente decorativa**.
-
-- Pero nos podemos encontrar con el caso de tener una imagen a la que haya que asociarle un texto alternativo, pero dicho **texto sea excesivamente largo**, para esas ocasiones está el atributo longdesc.
-
-## longdesc (II)
-
-- El **atributo longdesc ha de ser siempre una URL que lleve a una descripción de la imagen**, en la misma o en otra página.
-
-- Se puede dar una **URL externa** o, como en el ejemplo expuesto más adelante, **un marcador de página**.
-
-## longdesc (III)
-
-- Si no se quiere mostrar la descripción larga **se puede esconder con CSS**, pero para ello, **no usar display: none;** si no desplazar el elemento fuera del área de visualización con posicionamiento absoluto, por ejemplo, **position: absolute; left: -9999em;**.
-
-## Ejemplo mal
-
-~~~
-<img src="./img/disenio-centrado-usuario.png"
-  alt="Diagrama de Diseño Centrado en el Usuario">
-~~~
-
-## Ejemplo bien (HTML)
-
-~~~
-<img src="./img/disenio-centrado-usuario.png"
-  alt="Diagrama de Diseño Centrado en el Usuario"
-  longdesc="#descripcion1" >
-<span id="descripcion1">El Diseño Centrado en el usuario tiene varias fases: planificación, diseño, prototipado, evaluación, implementación y lanzamiento, mantenimiento y seguimiento</span>
-~~~
-
-## Ejemplo bien (CSS)
-
-~~~
-span {
-  position: absolute;
-  left: -9999em;
-  width: 1px;
-  overflow: hidden;
-}
-~~~
+- Nos podemos encontrar con el caso de tener una imagen a la que haya que asociarle un texto alternativo, pero dicho **texto sea excesivamente largo**, para esas ocasiones está el atributo longdesc.
 
 
 
@@ -821,92 +428,19 @@ span {
 
 
 
-## Poco accesibles (I)
+## Poco accesibles
 
 - Algunos de los navegadores que emplean las personas discapacitadas **no son capaces de interpretar el código de JavaScript** o algunos elementos multimedia como applets u objetos que requieren de un plug-in.
-
-## Poco accesibles (II)
 
 - Por regla general, **el HTML Dinámico no funcionará con un navegador no visual y no será accesible**.
 
 - La solución es lograr que una página web funcione correctamente **sin necesidad de tener que ejecutar el código JavaScript**.
 
-## Graceful degradation
-
-- Se crea una página web **para los últimos navegadores**, con la posibilidad de que funcione en navegadores antiguos.
-
-![Graceful degradation](../img/responsive-design-graceful-degradation.png)
-
-## Progressive enhancement
-
-- Se parte de una **versión básica completamente operativa**, con la posibilidad de ir añadiendo mejoras para los últimos navegadores. Es la opción más utilizada hoy en día.
-
-![Progressive enhancement](../img/responsive-design-progressive-enhancement.png)
-
-## Capas (I)
-
-- Una página web se puede construir mediante capas:
-
-    - **Capa de contenido**: la estructura y el contenido con etiquetas de XHTML.
-    - **Capa de presentación**: la presentación del contenido definida con CSS.
-    - **Capa de comportamiento**: el comportamiento del contenido (por ejemplo, la respuesta ante una acción del usuario) definido con JavaScript.
-
-## Capas (II)
+## Capas
 
 - Separar contenido (HTML), de presentación (CSS), de comportamiento (Javascript)
 
 ![Separación de contenido, presentación y comportamiento](../img/html5-css3-javascript.jpg)
-
-## Capas (III)
-
-- Con un diseño basado en capas logramos:
-    - **reducir el acomplamiento** entre los distintos componentes (contenido, presentación y comportamiento),
-    - **disminuimos los errores**,
-    - **reducción en los costes de mantenimiento**, etc.
-
-## Eventos JS
-
-- Asignar código JavaScript a un manejador de eventos con el siguiente código:
-
-~~~
-elemento.evento = acccion;
-~~~
-
-## Selección JS
-
-- Seleccionar elementos de la página web mediante JavaScript:
-
-    - **getElementById(id)**: selecciona el elemento indicado por el id.
-    - **getElementsByTagName(etiqueta)**: selecciona los elementos por tipo de etiquetas
-    - **querySelector(selectors)**: selecciona el primer elemento seleccionado
-    - **querySelectorAll(selectors)**: selecciona los elementos seleccionados
-    - **getAttribute(atributo)**: para seleccionar los atributo de un elemento
-
-## Ejemplo mal
-
-~~~
-<a href=""
-onclick="alert('Hola Mundo')">
-Pincha para ver un "Hola Mundo" en Javascript</a>
-~~~
-
-## Ejemplo bien (HTML)
-
-~~~
-<a href="">
-Pincha para ver un "Hola Mundo" en Javascript</a>
-~~~
-
-## Ejemplo bien (JS)
-
-~~~
-window.onload = function() {
- var link = document.querySelector("a");
- link.onclick = function() {
-  alert("Hola Mundo");
- }
-}
-~~~
 
 
 
@@ -955,46 +489,6 @@ window.onload = function() {
 
 - Definir los **encabezados tanto verticales como horizontales con la etiqueta \<th\>**.
 
-## Ejemplo mal
-
-~~~
-<table>
-  <tr>
-   <td></td>
-   <td><strong>Lunes</strong></td>
-   <td><strong>Martes</strong></td>
-  </tr>
-  <tr>
-   <td><strong>10:00</strong></td>
-   <td>Matemáticas</td>
-   <td>Matemáticas</td>
-  </tr>
-  <tr>
-   <td><strong>11:00</strong></td>
-   <td>Lengua</td>
-   <td>Lengua</td>
-  </tr>
-</table>
-~~~
-
-## Ejemplo bien
-
-~~~
-<table summary="5 columnas (días de la semana) y 4 filas (horas)">
- <caption>Horario de clase</caption>
- <tr>
-  <th></th>
-  <th id="columnaLunes">Lunes</th>
- </tr>
- <tr>
-  <th id="filaHora10">10:00</th>
-  <td
-   headers="columnaLunes filaHora10">
-    Matemáticas</td>
- </tr>
-</table>
-~~~
-
 
 
 #  Formularios
@@ -1004,25 +498,6 @@ window.onload = function() {
 ## label
 
 - Asegúrate de que cada elemento de un formulario tiene asociada una **etiqueta \<label\>**.
-
-## Ejemplo mal
-
-~~~
-<form method="post" action="#">
- <p><strong>Información personal</strong></p>
-  Nombre:
-   <input type="text" required ><br>
-~~~
-
-## Ejemplo bien
-
-~~~
-<form name="contacto" method="post" action="#">
- <fieldset>
-  <legend>Información personal</legend>
-   <label for="nombre" tabindex="1">Nombre:</label>
-   <input type="text" id="nombre" name="nombre" autofocus required  ><br>
-~~~
 
 
 
@@ -1089,30 +564,38 @@ window.onload = function() {
 
 ## Accesibilidad (I)
 
-- WAVE Web Accessibility Tool
-    - <http://wave.webaim.org>
+- Checkers
+  - <http://checkers.eiii.eu>
 
-- WAVE Web Accessibility Toolbar for Firefox
-    - <http://wave.webaim.org/toolbar>
+- TAW
+  - <http://www.tawdis.net/>
 
-- CynthiaSays
-    - <http://www.cynthiasays.com>
+- AChecker
+    - <http://achecker.ca/checker>
 
 ## Accesibilidad (II)
 
 - eXaminator
     - <http://examinator.ws>
 
-- AChecker
-    - <http://achecker.ca/checker>
+- CynthiaSays
+    - <http://www.cynthiasays.com>
 
 - Nibbler
     - <http://nibbler.silktide.com>
 
 ## Accesibilidad (III)
 
+- WAVE Web Accessibility Tool
+    - <http://wave.webaim.org>
+
+- WAVE Web Accessibility Toolbar for Firefox
+    - <http://wave.webaim.org/toolbar>
+
 - Tingtun Checker
     - <http://accessibility.tingtun.no/en/pagecheck2.0>
+
+## Accesibilidad (IV)
 
 - Functional Accessibility Evaluator
     - <http://fae20.cita.illinois.edu>

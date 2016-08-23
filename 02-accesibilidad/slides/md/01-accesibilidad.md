@@ -120,6 +120,24 @@
 
 - Sitúa únicamente 4 principios en el nivel superior, las 4 directrices POUR (Servir).
 
+### WCAG-EM 1.0
+
+- **Website Accessibility Conformance Evaluation Methodology**
+
+- Metodología de evaluación de la accesibilidad del contenido de páginas web
+
+### ATAG 2.0
+
+- **Authoring Tool Accessibility Guidelines**
+
+- Accesibilidad de editores de páginas web
+
+### UAAG 2.0
+
+- **User Agent Accessibility Guidelines**
+
+- Accesibilidad de navegadores web
+
 
 
 # Directrices POUR
@@ -631,7 +649,7 @@
 
 ## No especificar texto alternativo (II)
 
-- **cuando el texto carezca de significado** (p.ej., "relleno quequeda bonito"), pues esto no solamente frustrará a los usuarios, sino que ralentizará a los agentes de usuario que deban convertir texto a salida por voz o Braille.
+- **cuando el texto carezca de significado** (p.ej., "relleno que queda bonito"), pues esto no solamente frustrará a los usuarios, sino que ralentizará a los agentes de usuario que deban convertir texto a salida por voz o Braille.
 
 ## Ejemplo de página con imágenes
 
@@ -1535,30 +1553,38 @@ window.onload = function() {
 
 ## Accesibilidad (I)
 
-- WAVE Web Accessibility Tool
-    - <http://wave.webaim.org>
+- Checkers
+  - <http://checkers.eiii.eu>
 
-- WAVE Web Accessibility Toolbar for Firefox
-    - <http://wave.webaim.org/toolbar>
+- TAW
+  - <http://www.tawdis.net/>
 
-- CynthiaSays
-    - <http://www.cynthiasays.com>
+- AChecker
+    - <http://achecker.ca/checker>
 
 ## Accesibilidad (II)
 
 - eXaminator
     - <http://examinator.ws>
 
-- AChecker
-    - <http://achecker.ca/checker>
+- CynthiaSays
+    - <http://www.cynthiasays.com>
 
 - Nibbler
     - <http://nibbler.silktide.com>
 
 ## Accesibilidad (III)
 
+- WAVE Web Accessibility Tool
+    - <http://wave.webaim.org>
+
+- WAVE Web Accessibility Toolbar for Firefox
+    - <http://wave.webaim.org/toolbar>
+
 - Tingtun Checker
     - <http://accessibility.tingtun.no/en/pagecheck2.0>
+
+## Accesibilidad (IV)
 
 - Functional Accessibility Evaluator
     - <http://fae20.cita.illinois.edu>
