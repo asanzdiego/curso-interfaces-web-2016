@@ -1,0 +1,23 @@
+div {
+    width: 550px;
+    height: 350px;
+    color: white;
+    background-color: red;
+    background-image: url(img/content-is-like-water.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 1%;
+    float: left;
+}
+br {
+    clear: both;
+}
+#bg1 {
+
+}
+#bg2 {
+
+}
+#bg {
+  
+}
