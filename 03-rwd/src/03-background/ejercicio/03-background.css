@@ -3,7 +3,6 @@ div {
     height: 350px;
     color: white;
     background-color: red;
-    background-image: url(img/content-is-like-water.jpg);
     background-position: top;
     background-repeat: no-repeat;
     margin: 1%;
@@ -12,12 +11,18 @@ div {
 br {
     clear: both;
 }
-#bg1 {
+.div1 {
+    background-image: url(img/disenio-fluido.jpg);
+}
+.div2 {
+    background-image: url(img/content-is-like-water.jpg);
+}
+.bg1 {
 
 }
-#bg2 {
+.bg2 {
 
 }
-#bg {
-  
+.bg {
+    
 }
