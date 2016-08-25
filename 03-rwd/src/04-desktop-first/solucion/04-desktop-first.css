@@ -12,7 +12,7 @@ nav {
 
 article {
   width: 70%;
-  height: 600px;
+  height: 500px;
   background-color: blue;
   float: left;
   padding: 1em;
@@ -41,7 +41,7 @@ aside {
 
 @media all and (max-width: 600px) {
   article {
-    height: 300px;
+    height: 200px;
     background-image: url(img/content-is-like-water-1.jpg);
     width: 100%;
   }

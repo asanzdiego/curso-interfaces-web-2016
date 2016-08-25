@@ -1,8 +1,9 @@
 div {
     width: 550px;
     height: 350px;
-    color: white;
-    background-color: red;
+    color: #777;
+    font-size: 2em;
+    background-color: yellow;
     background-position: top;
     background-repeat: no-repeat;
     margin: 1%;
@@ -11,18 +12,18 @@ div {
 br {
     clear: both;
 }
-.div1 {
+.img1 {
     background-image: url(img/disenio-fluido.jpg);
 }
-.div2 {
+.img2 {
     background-image: url(img/content-is-like-water.jpg);
 }
-.bg1 {
+.div1 {
 
 }
-.bg2 {
+.div2 {
 
 }
-.bg {
-    
+.div3 {
+
 }
