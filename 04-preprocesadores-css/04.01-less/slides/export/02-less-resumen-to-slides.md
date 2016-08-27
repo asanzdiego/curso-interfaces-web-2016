@@ -53,7 +53,7 @@
 
 - El CSS es así **más fácil de mantener, personalizable y extensible**.
 
-- Less (con respecto a otros pre-procesadores CSS) tiene una **sintaxis parecida a CSS**.
+- Less tiene una **sintaxis parecida a CSS**.
 
 ## Características
 
@@ -371,10 +371,10 @@ height: 100% / 2 + @other;
 ## Fuentes
 
 - Transparencias:
-    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-less/slides>
+    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/slides>
 
 - Código:
-    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-less/src>
+    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/src>
 
 ## Bibliografía
 
