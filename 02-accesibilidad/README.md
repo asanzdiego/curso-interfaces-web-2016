@@ -27,8 +27,8 @@ Alternativas:
 
 ## Enunciado ejercicios
 
-- [Enunciado ejercicios ODT](https://github.com/asanzdiego/curso-interfaces-web-2016/blob/master/02-accesibilidad/src/ejercicios-accesibilidad.odt)
-- [Enunciado ejercicios PDF](https://github.com/asanzdiego/curso-interfaces-web-2016/blob/master/02-accesibilidad/src/ejercicios-accesibilidad.pdf)
+- [Enunciado ejercicios ODT](https://github.com/asanzdiego/curso-interfaces-web-2016/raw/master/02-accesibilidad/src/ejercicios-accesibilidad.odt)
+- [Enunciado ejercicios PDF](https://github.com/asanzdiego/curso-interfaces-web-2016/raw/master/02-accesibilidad/src/ejercicios-accesibilidad.pdf)
 
 ## Solución ejercicios
 

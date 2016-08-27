@@ -24,8 +24,8 @@ Alternativas:
 
 ## Enunciado ejercicios
 
-- [Enunciado ejercicios ODT](https://github.com/asanzdiego/curso-interfaces-web-2016/blob/master/01-usabilidad/src/ejercicios-usabilidad.odt)
-- [Enunciado ejercicios PDF](https://github.com/asanzdiego/curso-interfaces-web-2016/blob/master/01-usabilidad/src/ejercicios-usabilidad.pdf)
+- [Enunciado ejercicios ODT](https://github.com/asanzdiego/curso-interfaces-web-2016/raw/master/01-usabilidad/src/ejercicios-usabilidad.odt)
+- [Enunciado ejercicios PDF](https://github.com/asanzdiego/curso-interfaces-web-2016/raw/master/01-usabilidad/src/ejercicios-usabilidad.pdf)
 
 ## Solución ejercicios
 

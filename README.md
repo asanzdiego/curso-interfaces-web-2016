@@ -47,11 +47,12 @@ En el [apartado de Responsive Web Design](https://github.com/asanzdiego/curso-in
 **Recursos**:
 
 - [Slides](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd#slides)
-- [Ejemplos](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd#ejemplos)
+- [Enunciado Ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd#enunciado-ejercicios)
+- [Solución Ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd#solución-ejercicios)
 
 ## LESS, un preprocesador CSS
 
-En el [apartado de LESS](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-less):
+En el [apartado de LESS](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less):
 
 - Veremos primero una breve introducción, contando **qué es 'LESS'** y cuales son sus **principales ventajas**.
 - Siguiendo con una explicación de las distintas formas con las que podemos **trabajar con 'LESS'**.
@@ -60,8 +61,8 @@ En el [apartado de LESS](https://github.com/asanzdiego/curso-interfaces-web-2016
 
 **Recursos**:
 
-- [Slides](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-less/#slides)
-- [Ejemplos](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-less/#ejemplos)
+- [Slides](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less#slides)
+- [Ejemplos](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less#ejemplos)
 
 ## Bootstrap, un framework CSS
 

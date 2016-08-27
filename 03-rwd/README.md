@@ -21,13 +21,16 @@ Alternativas:
 - [odt](http://asanzdiego.github.io/curso-interfaces-web-2016/03-rwd/slides/export/rwd.odt)
 - [md](http://asanzdiego.github.io/curso-interfaces-web-2016/03-rwd/slides/md/rwd.md)
 
-## Ejemplos
+## Enunciado ejercicios
 
-- [01-ejemplo-fluid-layout.html](https://asanzdiego.github.io/curso-interfaces-web-2014/03-rwd/src/test/01-ejemplo-fluid-layout.html)
-- [02-ejemplo-fluid-images.html](https://asanzdiego.github.io/curso-interfaces-web-2014/03-rwd/src/test/02-ejemplo-fluid-images.html)
-- [03-ejemplo-background.html](https://asanzdiego.github.io/curso-interfaces-web-2014/03-rwd/src/test/03-ejemplo-background.html)
-- [04-ejemplo-desktop-first.html](https://asanzdiego.github.io/curso-interfaces-web-2014/03-rwd/src/test/04-ejemplo-desktop-first.html)
-- [05-ejemplo-desktop-first-sin-media-queries.html](https://asanzdiego.github.io/curso-interfaces-web-2014/03-rwd/src/test/05-ejemplo-desktop-first-sin-media-queries.html)
-- [06-ejemplo-mobile-first.html](https://asanzdiego.github.io/curso-interfaces-web-2014/03-rwd/src/test/06-ejemplo-mobile-first.html)
-- [07-ejemplo-mobile-first-sin-media-queries.html](https://asanzdiego.github.io/curso-interfaces-web-2014/03-rwd/src/test/07-ejemplo-mobile-first-sin-media-queries.html)
+- [Enunciado ejercicios ODT](https://github.com/asanzdiego/curso-interfaces-web-2016/raw/master/03-rwd/src/ejercicios-rwd.odt)
+- [Enunciado ejercicios PDF](https://github.com/asanzdiego/curso-interfaces-web-2016/raw/master/03-rwd/src/ejercicios-rwd.pdf)
 
+## Solución ejercicios
+
+- [01-layout-fluido](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/src/01-layout-fluido)
+- [02-imagenes-fluidas](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/src/02-imagenes-fluidas)
+- [03-background](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/src/03-background)
+- [04-desktop-first](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/src/04-desktop-first)
+- [05-mobile-first](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/src/05-mobile-first)
+- [06-grid-css](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/src/06-grid-css)
