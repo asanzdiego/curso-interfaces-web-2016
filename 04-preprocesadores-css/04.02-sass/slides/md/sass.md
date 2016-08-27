@@ -55,6 +55,48 @@
 
 - Sass tiene una **sintaxis parecida a CSS**.
 
+- Es el preprocesador que usa Bootstrap 4.0.
+
+
+
+# Instalación
+
+
+
+## Instalar Ruby
+
+- Ubuntu:
+
+~~~
+sudo apt-get install ruby-full
+~~~
+
+- Windows: <http://rubyinstaller.org/>
+
+- Mac: incluido
+
+## Instalar Sass
+
+- Después de instalar Ruby, ejecutar
+
+~~~
+gem install sass
+~~~
+
+## Preprocesar
+
+- Un fichero
+
+~~~
+sass --watch input.scss:output.css
+~~~
+
+- Un directorio
+
+~~~
+sass --watch input/dir:output/dir
+~~~
+
 
 
 # Acerca de
@@ -81,3 +123,6 @@
 
 - Documentación oficial de Sass
     - <http://sass-lang.com/>
+
+- Para probar Sass
+    - <http://www.sassmeister.com/>

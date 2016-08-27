@@ -61,6 +61,8 @@
 
 - Además **existen muchas herramientas** que permiten compilar los archivos y ver los cambios en caliente.
 
+- Es el preprocesador que usa Bootstrap 3.0.
+
 
 
 # Usando Less
