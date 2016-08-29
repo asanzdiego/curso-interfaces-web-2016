@@ -99,6 +99,305 @@ sass --watch input/dir:output/dir
 
 
 
+# Características
+
+
+
+## Variables (I)
+
+- El siguiente código:
+
+~~~
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+~~~
+
+## Variables (II)
+
+- Se compila a:
+
+~~~
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+~~~
+
+
+
+## Scope
+
+- Los **ámbitos de las variables** en Sass es muy similar a otros lenguajes:
+
+~~~
+$var: red;
+
+#page {
+  $var: white;
+  #header {
+    color: $var; // white
+  }
+}
+~~~
+
+
+## Reglas anidadas (I)
+
+- El siguiente código:
+
+~~~
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+}
+~~~
+
+## Reglas anidadas (II)
+
+- Se compila a:
+
+~~~
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+~~~
+
+
+
+## Parciales
+
+- Es un archivo con un guión bajo:
+
+~~~
+_partial.scss
+~~~
+
+- Con esto Sass entiende que es un archivo parcial y que no debe generar CSS.
+
+
+
+## Imports (I)
+
+- Imaginemos el archivo **_reset.scss**:
+
+~~~
+html, body, ul {
+  margin: 0;
+  padding: 0;
+}
+~~~
+
+## Imports (II)
+
+- Y el archivo **base.scss**:
+
+~~~
+@import 'reset';
+
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: #efefef;
+}
+~~~
+
+## Imports (III)
+
+- Se compila a:
+
+~~~
+html, body, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: #efefef;
+}
+~~~
+
+
+
+## Mixins (I)
+
+- El siguiente código:
+
+~~~
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box {
+  @include border-radius(10px);
+}
+~~~
+
+## Mixins (I)
+
+- Se compila a:
+
+~~~
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+~~~
+
+
+
+## Extend (I)
+
+- El siguiente código:
+
+~~~
+.message {
+  color: #333;
+}
+.success {
+  @extend .message;
+  border-color: green;
+}
+.error {
+  @extend .message;
+  border-color: red;
+}
+~~~
+
+## Extend (I)
+
+- Se compila a:
+
+~~~
+.message, .success, .error, .warning {
+  color: #333;
+}
+.success {
+  border-color: green;
+}
+.error {
+  border-color: red;
+}
+~~~
+
+
+
+## Operadores (I)
+
+- El siguiente código:
+
+~~~
+article[role="main"] {
+  float: left;
+  width: 600px / 960px * 100%;
+}
+
+aside[role="complementary"] {
+  float: right;
+  width: 300px / 960px * 100%;
+}
+~~~
+
+## Operadores (I)
+
+- Se compila a:
+
+~~~
+article[role="main"] {
+  float: left;
+  width: 62.5%;
+}
+
+aside[role="complementary"] {
+  float: right;
+  width: 31.25%;
+}
+~~~
+
+
+
+## Funciones (I)
+
+- Sass dispone de una variedad de **funciones matemáticas, que manipulan cadenas, y que transforman los colores**:
+
+~~~
+@base: #f04615;
+@list: 200, 500, 1200;
+
+.class {
+  width: extract(@list, 3);
+  color: saturate(@base, 5%);
+  background-color:
+    lighten(@base, 25%);
+}
+~~~
+
+## Funciones (II)
+
+- El código anterior compila a:
+
+~~~
+.class {
+  width: 1200;
+  color: #f6430f;
+  background-color: #f8a58d;
+}
+~~~
+
+
+
+##  (I)
+
+- El siguiente código:
+
+~~~
+~~~
+
+## (I)
+
+- Se compila a:
+
+~~~
+~~~
+
+
+
+##  (I)
+
+- El siguiente código:
+
+~~~
+~~~
+
+## (I)
+
+- Se compila a:
+
+~~~
+~~~
+
+
+
 # Acerca de
 
 

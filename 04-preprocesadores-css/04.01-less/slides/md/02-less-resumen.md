@@ -276,7 +276,7 @@ height: 100% / 2 + @other;
 
 
 
-## Funciones
+## Funciones (I)
 
 - Less dispone de una variedad de **funciones matemáticas, que manipulan cadenas, y que transforman los colores**:
 
@@ -291,6 +291,19 @@ height: 100% / 2 + @other;
     lighten(@base, 25%);
 }
 ~~~
+
+## FUnciones (II)
+
+- El código anterior compila a:
+
+~~~
+.class {
+  width: 1200;
+  color: #f6430f;
+  background-color: #f8a58d;
+}
+~~~
+
 
 
 
@@ -356,6 +369,7 @@ height: 100% / 2 + @other;
 // foo.css imported as a css file
 @import "foo.css";
 ~~~
+
 
 
 # Acerca de
