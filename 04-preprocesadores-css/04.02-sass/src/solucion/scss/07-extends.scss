@@ -1,18 +1,17 @@
-// hacerlo mediante extends
 .animal {
     background-color: black;
     color: white;
 }
 .leon {
+    &:extend(.animal);
     background-color: red;
-    color: white;
 }
 .pinguino {
+    &:extend(.animal);
     background-color: blue;
-    color: white;
 }
 .tux {
-    background-color: black;
+    &:extend(.pinguino);
     color: orange;
     font-weight: bold;
 }

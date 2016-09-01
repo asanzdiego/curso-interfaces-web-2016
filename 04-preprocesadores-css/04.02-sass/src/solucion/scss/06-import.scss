@@ -1,7 +1,7 @@
 @import "05-namespaces.less";
-div {
+h1 {
 	.claro;
 }
 p {
-	#minamespace > .claro;
+	#minamespace > .oscuro;
 }
