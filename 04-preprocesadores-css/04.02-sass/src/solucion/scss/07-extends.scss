@@ -3,15 +3,15 @@
     color: white;
 }
 .leon {
-    &:extend(.animal);
+    @extend .animal;
     background-color: red;
 }
 .pinguino {
-    &:extend(.animal);
+    @extend .animal;
     background-color: blue;
 }
 .tux {
-    &:extend(.pinguino);
+    @extend .pinguino;
     color: orange;
     font-weight: bold;
 }

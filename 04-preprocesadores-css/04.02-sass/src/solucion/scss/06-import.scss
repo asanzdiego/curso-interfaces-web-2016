@@ -1,7 +1,9 @@
-@import "05-namespaces.less";
+@import "_grid_width";
 h1 {
-	.claro;
+	width: grid-width(10);
+	background: red;
 }
 p {
-	#minamespace > .oscuro;
+	width: grid-width(5);
+	background: green;
 }
