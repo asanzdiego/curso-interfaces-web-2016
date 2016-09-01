@@ -117,7 +117,7 @@
 <ul>
 <li>Después de instalar Ruby, ejecutar</li>
 </ul>
-<pre><code>gem install sass</code></pre>
+<pre><code>sudo gem install sass</code></pre>
 <h2 id="preprocesar"><span class="header-section-number">3.3</span> Preprocesar</h2>
 <ul>
 <li>Un fichero</li>
@@ -404,14 +404,14 @@ aside[role=&quot;complementary&quot;] {
 <ul>
 <li>Sass dispone de una variedad de <strong>funciones matemáticas, que manipulan cadenas, y que transforman los colores</strong>:</li>
 </ul>
-<pre><code>@base: #f04615;
-@list: 200, 500, 1200;
+<pre><code>$base: #f04615;
+$list: 200, 500, 1200;
 
 .class {
-  width: extract(@list, 3);
-  color: saturate(@base, 5%);
+  width: nth($list, 3);
+  color: saturate($base, 5%);
   background-color:
-    lighten(@base, 25%);
+    lighten($base, 25%);
 }</code></pre>
 <ul>
 <li>Se compila a:</li>

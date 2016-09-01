@@ -19,11 +19,11 @@ Principal:
 
 Alternativas:
 
-- [deck](http://asanzdiego.github.io/curso-interfaces-web-2016/01-accesibilidad/slides/export/accesibilidad-deck-slides.html)
-- [reveal](http://asanzdiego.github.io/curso-interfaces-web-2016/01-accesibilidad/slides/export/accesibilidad-reveal-slides.html)
-- [html](http://asanzdiego.github.io/curso-interfaces-web-2016/01-accesibilidad/slides/export/accesibilidad.html)
-- [odt](http://asanzdiego.github.io/curso-interfaces-web-2016/01-accesibilidad/slides/export/accesibilidad.odt)
-- [md](http://asanzdiego.github.io/curso-interfaces-web-2016/01-accesibilidad/slides/md/accesibilidad.md)
+- [deck](http://asanzdiego.github.io/curso-interfaces-web-2016/01-accesibilidad/slides/export/01-accesibilidad-deck-slides.html)
+- [reveal](http://asanzdiego.github.io/curso-interfaces-web-2016/01-accesibilidad/slides/export/01-accesibilidad-reveal-slides.html)
+- [html](http://asanzdiego.github.io/curso-interfaces-web-2016/01-accesibilidad/slides/export/01-accesibilidad.html)
+- [odt](http://asanzdiego.github.io/curso-interfaces-web-2016/01-accesibilidad/slides/export/01-accesibilidad.odt)
+- [md](http://asanzdiego.github.io/curso-interfaces-web-2016/01-accesibilidad/slides/md/01-accesibilidad.md)
 
 ## Enunciado ejercicios
 

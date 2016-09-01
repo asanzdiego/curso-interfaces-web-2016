@@ -15,18 +15,13 @@ Principal:
 
 Alternativas:
 
-- [deck](http://asanzdiego.github.io/curso-interfaces-web-2016/04-preprocesadores-css/04.01-less/slides/export/less-deck-slides.html)
-- [reveal](http://asanzdiego.github.io/curso-interfaces-web-2016/04-preprocesadores-css/04.01-less/slides/export/less-reveal-slides.html)
-- [html](http://asanzdiego.github.io/curso-interfaces-web-2016/04-preprocesadores-css/04.01-less/slides/export/less.html)
-- [odt](http://asanzdiego.github.io/curso-interfaces-web-2016/04-preprocesadores-css/04.01-less/slides/export/less.odt)
-- [md](http://asanzdiego.github.io/curso-interfaces-web-2016/04-preprocesadores-css/04.01-less/slides/md/less.md)
+- [deck](http://asanzdiego.github.io/curso-interfaces-web-2016/04-preprocesadores-css/04.01-less/slides/export/01-less-deck-slides.html)
+- [reveal](http://asanzdiego.github.io/curso-interfaces-web-2016/04-preprocesadores-css/04.01-less/slides/export/01-less-reveal-slides.html)
+- [html](http://asanzdiego.github.io/curso-interfaces-web-2016/04-preprocesadores-css/04.01-less/slides/export/01-less.html)
+- [odt](http://asanzdiego.github.io/curso-interfaces-web-2016/04-preprocesadores-css/04.01-less/slides/export/01-less.odt)
+- [md](http://asanzdiego.github.io/curso-interfaces-web-2016/04-preprocesadores-css/04.01-less/slides/md/01-less.md)
 
-## Ejemplos
+## Ejercicios
 
-- [01-less.less](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/src/css/less/01-less.less)
-- [02-mixins.less](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/src/css/less/02-mixins.less)
-- [03-reglas-anidadas.less](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/src/css/less/03-reglas-anidadas.less)
-- [04-funciones-operadores.less](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/src/css/less/04-funciones-operadores.less)
-- [05-namespaces.less](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/src/css/less/05-namespaces.less)
-- [06-import.less](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/src/css/less/06-import.less)
-- [07-extends.less](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/src/css/less/07-extends.less)
+- [Enunciado Ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/src/ejercicios)
+- [Solución Ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/src/solucion)

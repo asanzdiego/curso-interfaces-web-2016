@@ -80,7 +80,7 @@ sudo apt-get install ruby-full
 - Después de instalar Ruby, ejecutar
 
 ~~~
-gem install sass
+sudo gem install sass
 ~~~
 
 ## Preprocesar
@@ -490,14 +490,14 @@ aside[role="complementary"] {
 - Sass dispone de una variedad de **funciones matemáticas, que manipulan cadenas, y que transforman los colores**:
 
 ~~~
-@base: #f04615;
-@list: 200, 500, 1200;
+$base: #f04615;
+$list: 200, 500, 1200;
 
 .class {
-  width: extract(@list, 3);
-  color: saturate(@base, 5%);
+  width: nth($list, 3);
+  color: saturate($base, 5%);
   background-color:
-    lighten(@base, 25%);
+    lighten($base, 25%);
 }
 ~~~
 

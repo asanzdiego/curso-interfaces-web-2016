@@ -16,11 +16,11 @@ Principal:
 
 Alternativas:
 
-- [deck](http://asanzdiego.github.io/curso-interfaces-web-2016/01-usabilidad/slides/export/usabilidad-deck-slides.html)
-- [reveal](http://asanzdiego.github.io/curso-interfaces-web-2016/01-usabilidad/slides/export/usabilidad-reveal-slides.html)
-- [html](http://asanzdiego.github.io/curso-interfaces-web-2016/01-usabilidad/slides/export/usabilidad.html)
-- [odt](http://asanzdiego.github.io/curso-interfaces-web-2016/01-usabilidad/slides/export/usabilidad.odt)
-- [md](http://asanzdiego.github.io/curso-interfaces-web-2016/01-usabilidad/slides/md/usabilidad.md)
+- [deck](http://asanzdiego.github.io/curso-interfaces-web-2016/01-usabilidad/slides/export/01-usabilidad-deck-slides.html)
+- [reveal](http://asanzdiego.github.io/curso-interfaces-web-2016/01-usabilidad/slides/export/01-usabilidad-reveal-slides.html)
+- [html](http://asanzdiego.github.io/curso-interfaces-web-2016/01-usabilidad/slides/export/01-usabilidad.html)
+- [odt](http://asanzdiego.github.io/curso-interfaces-web-2016/01-usabilidad/slides/export/01-usabilidad.odt)
+- [md](http://asanzdiego.github.io/curso-interfaces-web-2016/01-usabilidad/slides/md/01-usabilidad.md)
 
 ## Enunciado ejercicios
 

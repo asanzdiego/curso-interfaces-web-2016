@@ -62,7 +62,7 @@ En el [apartado de LESS](https://github.com/asanzdiego/curso-interfaces-web-2016
 **Recursos**:
 
 - [Slides](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less#slides)
-- [Ejemplos](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less#ejemplos)
+- [Ejemplos](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less#ejercicios)
 
 ## Bootstrap, un framework CSS
 

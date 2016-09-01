@@ -139,7 +139,7 @@
 <ul>
 <li>Después de instalar Ruby, ejecutar</li>
 </ul>
-<pre><code>gem install sass</code></pre>
+<pre><code>sudo gem install sass</code></pre>
 </section><section id="preprocesar" class="slide level2">
 <h2><span class="header-section-number">3.3</span> Preprocesar</h2>
 <ul>
@@ -465,14 +465,14 @@ aside[role=&quot;complementary&quot;] {
 <ul>
 <li>Sass dispone de una variedad de <strong>funciones matemáticas, que manipulan cadenas, y que transforman los colores</strong>:</li>
 </ul>
-<pre><code>@base: #f04615;
-@list: 200, 500, 1200;
+<pre><code>$base: #f04615;
+$list: 200, 500, 1200;
 
 .class {
-  width: extract(@list, 3);
-  color: saturate(@base, 5%);
+  width: nth($list, 3);
+  color: saturate($base, 5%);
   background-color:
-    lighten(@base, 25%);
+    lighten($base, 25%);
 }</code></pre>
 </section><section id="funciones-ii" class="slide level2">
 <h2><span class="header-section-number">4.27</span> Funciones (II)</h2>
@@ -638,6 +638,7 @@ p {
       // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
+transition: 'convex',
 
         menu: {
             // Specifies which side of the presentation the menu will
