@@ -45,10 +45,10 @@
             <legend>Información personal</legend>
 
             <label for="nombre" tabindex="1">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" autofocus="true" required="true" />
+            <input type="text" id="nombre" name="nombre" autofocus required />
 
             <label for="correo" tabindex="2">Correo Electrónico:</label>
-            <input type="email" id="correo" name="correo" required="true" />
+            <input type="email" id="correo" name="correo" required />
 
             <label for="web" tabindex="3">Página personal:</label>
             <input type="url" id="web" name="web" placeholder="URL de tu página web personal" />
@@ -105,40 +105,23 @@
     <h2>Imágenes - Ejemplo bien</h2>
 
     <p>
-        <a href="anterior.html"><img src="./img/flecha-izq.gif" alt="Anterior" /></a>
-        <a href="indice.html">Índice</a>
-        <a href="siguiente.html"><img src="./img/flecha-der.gif" alt="Siguiente" /></a>
+        <a href="#"><img src="./img/flecha-izq.gif" alt="Anterior" /></a>
+        <a href="#">Índice</a>
+        <a href="#"><img src="./img/flecha-der.gif" alt="Siguiente" /></a>
     </p>
 
-    <p>
-        Menu:
-        <ul>
-            <li><a href="unete.html">Únete</a></li>
-            <li><a href="equipo.html">Equipo</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="siguenos.html">Síguenos</a></li>
-        </ul>
-    </p>
+    <p>Menu:</p>
+
+    <ul>
+        <li><a href="#">Únete</a></li>
+        <li><a href="#">Equipo</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Síguenos</a></li>
+    </ul>
 
     <p>
         Teléfono de contacto: <strong>999123456</strong>
     </p>
-
-    <hr>
-    <h2>Mapas de imágenes - Ejemplo bien</h2>
-
-    <object type="image/jpg" data="./img/img-map-area.png" width="948" height="480" border="0" usemap="#map1">
-        <map name="map1">
-            <p>Navegar por este sitio:
-                <a shape="rect" coords="18,25,221,63" href="index.html">Inicio</a>
-                <a shape="rect" coords="337,40,396,64" href="unete.html">Unete</a>
-                <a shape="rect" coords="424,40,491,65" href="equipo.html">Equipo</a>
-                <a shape="rect" coords="520,41,612,64" href="contacto.html">Contacto</a>
-                <a shape="rect" coords="641,40,728,65" href="siguenos.html">Siguenos</a>
-                <a shape="rect" coords="16,344,400,397" href="meetup.html">Meetup</a>
-            </p>
-        </map>
-    </object>
 
     <hr />
 
@@ -147,14 +130,14 @@
     <h3>A mi hija mayor se le ha caido su primer diente</h3>
 
     <p>Estabamos desayunando cuando de repente sucedió.
-        <a href="noticia-hija-mayor.html">Más información<span class="sronly"> sobre
+        <a href="#">Más información<span class="sronly"> sobre
     la noticia titulada "A mi hija mayor se le ha caido
     su primer diente"</span>.</a></p>
 
     <h3>A mi hija pequeña le ha salido su primera muela</h3>
 
     <p>Después de comer, la pequeña dijo que le molestaba la boca.
-        <a href="noticia-hija-mayor.html">Más información<span class="sronly"> sobre
+        <a href="#">Más información<span class="sronly"> sobre
     la noticia titulada "A mi hija pequeña le ha salido
     su primera muela"</span>.</a></p>
 
@@ -197,8 +180,10 @@
 
     <h2>Tablas - Ejemplo bien</h2>
 
-    <table summary="Tabla de 5 columnas (días de la semana) y 4 filas (horas)." border="1">
-        <caption>Horario de clase</caption>
+    <table aria-describedby="table-summary" border="1">
+        <caption>Horario de clase
+          <p id="table-summary">Column one has the location and size of accommodation, other columns show the type and number of properties available.</p>
+        </caption>
         <thead>
             <tr>
                 <th id="vacio" scope="col"></th>
@@ -260,12 +245,12 @@
             <legend>Formulario de entrada</legend>
             <div>
                 <label for="username" class="etiqueta">Usuario</label>
-                <input type="text" id="username" aria-describedby="username-tip" required="true" />
+                <input type="text" id="username" aria-describedby="username-tip" required />
                 <div class="tooltip" role="tooltip" id="username-tip">Tu usuario es tu mail</div>
             </div>
             <div>
                 <label for="password" class="etiqueta">Contraseña</label>
-                <input type="text" id="password" aria-describedby="password-tip" required="true" />
+                <input type="text" id="password" aria-describedby="password-tip" required />
                 <div class="tooltip" role="tooltip" id="password-tip">Tu contraseña es secreta</div>
             </div>
             <input type="submit" name="enviar" value="Enviar" />
@@ -296,8 +281,8 @@
         <li role="presentation"><a id="tab1" href="#section1" tabindex="0" class="tab selected" role="tab" aria-controls="section1" aria-selected="true">Sección 1</a></li>
         <li role="presentation"><a id="tab2" href="#section2" tabindex="-1" class="tab" role="tab" aria-controls="section2">Sección 2</a></li>
     </ul>
-    <section id="section1" class="tabpanel" role="tabpanel">Este es el cuerpo de la sección UNO</section>
-    <section id="section2" class="tabpanel hidden" role="tabpanel" aria-hidden="true">Este es el cuerpo de la sección DOS</section>
+    <div id="section1" class="tabpanel" role="tabpanel">Este es el cuerpo de la sección UNO</div>
+    <div id="section2" class="tabpanel hidden" role="tabpanel" aria-hidden="true">Este es el cuerpo de la sección DOS</div>
 
     <script src="lib/jquery.js"></script>
     <script src="js/scripts.js"></script>

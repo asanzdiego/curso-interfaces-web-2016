@@ -121,7 +121,7 @@
 </ul></li>
 <li><a href="#imágenes-y-animaciones"><span class="toc-section-number">12</span> Imágenes y animaciones</a><ul>
 <li><a href="#use-el-atributo-alt"><span class="toc-section-number">12.1</span> Use el atributo alt</a></li>
-<li><a href="#auda-a-los-usuarios"><span class="toc-section-number">12.2</span> Auda a los usuarios</a></li>
+<li><a href="#ayuda-a-los-usuarios"><span class="toc-section-number">12.2</span> Ayuda a los usuarios</a></li>
 <li><a href="#no-especificar-texto-alternativo"><span class="toc-section-number">12.3</span> No especificar texto alternativo</a></li>
 <li><a href="#ejemplo-de-página-con-imágenes"><span class="toc-section-number">12.4</span> Ejemplo de página con imágenes</a></li>
 <li><a href="#mal-uso-de-alt"><span class="toc-section-number">12.5</span> Mal uso de alt</a></li>
@@ -783,7 +783,7 @@
 <ul>
 <li>Para describir la función de cada elemento visual (<strong>IMG, AREA, APPLET e INPUT</strong>).</li>
 </ul>
-<h2 id="auda-a-los-usuarios"><span class="header-section-number">12.2</span> Auda a los usuarios</h2>
+<h2 id="ayuda-a-los-usuarios"><span class="header-section-number">12.2</span> Ayuda a los usuarios</h2>
 <ul>
 <li>El <strong>texto alternativo</strong> ayuda a los usuarios:
 <ul>
@@ -808,25 +808,21 @@
 <li>Mal uso de alt cuando <strong>describe imagen en vez de su función</strong></li>
 </ul>
 <pre><code>&lt;a href=&quot;anterior.html&quot;&gt;
-  &lt;img src=&quot;./img/flecha-izq.gif&quot;
-    alt=&quot;Flecha roja izquierda&quot; &gt;&lt;/a&gt;
+  &lt;img src=&quot;./img/flecha-izq.gif&quot; alt=&quot;Flecha roja izquierda&quot; &gt;&lt;/a&gt;
 &lt;a href=&quot;indice.html&quot;&gt;Índice&lt;/a&gt;
 &lt;a href=&quot;siguiente.html&quot;&gt;
-  &lt;img src=&quot;./img/flecha-der.gif&quot;
-    alt=&quot;Flecha roja derecha&quot; &gt;&lt;/a&gt;</code></pre>
+  &lt;img src=&quot;./img/flecha-der.gif&quot; alt=&quot;Flecha roja derecha&quot; &gt;&lt;/a&gt;</code></pre>
 <ul>
 <li>Mal uso de alt cuando <strong>se usa en imágenes decorativas</strong></li>
 </ul>
 <pre><code>&lt;a href=&quot;unete.html&quot;&gt;
-  &lt;img src=&quot;./img/logo.png&quot;
-    alt=&quot;Únete&quot; /&gt;Únete&lt;/a&gt;</code></pre>
+  &lt;img src=&quot;./img/logo.png&quot; alt=&quot;Únete&quot; /&gt;Únete&lt;/a&gt;</code></pre>
 <ul>
 <li>Mal uso de alt cuando <strong>no aporta nada útil</strong></li>
 </ul>
 <pre><code>&lt;p&gt;
   Teléfono de contacto:
-  &lt;img src=&quot;./img/telefono.gif&quot;
-    alt=&quot;Teléfono de contacto&quot; /&gt;
+  &lt;img src=&quot;./img/telefono.gif&quot; alt=&quot;Teléfono de contacto&quot; /&gt;
 &lt;/p&gt;</code></pre>
 <h2 id="fangs-mal"><span class="header-section-number">12.6</span> Fangs mal</h2>
 <ul>
@@ -858,25 +854,21 @@
 <li>Buen uso de alt cuando <strong>describe la función de una imagen</strong></li>
 </ul>
 <pre><code>&lt;a href=&quot;anterior.html&quot;&gt;
-  &lt;img src=&quot;./img/flecha-izq.gif&quot;
-    alt=&quot;Anterior&quot; &gt;&lt;/a&gt;
+  &lt;img src=&quot;./img/flecha-izq.gif&quot; alt=&quot;Anterior&quot; &gt;&lt;/a&gt;
 &lt;a href=&quot;indice.html&quot;&gt;Índice&lt;/a&gt;
 &lt;a href=&quot;siguiente.html&quot;&gt;
-  &lt;img src=&quot;./img/flecha-der.gif&quot;
-    alt=&quot;Siguiente&quot; &gt;&lt;/a&gt;</code></pre>
+  &lt;img src=&quot;./img/flecha-der.gif&quot; alt=&quot;Siguiente&quot; &gt;&lt;/a&gt;</code></pre>
 <ul>
 <li>Buen uso de alt cuando <strong>está vacío en imágenes decorativas</strong></li>
 </ul>
 <pre><code>&lt;a href=&quot;unete.html&quot;&gt;
-  &lt;img src=&quot;./img/logo.png&quot;
-    alt=&quot;&quot; /&gt;Únete&lt;/a&gt;</code></pre>
+  &lt;img src=&quot;./img/logo.png&quot; alt=&quot;&quot; /&gt;Únete&lt;/a&gt;</code></pre>
 <ul>
 <li>Buen uso de alt cuando <strong>el texto es útil</strong></li>
 </ul>
 <pre><code>&lt;p&gt;
   Teléfono de contacto:
-  &lt;img src=&quot;./img/telefono.gif&quot;
-    alt=&quot;999123456&quot; /&gt;
+  &lt;img src=&quot;./img/telefono.gif&quot; alt=&quot;999123456&quot; /&gt;
 &lt;/p&gt;</code></pre>
 <h2 id="fangs-mejor"><span class="header-section-number">12.10</span> Fangs mejor</h2>
 <ul>
@@ -949,8 +941,7 @@
 <ul>
 <li>Uutiliza la etiqueta &lt;object&gt;</li>
 </ul>
-<pre><code>&lt;object data=&quot;img.png&quot;
- type=&quot;image/jpg&quot; usemap=&quot;#map1&quot; &gt;
+<pre><code>&lt;object data=&quot;img.png&quot; type=&quot;image/jpg&quot; usemap=&quot;#map1&quot; &gt;
  &lt;map name=&quot;map1&quot; id=&quot;map1&quot;&gt;
   &lt;p&gt;Navegar por este sitio:
     &lt;a href=&quot;index.html&quot;&gt;Inicio&lt;/a&gt;</code></pre>
@@ -1252,7 +1243,9 @@ a:hover span:before, a:focus span:before, a:active span:before {
 <pre><code>&lt;img src=&quot;./img/disenio-centrado-usuario.png&quot;
   alt=&quot;Diagrama de Diseño Centrado en el Usuario&quot;
   longdesc=&quot;#descripcion1&quot; &gt;
-&lt;span id=&quot;descripcion1&quot;&gt;El Diseño Centrado en el usuario tiene varias fases: planificación, diseño, prototipado, evaluación, implementación y lanzamiento, mantenimiento y seguimiento&lt;/span&gt;</code></pre>
+&lt;span id=&quot;descripcion1&quot;&gt;El Diseño Centrado en el usuario tiene varias fases:
+planificación, diseño, prototipado, evaluación,
+implementación y lanzamiento, mantenimiento y seguimiento&lt;/span&gt;</code></pre>
 <h2 id="ejemplo-bien-css-1"><span class="header-section-number">17.4</span> Ejemplo bien (CSS)</h2>
 <pre><code>span {
   position: absolute;

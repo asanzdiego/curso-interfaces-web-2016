@@ -75,11 +75,11 @@ ul.tablist li {
     display: inline-block;
     list-style: none;
 }
-section.tabpanel {
+div.tabpanel {
     margin-top: 0;
     padding: 1.5em;
     border: 1px solid #333;
 }
-section.tabpanel:focus {
+div.tabpanel:focus {
     background: #eee;
 }

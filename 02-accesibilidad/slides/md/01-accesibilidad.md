@@ -634,7 +634,7 @@
 
 - Para describir la función de cada elemento visual (**IMG, AREA, APPLET e INPUT**).
 
-## Auda a los usuarios
+## Ayuda a los usuarios
 
 - El **texto alternativo** ayuda a los usuarios:
     - que no tengan terminales gráficas,
@@ -661,12 +661,10 @@
 
 ~~~
 <a href="anterior.html">
-  <img src="./img/flecha-izq.gif"
-    alt="Flecha roja izquierda" ></a>
+  <img src="./img/flecha-izq.gif" alt="Flecha roja izquierda" ></a>
 <a href="indice.html">Índice</a>
 <a href="siguiente.html">
-  <img src="./img/flecha-der.gif"
-    alt="Flecha roja derecha" ></a>
+  <img src="./img/flecha-der.gif" alt="Flecha roja derecha" ></a>
 ~~~
 
 ## Mal uso de alt (II)
@@ -675,8 +673,7 @@
 
 ~~~
 <a href="unete.html">
-  <img src="./img/logo.png"
-    alt="Únete" />Únete</a>
+  <img src="./img/logo.png" alt="Únete" />Únete</a>
 ~~~
 
 ## Mal uso de alt (III)
@@ -686,8 +683,7 @@
 ~~~
 <p>
   Teléfono de contacto:
-  <img src="./img/telefono.gif"
-    alt="Teléfono de contacto" />
+  <img src="./img/telefono.gif" alt="Teléfono de contacto" />
 </p>
 ~~~
 
@@ -719,12 +715,10 @@
 
 ~~~
 <a href="anterior.html">
-  <img src="./img/flecha-izq.gif"
-    alt="Anterior" ></a>
+  <img src="./img/flecha-izq.gif" alt="Anterior" ></a>
 <a href="indice.html">Índice</a>
 <a href="siguiente.html">
-  <img src="./img/flecha-der.gif"
-    alt="Siguiente" ></a>
+  <img src="./img/flecha-der.gif" alt="Siguiente" ></a>
 ~~~
 
 ## Buen uso de alt (II)
@@ -733,8 +727,7 @@
 
 ~~~
 <a href="unete.html">
-  <img src="./img/logo.png"
-    alt="" />Únete</a>
+  <img src="./img/logo.png" alt="" />Únete</a>
 ~~~
 
 ## Buen uso de alt (III)
@@ -744,8 +737,7 @@
 ~~~
 <p>
   Teléfono de contacto:
-  <img src="./img/telefono.gif"
-    alt="999123456" />
+  <img src="./img/telefono.gif" alt="999123456" />
 </p>
 ~~~
 
@@ -842,8 +834,7 @@ strong {
 - Uutiliza la etiqueta \<object\>
 
 ~~~
-<object data="img.png"
- type="image/jpg" usemap="#map1" >
+<object data="img.png" type="image/jpg" usemap="#map1" >
  <map name="map1" id="map1">
   <p>Navegar por este sitio:
     <a href="index.html">Inicio</a>
@@ -1265,7 +1256,9 @@ a:hover span:before, a:focus span:before, a:active span:before {
 <img src="./img/disenio-centrado-usuario.png"
   alt="Diagrama de Diseño Centrado en el Usuario"
   longdesc="#descripcion1" >
-<span id="descripcion1">El Diseño Centrado en el usuario tiene varias fases: planificación, diseño, prototipado, evaluación, implementación y lanzamiento, mantenimiento y seguimiento</span>
+<span id="descripcion1">El Diseño Centrado en el usuario tiene varias fases:
+planificación, diseño, prototipado, evaluación,
+implementación y lanzamiento, mantenimiento y seguimiento</span>
 ~~~
 
 ## Ejemplo bien (CSS)

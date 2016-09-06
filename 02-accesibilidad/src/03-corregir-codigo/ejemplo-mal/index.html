@@ -42,10 +42,10 @@
         <p><strong>Información personal</strong></p>
         Nombre:
         <br />
-        <input type="text" required="true" />
+        <input type="text" required />
         <br />Correo Electrónico:
         <br />
-        <input type="email" required="true" />
+        <input type="email" required />
         <br />Página personal:
         <br />
         <input type="url" placeholder="URL de tu página web personal" />
@@ -93,40 +93,25 @@
     <h2>Imágenes - Ejemplo mal</h2>
 
     <p>
-        <a href="anterior.html"><img src="./img/flecha-izq.gif" alt="Flecha roja que apunta a la izquierda" /></a>
-        <a href="indice.html">Índice</a>
-        <a href="siguiente.html"><img src="./img/flecha-der.gif" alt="Flecha roja que apunta a la derecha" /></a>
+        <a href="#"><img src="./img/flecha-izq.gif" alt="Flecha roja que apunta a la izquierda" /></a>
+        <a href="#">Índice</a>
+        <a href="#"><img src="./img/flecha-der.gif" alt="Flecha roja que apunta a la derecha" /></a>
     </p>
 
     <p>
         Menu:
         <br />
         <br />
-        <a href="unete.html"><img src="./img/logo.png" alt="Únete" />Únete</a>
+        <a href="#"><img src="./img/logo.png" alt="Únete" />Únete</a>
         <br />
-        <a href="equipo.html"><img src="./img/logo.png" alt="Equipo" />Equipo</a>
+        <a href="#"><img src="./img/logo.png" alt="Equipo" />Equipo</a>
         <br />
-        <a href="contacto.html"><img src="./img/logo.png" alt="Contacto" />Contacto</a>
+        <a href="#"><img src="./img/logo.png" alt="Contacto" />Contacto</a>
         <br />
-        <a href="siguenos.html"><img src="./img/logo.png" alt="Síguenos" />Síguenos</a>
+        <a href="#"><img src="./img/logo.png" alt="Síguenos" />Síguenos</a>
     </p>
 
     <p>Teléfono de contacto:<img src="./img/telefono.gif" alt="Teléfono de contacto" /></p>
-
-    <hr>
-
-    <h2>Mapas de imágenes - Ejemplo mal</h2>
-
-    <img src="./img/img-map-area.png" width="948" height="480" border="0" usemap="#map1" />
-
-    <map name="map1">
-        <area shape="rect" coords="18,25,221,63" href="index.html" alt="Inicio" />
-        <area shape="rect" coords="337,40,396,64" href="unete.html" alt="Unete" />
-        <area shape="rect" coords="424,40,491,65" href="equipo.html" alt="Equipo" />
-        <area shape="rect" coords="520,41,612,64" href="contacto.html" alt="Contacto" />
-        <area shape="rect" coords="641,40,728,65" href="siguenos.html" alt="Siguenos" />
-        <area shape="rect" coords="16,344,400,397" href="meetup.html" alt="Meetup" />
-    </map>
 
     <hr />
 
@@ -135,12 +120,12 @@
     <h3>A mi hija mayor se le ha caido su primer diente</h3>
 
     <p>Estabamos desayunando cuando de repente sucedió.
-        <a href="noticia-hija-mayor.html">Más información.</a></p>
+        <a href="#">Más información.</a></p>
 
     <h3>A mi hija pequeña le ha salido su primera muela</h3>
 
     <p>Después de comer, la pequeña dijo que le molestaba la boca.
-        <a href="noticia-hija-mayor.html">Más información.</a></p>
+        <a href="#">Más información.</a></p>
 
     <hr />
 
@@ -237,12 +222,12 @@
             <legend>Formulario de entrada</legend>
             <div>
                 <label for="username" class="etiqueta">Usuario</label>
-                <input type="text" id="username" required="true" />
+                <input type="text" id="username" required />
                 <div class="tooltip">Tu usuario es tu mail</div>
             </div>
             <div>
                 <label for="password" class="etiqueta">Contraseña</label>
-                <input type="text" id="password" required="true" />
+                <input type="text" id="password" required />
                 <div class="tooltip">Tu contraseña es secreta</div>
             </div>
             <button type="button">Enviar</button>
@@ -274,8 +259,8 @@
         <li><a id="tab1" href="#section1" class="tab selected">Sección 1</a></li>
         <li><a id="tab2" href="#section2" class="tab">Sección 2</a></li>
     </ul>
-    <section id="section1" class="tabpanel">Este es el cuerpo de la sección UNO</section>
-    <section id="section2" class="tabpanel hidden">Este es el cuerpo de la sección DOS</section>
+    <div id="section1" class="tabpanel">Este es el cuerpo de la sección UNO</div>
+    <div id="section2" class="tabpanel hidden">Este es el cuerpo de la sección DOS</div>
 
     <script src="lib/jquery.js"></script>
     <script src="js/scripts.js"></script>

@@ -194,7 +194,7 @@
 
 - Para describir la función de cada elemento visual (**IMG, AREA, APPLET e INPUT**).
 
-## Auda a los usuarios
+## Ayuda a los usuarios
 
 - El **texto alternativo** ayuda a los usuarios:
     - que no tengan terminales gráficas,
