@@ -1,4 +1,4 @@
-# Curso de Diseño de Interfaces Responsive Web Design Usables y Accesibles con LESS y Bootstrap
+# Curso de Diseño de Interfaces Responsive Web Design Usables y Accesibles con SASS y Bootstrap
 
 ## Usabilidad, tan de moda hoy en día
 
@@ -15,6 +15,8 @@ En el [apartado de usabilidad](https://github.com/asanzdiego/curso-interfaces-we
 - [Slides](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad#slides)
 - [Enunciado Ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad#enunciado-ejercicios)
 - [Solución Ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad#solución-ejercicios)
+
+
 
 ## Accesibilidad, esa gran olvidada
 
@@ -35,6 +37,8 @@ En el [apartado de accesibilidad](https://github.com/asanzdiego/curso-interfaces
 - [Enunciado Ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad#enunciado-ejercicios)
 - [Solución Ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad#solución-ejercicios)
 
+
+
 ## Responsive Web Design (Diseño Web Adaptable)
 
 En el [apartado de Responsive Web Design](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd):
@@ -50,19 +54,23 @@ En el [apartado de Responsive Web Design](https://github.com/asanzdiego/curso-in
 - [Enunciado Ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd#enunciado-ejercicios)
 - [Solución Ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd#solución-ejercicios)
 
-## LESS, un preprocesador CSS
 
-En el [apartado de LESS](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less):
 
-- Veremos primero una breve introducción, contando **qué es 'LESS'** y cuales son sus **principales ventajas**.
-- Siguiendo con una explicación de las distintas formas con las que podemos **trabajar con 'LESS'**.
-- Después se hace un breve resumen de las principales características, entrando seguidamente a explicar con más detalle cada una de ellas: **variables, extends, mixins, mixins paramétricos, mixins condicionales, merges, ...**
-- Para terminar, se enumeran las **distintas funciones** que posee LESS, ya sean de numéricas, de texto o relacionadas con el color.
+# SASS, un preprocesador CSS
+
+En este apartado:
+
+- Veremos primero una breve introducción, contando **qué es 'SASS'** y cuales son sus **principales ventajas**.
+- Siguiendo como **instalar y ejecutar 'SASS'**.
+- Después se hace un breve resumen de las principales características: **variables, extends, mixins, imports, ...**.
 
 **Recursos**:
 
-- [Slides](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less#slides)
-- [Ejemplos](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less#ejercicios)
+- [Slides](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.02-sass#slides)
+- [Enunciado Ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.02-sass#enunciado-ejercicios)
+- [Solución Ejercicios](https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.02-sass#solución-ejercicios)
+
+
 
 ## Bootstrap, un framework CSS
 
