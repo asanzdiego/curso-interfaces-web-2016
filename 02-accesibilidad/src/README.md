@@ -11,4 +11,4 @@ El ejercicio anterior se podría hacer con otras páginas poco accesibles,
 y se podría hacer también con páginas accesibles.
 
 Como validador se puede usar este validador local que es gratuito y pultiplafarma:
-<https://www.totalvalidator.com//downloads/index.html>
+<https://www.totalvalidator.com/>
