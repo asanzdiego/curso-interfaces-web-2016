@@ -10,10 +10,28 @@ En el ejercicio de análisis de tareas y posterior prototipado, se podría escog
 - comprar ticket para el cine seleccionando butaca
 - etc.
 
+Estaría bien que antes de hacer el prototipo con pencil, los alumnos hicieran
+el prototipo en papel que es mucho más rápido y menos pesado
+y que luego lo pasaran a papel.
+
+Para los ejercicios de prototipado, se podría empezar con ejercicios individuales:
+- interfaz de página pequeña en papel
+- prototipado en móvil, tablet y ordenador
+- corregir y luego hacer el ejercicio completo
+
 En el ejercicio de prototipado, además de hacer el prototipo de distintas interfaces:
 - para móvil
 - para tablet
 - para ordenador
+
+Páginas web para crear paletas de colores:
+- Paletton: <http://paletton.com>
+- Color Palette Generator: <http://www.palettefx.com>
+
+Material Design de Google:
+- Info: https://design.google.com/
+- Iconos: https://design.google.com/icons/
+- Palette: http://www.materialpalette.com/
 
 En el ejercicio de evaluación heuristica, se podría escoger estos otros sitios:
 - http://www.arrestling.com/

@@ -44,57 +44,55 @@
         <fieldset>
             <legend>Información personal</legend>
 
-            <label for="nombre" tabindex="1">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" autofocus required />
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" tabindex="1" autofocus required />
 
-            <label for="correo" tabindex="2">Correo Electrónico:</label>
+            <label for="correo">Correo Electrónico:</label>
             <input type="email" id="correo" name="correo" required />
 
-            <label for="web" tabindex="3">Página personal:</label>
+            <label for="web">Página personal:</label>
             <input type="url" id="web" name="web" placeholder="URL de tu página web personal" />
 
         </fieldset>
         <fieldset>
             <legend>Otra información</legend>
 
-            <label for="fecha" tabindex="4">Fecha:</label>
+            <label for="fecha">Fecha:</label>
             <input type="date" id="fecha" name="fecha" />
 
-            <label for="mes" tabindex="5">Mes:</label>
+            <label for="mes">Mes:</label>
             <input type="month" id="mes" name="mes" />
 
-            <label for="semana" tabindex="6">Semana:</label>
+            <label for="semana">Semana:</label>
             <input type="week" id="semana" name="semana" />
 
-            <label for="tiempo" tabindex="7">Tiempo:</label>
+            <label for="tiempo">Tiempo:</label>
             <input type="time" id="tiempo" name="tiempo" />
 
-            <label for="fechatiempo" tabindex="8">Fecha y tiempo:</label>
+            <label for="fechatiempo">Fecha y tiempo:</label>
             <input type="time" id="fechatiempo" name="fechatiempo" />
 
-            <label for="numero" tabindex="9">Número (min -10, max 10):</label>
+            <label for="numero">Número (min -10, max 10):</label>
             <input type="number" id="numero" name="numero" min="-10" max="10" value="0" />
 
-            <label for="intervalo" tabindex="10">Intervalo (min 0, max 10):</label>
+            <label for="intervalo">Intervalo (min 0, max 10):</label>
             <input type="range" id="intervalo" name="intervalo" />
             <output for="intervalo" name="intervalo">0</output>
 
-            <label for="telefono" tabindex="11">Teléfono:</label>
+            <label for="telefono">Teléfono:</label>
             <input type="tel" id="telefono" name="telefono" />
 
-            <label for="busqueda" tabindex="12">Búsqueda:</label>
+            <label for="busqueda">Búsqueda:</label>
             <input type="search" id="busqueda" name="busqueda" />
 
-            <label for="color_favorito" tabindex="13">Color Favorito:</label>
+            <label for="color_favorito">Color Favorito:</label>
             <input type="color" id="color_favorito" name="color_favorito" />
 
         </fieldset>
         <fieldset>
             <legend>Controles</legend>
 
-            <!--label for="borrar" tabindex="14">Borrar</label-->
             <input id="borrar" type="reset" name="borrar" value="Borrar" />
-            <!--label for="enviar" tabindex="14">Enviar</label-->
             <input id="enviar" type="submit" name="enviar" value="Enviar" />
 
         </fieldset>
@@ -182,7 +180,7 @@
 
     <table aria-describedby="table-summary" border="1">
         <caption>Horario de clase
-          <p id="table-summary">Column one has the location and size of accommodation, other columns show the type and number of properties available.</p>
+          <p id="table-summary">La primera columna son las horas y el resto de columnas los días de la semana</p>
         </caption>
         <thead>
             <tr>

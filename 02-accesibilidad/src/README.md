@@ -12,3 +12,6 @@ y se podría hacer también con páginas accesibles.
 
 Como validador se puede usar este validador local que es gratuito y pultiplafarma:
 <https://www.totalvalidator.com/>
+
+Para el ejercicio de corrección de código se puede separar en ejercicios individuales
+para que no se les haga tan pesado a los alumnos.
