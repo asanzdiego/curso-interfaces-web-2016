@@ -500,7 +500,7 @@
 - Transparencias:
     - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/slides>
 
-- Código:
+- Ejercicios:
     - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/01-usabilidad/src>
 
 ## Bibliografía

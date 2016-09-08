@@ -350,31 +350,15 @@ bootstrap/
 <p class="text-nowrap">Texto sin ajuste.</p>
 ~~~
 
-## Capitalización
+## Capitalización (I)
 
 ![Capitalización](../img/capitalizacion.png)
 
-## Minúsculas
-
-- Minúsculas
+## Capitalización (II)
 
 ~~~
 <p class="text-lowercase">Lowercased text.</p>
-~~~
-
-## Mayúsculas
-
-- Mayúsculas
-
-~~~
 <p class="text-uppercase">Uppercased text.</p>
-~~~
-
-## Tipo Título
-
-- Tipo Título
-
-~~~
 <p class="text-capitalize">Capitalized text.</p>
 ~~~
 
@@ -502,18 +486,6 @@ bootstrap/
 
 
 
-## Lo básico (I)
-
-- Agrupar label + control con **class=form-group**
-
-- Input, textarea y select con **class=form-control**
-
-## Lo básico (II)
-
-- Layouts: **normal, form-inline y form-horizontal**
-
-- Para distribuir el contenido, se puede **usar .col- pero no hace falta usar .row**
-
 ## Normal
 
 ![Formulario normal](../img/formulario-normal.png)
@@ -545,10 +517,6 @@ bootstrap/
 </form>
 ~~~
 
-## Inputs
-
-- Los de **HTML5**: text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel, and color.
-
 ## Validaciones (I)
 
 ![Formulario Validaciones](../img/formulario-validaciones.png)
@@ -574,45 +542,11 @@ bootstrap/
 
 - Usar los helpers **form-group-lg o form-group-sm** o bien, en caso de inputs aislados que no estén dentro de un form-group, usar **input-lg o input-sm**
 
-~~~
-<form class="form-horizontal" role="form">
-  <div class="form-group form-group-lg">
-    <label class="col-sm-2 control-label" for="formGroupInputLarge">
-      Large label</label>
-    <div class="col-sm-10">
-      <input class="form-control" type="text" id="formGroupInputLarge"
-        placeholder="Large input">
-    </div>
-  </div>
-</form>
-~~~
-
-## Tamaños (III)
-
-- Usar los helpers **form-group-lg o form-group-sm** o bien, en caso de inputs aislados que no estén dentro de un form-group, usar **input-lg o input-sm**
-
-~~~
-<form class="form-horizontal" role="form">
-  <div class="form-group form-group-sm">
-    <label class="col-sm-2 control-label" for="formGroupInputSmall">
-      Small label</label>
-    <div class="col-sm-10">
-      <input class="form-control" type="text" id="formGroupInputSmall"
-        placeholder="Small input">
-    </div>
-  </div>
-</form>
-~~~
-
 
 
 # Botones
 
 
-
-## Ejemplos
-
-![Ejemplos de botones](../img/botones-ejemplos.png)
 
 ## Tipos (I)
 
@@ -661,7 +595,6 @@ bootstrap/
 <button type="button" disabled="disabled" class="btn btn-warning">Warning</button>
 <button type="button" disabled="disabled" class="btn btn-danger">Danger</button>
 ~~~
-
 
 ## Enlaces (I)
 
@@ -719,16 +652,10 @@ bootstrap/
 
 - Añadir **class=img-responsive** pondrá max-size=100% y height=auto.
 
-## Efectos (I)
+## Efectos
 
 ![Efectos de imágenes](../img/imagenes.png)
 
-## Efectos (II)
-
-- Se pueden añadir efectos:
-    - **class=img-rounded**: redondea los bordes de la foto.
-    - **class=img-circle**: convierte la foto en circular.
-    - **class=img-thumbnail**: deja un pequeño recuadro a la foto.
 
 
 # Helpers
@@ -764,14 +691,11 @@ bootstrap/
 <p class="bg-danger">bg-danger</p>
 ~~~
 
-## float y clearfix
+## float
 
 ~~~
 <div class="pull-left">pull-left</div>
 <div class="pull-right">pull-right</div>
-<p class="text-danger">antes del clearfix</p>
-<div class="clearfix"></div>
-<p class="text-success">después del clearfix</p>
 ~~~
 
 ## Mostrar y ocultar
@@ -785,9 +709,6 @@ bootstrap/
 
 <p>class=invisible > visibility: hidden (no desaparece del dom) </p>
 <div class="invisible">invisible</div>
-
-<p>class=text-hide</p> útil cuando quieres una imagen de fondo
-<div class="text-hide">text-hide</div>
 ~~~
 
 ## Accesibilidad
@@ -1110,14 +1031,17 @@ bootstrap/
 
 ~~~
 <div class="progress">
-  <div class="progress-bar progress-bar-success" ... style="width: 40%">
-    <span class="sr-only">40% Complete (success)...
+  <div class="progress-bar progress-bar-success"
+    ... style="width: 40%"><span class="sr-only">
+      40% Complete (success)...
 <div class="progress">
-  <div class="progress-bar progress-bar-info  progress-bar-striped"
-    ... style="width: 20%"><span class="sr-only">20% Complete...
+  <div class="progress-bar progress-bar-info progress-bar-striped"
+    ... style="width: 20%"><span class="sr-only">
+      20% Complete...
 <div class="progress">
   <div class="progress-bar progress-bar-warning progress-bar-striped active"
-    ... style="width: 60%"><span class="sr-only">60% Complete (warning)...
+    ... style="width: 60%"><span class="sr-only">
+      60% Complete (warning)...
 ~~~
 
 ## Progress Bar (IV)
@@ -1127,9 +1051,11 @@ bootstrap/
   <div class="progress-bar" style="width: 35%">
     <span class="sr-only">35% Complete (success)</span></div>
   <div class="progress-bar progress-bar-warning progress-bar-striped"
-    style="width: 20%"><span class="sr-only">20% Complete (warning)</span></div>
+    style="width: 20%"><span class="sr-only">
+      20% Complete (warning)</span></div>
   <div class="progress-bar progress-bar-danger progress-bar-striped active"
-    style="width: 10%"><span class="sr-only">10% Complete (danger)</span></div>
+    style="width: 10%"><span class="sr-only">
+      10% Complete (danger)</span></div>
 </div>
 ~~~
 
@@ -1179,15 +1105,6 @@ bootstrap/
     <h3 class="panel-title">Panel title</h3></div>
   <div class="panel-body">Panel content</div>
   <div class="panel-footer">Panel footer</div>
-</div>
-~~~
-
-## Responsive embed
-
-~~~
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="//www.youtube.com/..."
-    allowfullscreen=""></iframe>
 </div>
 ~~~
 
@@ -1396,23 +1313,6 @@ bootstrap/
 
 
 
-## Índice
-
-- Using the framework
-- Navbars in action
-- Custom components
-- Experiments
-
-
-
-## Using the framework
-
-- Starter template
-- Bootstrap theme
-- Grids
-- Jumbotron
-- Narrow jumbotron
-
 ## Starter template
 
 - <http://getbootstrap.com/examples/starter-template>
@@ -1438,14 +1338,6 @@ bootstrap/
 - <http://getbootstrap.com/examples/jumbotron-narrow>
 ![Source: getbootstrap.com](../img/screenshots/jumbotron-narrow.jpg)
 
-
-
-## Navbars in action
-
-- Navbar
-- Static top navbar
-- Fixed navbar
-
 ## Navbar
 
 - <http://getbootstrap.com/examples/navbar>
@@ -1460,19 +1352,6 @@ bootstrap/
 
 - <http://getbootstrap.com/examples/navbar-fixed-top>
 ![Source: getbootstrap.com](../img/screenshots/navbar-fixed.jpg)
-
-
-
-## Custom components
-
-- Cover
-- Carousel
-- Blog
-- Dashboard
-- Sign-in page
-- Justified nav
-- Sticky footer
-- Sticky footer with navbar
 
 ## Cover
 
@@ -1514,13 +1393,6 @@ bootstrap/
 - <http://getbootstrap.com/examples/sticky-footer-navbar>
 ![Source: getbootstrap.com](../img/screenshots/sticky-footer-navbar.jpg)
 
-
-
-## Experiments
-
-- Non-responsive Bootstrap
-- Offcanvas
-
 ## Non-responsive Bootstrap
 
 - <http://getbootstrap.com/examples/non-responsive>
@@ -1553,97 +1425,7 @@ bootstrap/
 
 ## Compilar Less
 
-- La forma **más productiva y eficiente** de personalizar bootstrap es **compilando los ficheros Less del core a CSS**.
-
-
-
-# Compilar Less
-
-
-
-## Descarga
-
-- Para ver **las tripas, y modificarlas (LESS)**, hay que descargar la versión completa:
-
-    - <https://github.com/twbs/bootstrap/archive/v3.2.0.zip>
-
-~~~
-bootstrap/
-├── less/
-├── js/
-├── fonts/
-├── dist/
-│   ├── css/
-│   ├── js/
-│   └── fonts/
-└── docs/
-    └── examples/
-~~~
-
-## Entorno
-
-- Si queremos modificar el core (LESS), necesitamos:
-    - intalar **NodeJS**,
-    - luego **Grunt**
-    - y para terminar instalar las **dependencias**.
-
-
-## NodeJS
-
-- NodeJS nos permite ejecutar **JavaScript del lado del servidor**.
-
-- Para **instalar NodeJS**, hay que seguir las instrucciones de instalación de la página oficial para cada sistema operativo:
-    - <http://nodejs.org>
-
-## Grunt
-
-- Grunt es un **automatizador de tareas** que se ejecuta sobre NodeJS.
-
-- Una vez instalado NodeJS, **hay que instalar Grunt desde el gestor de paquetes de node (npm)** ejecutando  en un terminal, como administrador, el siguiente comando:
-
-~~~
-$ npm install -g grunt-cli
-~~~
-
-## Dependencias
-
-- Una vez instalado NodeJS y Grunt, hay que **instalar las dependencias de bootstrap**.
-
-- Para ello hay que situarse en la carpeta de bootstrap y ejecutar:
-
-~~~
-../bootstrap$npm install
-~~~
-
-## Default
-
-- Si queremos lanzar **todas las tareas por defecto de grunt** (compilar, minificar, pasar los test, generar documentación...) tenemos que ejecutar lo siguiente
-
-~~~
-$ grunt
-~~~
-
-## Dist
-
-- Si lo único que queremos es **compilar y minificar el CSS y el JavaScript**, tenemos que ejecutar lo siguiente:
-
-~~~
-$ grunt dist
-~~~
-
-## Watch
-
-- También podemos **recompilar automaticamente los ficheros Less a CSS cuando salvas los cambios**, ejecutando el siguiente comando:
-
-~~~
-$ grunt watch
-~~~
-
-- El problema es que **sólo recompila ficheros Less a CSS, no los minifica**.
-
-## Personalizar
-
-- Uno de los ficheros que más se personaliza es **/bootstrap/less/variables.less**, pues en él están las variables más importantes que usa bootstrap.
+- La forma **más productiva y eficiente** de personalizar bootstrap es **compilando los ficheros LESS del core a CSS**.
 
 
 
@@ -1662,10 +1444,10 @@ $ grunt watch
 ## Fuentes
 
 - Transparencias:
-    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap/slides>
+    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap/05-bootstrap-3.0/slides>
 
-- Código:
-    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap/src>
+- Ejercicios:
+    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap/05-bootstrap-3.0/src>
 
 ## Bibliografía
 

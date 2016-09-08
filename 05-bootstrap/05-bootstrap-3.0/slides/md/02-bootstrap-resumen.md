@@ -1446,7 +1446,7 @@ bootstrap/
 - Transparencias:
     - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap/05-bootstrap-3.0/slides>
 
-- Código:
+- Ejercicios:
     - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap/05-bootstrap-3.0/src>
 
 ## Bibliografía

@@ -1312,11 +1312,13 @@ bootstrap/
 
 ~~~
 <div class="progress">
-  <div class="progress-bar progress-bar-success" ... style="width: 40%">
-    <span class="sr-only">40% Complete (success)...
+  <div class="progress-bar progress-bar-success"
+    ... style="width: 40%"><span class="sr-only">
+      40% Complete (success)...
 <div class="progress">
-  <div class="progress-bar progress-bar-info  progress-bar-striped"
-    ... style="width: 20%"><span class="sr-only">20% Complete...
+  <div class="progress-bar progress-bar-info progress-bar-striped"
+    ... style="width: 20%"><span class="sr-only">
+      20% Complete...
 <div class="progress">
   <div class="progress-bar progress-bar-warning progress-bar-striped active"
     ... style="width: 60%"><span class="sr-only">
@@ -1898,10 +1900,10 @@ $ grunt watch
 ## Fuentes
 
 - Transparencias:
-    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap/slides>
+    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap/05-bootstrap-3.0/slides>
 
-- Código:
-    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap/src>
+- Ejercicios:
+    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap/05-bootstrap-3.0/src>
 
 ## Bibliografía
 

@@ -131,6 +131,7 @@
 <ul>
 <li><p>Less se puede ejecutar <strong>desde NodeJS, desde un navegador, o desde Rhino</strong>.</p></li>
 <li><p>Además <strong>existen muchas herramientas</strong> que permiten compilar los archivos y ver los cambios en caliente.</p></li>
+<li><p>Es el preprocesador que usa Bootstrap 3.0.</p></li>
 </ul>
 </section></section>
 <section><section id="usando-less" class="titleslide slide level1"><h1><span class="header-section-number">3</span> Usando Less</h1></section><section id="instalación" class="slide level2">
@@ -298,8 +299,8 @@
 
 background-color: @base-color + #111;
 height: 100% / 2 + @other;</code></pre>
-</section><section id="funciones" class="slide level2">
-<h2><span class="header-section-number">4.12</span> Funciones</h2>
+</section><section id="funciones-i" class="slide level2">
+<h2><span class="header-section-number">4.12</span> Funciones (I)</h2>
 <ul>
 <li>Less dispone de una variedad de <strong>funciones matemáticas, que manipulan cadenas, y que transforman los colores</strong>:</li>
 </ul>
@@ -312,13 +313,23 @@ height: 100% / 2 + @other;</code></pre>
   background-color:
     lighten(@base, 25%);
 }</code></pre>
+</section><section id="funciones-ii" class="slide level2">
+<h2><span class="header-section-number">4.13</span> FUnciones (II)</h2>
+<ul>
+<li>El código anterior compila a:</li>
+</ul>
+<pre><code>.class {
+  width: 1200;
+  color: #f6430f;
+  background-color: #f8a58d;
+}</code></pre>
 </section><section id="namespaces-i" class="slide level2">
-<h2><span class="header-section-number">4.13</span> Namespaces (I)</h2>
+<h2><span class="header-section-number">4.14</span> Namespaces (I)</h2>
 <ul>
 <li>A veces, podemos querer <strong>agrupar mixins</strong>, por motivos de organización, o simplemente para encapsularlos.</li>
 </ul>
 </section><section id="namespaces-ii" class="slide level2">
-<h2><span class="header-section-number">4.14</span> Namespaces (II)</h2>
+<h2><span class="header-section-number">4.15</span> Namespaces (II)</h2>
 <ul>
 <li>Veamos como podemos agrupar varios mixins:</li>
 </ul>
@@ -331,7 +342,7 @@ height: 100% / 2 + @other;</code></pre>
   .citation { ... }
 }</code></pre>
 </section><section id="namespaces-iii" class="slide level2">
-<h2><span class="header-section-number">4.15</span> Namespaces (III)</h2>
+<h2><span class="header-section-number">4.16</span> Namespaces (III)</h2>
 <ul>
 <li>Ahora podemos utilizar el mixin .button que está en el namespace #bundle de esta forma:</li>
 </ul>
@@ -340,7 +351,7 @@ height: 100% / 2 + @other;</code></pre>
   #bundle &gt; .button;
 }</code></pre>
 </section><section id="scope" class="slide level2">
-<h2><span class="header-section-number">4.16</span> Scope</h2>
+<h2><span class="header-section-number">4.17</span> Scope</h2>
 <ul>
 <li>Los <strong>ámbitos de las variables</strong> en Less es muy similar a otros lenguajes:</li>
 </ul>
@@ -353,7 +364,7 @@ height: 100% / 2 + @other;</code></pre>
   }
 }</code></pre>
 </section><section id="imports" class="slide level2">
-<h2><span class="header-section-number">4.17</span> Imports</h2>
+<h2><span class="header-section-number">4.18</span> Imports</h2>
 <pre><code>// foo.less is imported
 @import &quot;foo&quot;;
 
@@ -385,7 +396,7 @@ height: 100% / 2 + @other;</code></pre>
 <ul>
 <li><a href="https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/slides" class="uri">https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/slides</a></li>
 </ul></li>
-<li>Código:
+<li>Ejercicios:
 <ul>
 <li><a href="https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/src" class="uri">https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/src</a></li>
 </ul></li>
@@ -410,6 +421,7 @@ height: 100% / 2 + @other;</code></pre>
       // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
+transition: 'convex',
 
         menu: {
             // Specifies which side of the presentation the menu will

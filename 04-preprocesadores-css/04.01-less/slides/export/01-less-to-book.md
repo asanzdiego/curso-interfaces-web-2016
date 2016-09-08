@@ -61,6 +61,8 @@
 
 - Además **existen muchas herramientas** que permiten compilar los archivos y ver los cambios en caliente.
 
+- Es el preprocesador que usa Bootstrap 3.0.
+
 
 
 # Usando Less
@@ -1508,7 +1510,7 @@ li + a, li + ul, li + li {
 - Transparencias:
     - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/slides>
 
-- Código:
+- Ejercicios:
     - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/src>
 
 ## Bibliografía

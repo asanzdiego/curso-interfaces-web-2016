@@ -61,6 +61,8 @@
 
 - Además **existen muchas herramientas** que permiten compilar los archivos y ver los cambios en caliente.
 
+- Es el preprocesador que usa Bootstrap 3.0.
+
 
 
 # Usando Less
@@ -274,7 +276,7 @@ height: 100% / 2 + @other;
 
 
 
-## Funciones
+## Funciones (I)
 
 - Less dispone de una variedad de **funciones matemáticas, que manipulan cadenas, y que transforman los colores**:
 
@@ -289,6 +291,19 @@ height: 100% / 2 + @other;
     lighten(@base, 25%);
 }
 ~~~
+
+## FUnciones (II)
+
+- El código anterior compila a:
+
+~~~
+.class {
+  width: 1200;
+  color: #f6430f;
+  background-color: #f8a58d;
+}
+~~~
+
 
 
 
@@ -356,6 +371,7 @@ height: 100% / 2 + @other;
 ~~~
 
 
+
 # Acerca de
 
 
@@ -373,7 +389,7 @@ height: 100% / 2 + @other;
 - Transparencias:
     - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/slides>
 
-- Código:
+- Ejercicios:
     - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/04-preprocesadores-css/04.01-less/src>
 
 ## Bibliografía

@@ -1826,10 +1826,10 @@ $ grunt watch
 ## Fuentes
 
 - Transparencias:
-    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap/slides>
+    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap/05-bootstrap-3.0/slides>
 
-- Código:
-    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap/src>
+- Ejercicios:
+    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/05-bootstrap/05-bootstrap-3.0/src>
 
 ## Bibliografía
 

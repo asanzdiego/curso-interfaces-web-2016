@@ -670,7 +670,7 @@
 - Transparencias:
     - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/slides>
 
-- Código:
+- Ejercicios:
     - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/02-accesibilidad/src>
 
 ## Bibliografía (I)
