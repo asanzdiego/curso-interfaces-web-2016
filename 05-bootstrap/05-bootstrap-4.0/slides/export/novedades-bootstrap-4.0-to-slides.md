@@ -3,6 +3,17 @@
 % Septiembre 2016
 
 
+## Biblioteca Virtual FP 2016
+
+- **Código del curso**: IFC06CM16
+
+- **Nombre del curso**: Diseño de interfaces Responsive Web Design usables y accesibles con Saas y Bootstrap
+
+- **Autor del curso**: Adolfo Sanz De Diego
+
+![Logo Biblioteca Virtual FP 2016](../img/logo_BV_2016.jpg)
+
+
 
 # El autor
 
@@ -71,5 +82,8 @@
 - Página oficial de Bootstrap 4.0 alpha:
     - <http://v4-alpha.getbootstrap.com/>
 
-- 10 novedades de Bootstrap 4.0
+- 10 novedades de Bootstrap 4.0:
     - <https://platzi.com/blog/novedades-bootstrap/>
+
+- Bootstrap 4.0, novedades y ejemplos:
+    - <http://funnyfrontend.com/bootstrap-4-alpha-novedades-y-ejemplos/>

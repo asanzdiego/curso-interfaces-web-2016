@@ -4,6 +4,19 @@
 
 
 
+## Biblioteca Virtual FP 2016
+
+- **Código del curso**: IFC06CM16
+
+- **Nombre del curso**: Diseño de interfaces Responsive Web Design usables y accesibles con Saas y Bootstrap
+
+- **Autor del curso**: Adolfo Sanz De Diego
+
+<div style="text-align:center">![Logo Biblioteca Virtual FP 2016](../img/logo_BV_2016.jpg)</div>
+
+
+
+
 # El autor
 
 
