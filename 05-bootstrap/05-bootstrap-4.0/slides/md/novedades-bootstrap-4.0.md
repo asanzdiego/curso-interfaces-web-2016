@@ -71,5 +71,8 @@
 - Página oficial de Bootstrap 4.0 alpha:
     - <http://v4-alpha.getbootstrap.com/>
 
-- 10 novedades de Bootstrap 4.0
+- 10 novedades de Bootstrap 4.0:
     - <https://platzi.com/blog/novedades-bootstrap/>
+
+- Bootstrap 4.0, novedades y ejemplos:
+    - <http://funnyfrontend.com/bootstrap-4-alpha-novedades-y-ejemplos/>

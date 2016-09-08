@@ -16,8 +16,8 @@ Como validador se puede usar este validador local que es gratuito y pultiplafarm
 Para el ejercicio de corrección de código se puede separar en ejercicios individuales
 para que no se les haga tan pesado a los alumnos.
 
-La corrección de código la podrían hacer también los alumnos (como practica final)
-con alguna página/aplicación web que tubieran ya desarrollada,
+La corrección de código la podrían hacer también los alumnos (como práctica final)
+con alguna página/aplicación web que tuvieran ya desarrollada,
 pues les puede resultar motivador.
 
 Otra práctica interesante sería usar un lector de pantalla en clase con los ojos vendados.

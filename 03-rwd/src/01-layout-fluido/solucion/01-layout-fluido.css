@@ -9,7 +9,7 @@ article {
     width: 70%;
     float: left;
     font-size: 2em;
-    box-sizing: border-box; /* tiene en cuenta el pading y el borde, pero no el margin */
+    box-sizing: border-box; /* tiene en cuenta el pading y el borde para contabilizar el ancho, pero no el margin */
 }
 aside {
     background-color: red;
@@ -17,5 +17,5 @@ aside {
     width: 30%;
     float: right;
     font-size: 1em;
-    box-sizing: border-box; /* tiene en cuenta el pading y el borde, pero no el margin */
+    box-sizing: border-box; /* tiene en cuenta el pading y el borde para contabilizar el ancho, pero no el margin */
 }
