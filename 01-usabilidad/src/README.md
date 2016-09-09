@@ -19,7 +19,12 @@ Para los ejercicios de prototipado, se podría empezar con ejercicios individual
 - prototipado en móvil, tablet y ordenador
 - corregir y luego hacer el ejercicio completo
 
-En el ejercicio de prototipado, además de hacer el prototipo de distintas interfaces:
+Ejemplos de ejercicios individuales:
+- Un buscador
+- Un registro de un nuevo usuario
+- El diseño de un blog
+
+En el ejercicio de prototipado, lo suyo sería hacer el prototipo de distintas interfaces:
 - para móvil
 - para tablet
 - para ordenador
