@@ -227,7 +227,7 @@ nav li {
 </ul>
 <h2 id="imports"><span class="header-section-number">4.7</span> Imports</h2>
 <ul>
-<li>Imaginemos el archivo **_reset.scss**:</li>
+<li>Imaginemos el archivo <strong>_reset.scss</strong>:</li>
 </ul>
 <pre><code>html, body, ul {
   margin: 0;
@@ -419,7 +419,7 @@ $list: 200, 500, 1200;
 
 .class {
   width: nth($list, 3);
-  color: saturate($base, 5%);
+  color: darken($base, 5%);
   background-color:
     lighten($base, 25%);
 }</code></pre>
@@ -471,7 +471,7 @@ p {
 <li>El siguiente código:</li>
 </ul>
 <pre><code>@for $i from 1 to 4 {
-  .item-#{$i} { width: 2em * i; }
+  .item-#{$i} { width: 2em * $i; }
 }</code></pre>
 <ul>
 <li>Se compila a:</li>

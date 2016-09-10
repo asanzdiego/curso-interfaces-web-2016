@@ -14,8 +14,8 @@ div {
     border: 10px solid green;
     padding: 10px;
     margin: 10px;
-    width: 95%;
-
+    width: 15%;
+    float:left
 }
 .image {
     border: 10px solid blue;

@@ -239,7 +239,7 @@ _partial.scss
 
 ## Imports
 
-- Imaginemos el archivo **_reset.scss**:
+- Imaginemos el archivo **\_reset.scss**:
 
 ~~~
 html, body, ul {
@@ -508,7 +508,7 @@ $list: 200, 500, 1200;
 
 .class {
   width: nth($list, 3);
-  color: saturate($base, 5%);
+  color: darken($base, 5%);
   background-color:
     lighten($base, 25%);
 }
@@ -586,7 +586,7 @@ p {
 
 ~~~
 @for $i from 1 to 4 {
-  .item-#{$i} { width: 2em * i; }
+  .item-#{$i} { width: 2em * $i; }
 }
 ~~~
 
