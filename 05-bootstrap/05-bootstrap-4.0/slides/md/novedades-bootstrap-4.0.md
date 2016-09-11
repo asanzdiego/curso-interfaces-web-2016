@@ -66,7 +66,7 @@
 
 - Remplazado PX por **REM** (salvo en los puntos de ruptura de los Media Query)
 
-# Diseño
+## Diseño
 
 - Tamaño de la fuente por defecto inrementada de 14px a **16px**.
 
@@ -101,9 +101,9 @@ Extra large (XL) ≥1200px
 ## Iconos
 
 - Ahora hay que elegir una librería de terceros:
-  - <http://fontawesome.io/>
-  - <https://octicons.github.com/>
-  - <https://materialdesignicons.com/>
+    - <http://fontawesome.io/>
+    - <https://octicons.github.com/>
+    - <https://materialdesignicons.com/>
 
 ## Varios
 
