@@ -34,30 +34,30 @@
   <body>
 
     <!-- Fixed navbar -->
-    <nav class="">
-      <div class="">
-        <div class="">
-          <button type="button" class="" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="">Toggle navigation</span>
-            <span class=""></span>
-            <span class=""></span>
-            <span class=""></span>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
           </button>
-          <a class="" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Project name</a>
         </div>
-        <div id="navbar" class="">
-          <ul class="">
-            <li class=""><a href="#">Home</a></li>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li class="">
-              <a href="#" class="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class=""></span></a>
-              <ul class="">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
                 <li><a href="#">Action</a></li>
                 <li><a href="#">Another action</a></li>
                 <li><a href="#">Something else here</a></li>
-                <li role="separator" class=""></li>
-                <li class="">Nav header</li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
                 <li><a href="#">Separated link</a></li>
                 <li><a href="#">One more separated link</a></li>
               </ul>
@@ -68,11 +68,11 @@
     </nav>
 
     <!-- Begin page content -->
-    <div class="">
-      <div class="">
+    <div class="container">
+      <div class="page-header">
         <h1>Sticky footer with fixed navbar</h1>
       </div>
-      <p class="">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
+      <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
       <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
     </div>
 
