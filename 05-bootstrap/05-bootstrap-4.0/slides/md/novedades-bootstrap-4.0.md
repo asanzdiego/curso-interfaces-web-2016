@@ -50,7 +50,69 @@
 
 
 
+# Novedades
 
+
+
+## Navegadores soportados
+
+- Deja de soportar IE 8 e iOS 6.
+
+- Soporta IE 9+ e iOS 7+.
+
+## Cambios globales
+
+- Remplazado LESS por SASS.
+
+- Remplazado PX por REM (salvo en los puntos de ruptura de los Media Query)
+
+- Tamaño de la fuente por defecto inrementada de 14px a 16px.
+
+## Flexbox
+
+- Soporte opcional (hay que activarlo y recompilar)
+
+- Si activado: soporte alineación horizontal y vertical
+
+## Sistema de rejilla
+
+- Añadido un tamaño más (xs, xm, md, lg y xl)
+
+----------- ---- -------
+Extra small (XS) <544px
+Small       (SM) ≥544px
+Medium      (MD) ≥768px
+Large       (LG) ≥992px
+Extra large (XL) ≥1200px
+----------- ---- -------
+
+## Cards
+
+- Nuevo componente que sustituye a: paneles, thumbnails y wells
+
+## Iconos
+
+- Ahora hay que elegir una librería de terceros:
+  - <http://fontawesome.io/>
+  - <https://octicons.github.com/>
+  - <https://materialdesignicons.com/>
+
+## Varios
+
+- Uso de "non-responsive" no soportado.
+
+- Remplazado "Customizer online" por una mejora documentación sobre el setup.
+
+
+## Tipografía
+
+- La clase .dl-horizontal ha desaparecido -> usar .row
+
+- La clase .lit-inline tiene que estar seguido por hijos .list-inline-items
+
+## Imágenes
+
+- Remplazada clase .image-responsive por .image-fluid
 
 
 
