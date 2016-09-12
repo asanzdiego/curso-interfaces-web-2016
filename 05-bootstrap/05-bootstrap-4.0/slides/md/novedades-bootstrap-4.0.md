@@ -94,6 +94,19 @@ Extra large (XL) ≥1200px
 
 - Remplada las clases .col-{breakpoint}-{modifier}-{size} por **.{modifier}-{breakpoint}-{size}**
 
+## Margin y padding
+
+- Nuevas clases **.{m,p}-{a,t,l,b,r,x,y}-{0,auto,md,lg}**
+    - "m" para margin, "p" para padding
+    - "a" para todo
+    - "t" top, "l" left, "r" right, "b" bottom
+    - "x" para left y right y "y" para top y bottom
+    - "0" cero, "auto" auto, "md" mediano, "lg" grande
+
+## Cabeceras
+
+- Nuevas clases **.display-{1,2,3,4}** para aumentar el tamaño a las cabeceras.
+
 ## Cards
 
 - **Nuevo componente** que sustituye a: paneles, thumbnails y wells
@@ -232,9 +245,6 @@ Extra large (XL) ≥1200px
 
 ## Bibliografía
 
-- Página oficial de Bootstrap:
-    - <http://getbootstrap.com>
-
 - Página oficial de Bootstrap 4.0 alpha:
     - <http://v4-alpha.getbootstrap.com/>
 
@@ -243,3 +253,6 @@ Extra large (XL) ≥1200px
 
 - Bootstrap 4.0, novedades y ejemplos:
     - <http://funnyfrontend.com/bootstrap-4-alpha-novedades-y-ejemplos/>
+
+- Learn CSS Flexbox in 3 Minutes
+    - <https://medium.com/learning-new-stuff/learn-css-flexbox-in-3-minutes-c616c7070672>
