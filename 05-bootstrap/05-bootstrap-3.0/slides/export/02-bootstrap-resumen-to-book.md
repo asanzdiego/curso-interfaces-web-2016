@@ -4,19 +4,6 @@
 
 
 
-## Biblioteca Virtual FP 2016
-
-- **Código del curso**: IFC06CM16
-
-- **Nombre del curso**: Diseño de interfaces Responsive Web Design usables y accesibles con Saas y Bootstrap
-
-- **Autor del curso**: Adolfo Sanz De Diego
-
-<div style="text-align:center">![Logo Biblioteca Virtual FP 2016](../img/logo_BV_2016.jpg)</div>
-
-
-
-
 # El autor
 
 
@@ -744,24 +731,23 @@ bootstrap/
 
 ## Mostrar y ocultar
 
+- class=show > display: block
+- class=hidden > display: none
+- class=invisible > visibility: hidden (no desaparece del dom)
+
 ~~~
-<p>class=show > display: block</p>
 <div class="show">show</div>
-
-<p>class=hidden > display: none</p>
 <div class="hidden">hidden</div>
-
-<p>class=invisible > visibility: hidden (no desaparece del dom) </p>
 <div class="invisible">invisible</div>
 ~~~
 
 ## Accesibilidad
 
+- class=sr-only > solo aparece en los lectores de pantalla
+
+- class=sr-only-focusable > aparece cuando se hace foco sobre él
+
 ~~~
-<p>class=sr-only > solo aparece en los lectores de pantalla</p>
-
-<p>class=sr-only-focusable > aparece cuando se hace foco sobre él</p>
-
 <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
 ~~~
 

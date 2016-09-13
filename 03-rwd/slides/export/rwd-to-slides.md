@@ -4,18 +4,6 @@
 
 
 
-## Biblioteca Virtual FP 2016
-
-- **Código del curso**: IFC06CM16
-
-- **Nombre del curso**: Diseño de interfaces Responsive Web Design usables y accesibles con Saas y Bootstrap
-
-- **Autor del curso**: Adolfo Sanz De Diego
-
-![Logo Biblioteca Virtual FP 2016](../img/logo_BV_2016.jpg)
-
-
-
 # El autor
 
 
@@ -674,3 +662,14 @@ Un Media Query **no sólo nos permite seleccionar el tipo de medio** (all, brail
 
 - Página de testeo de Matt Kersley
     - <http://mattkersley.com/responsive>
+
+## Bibliografía (V)
+
+- Los 5 patrones del Responsive Design con FlexBox
+    - <https://carlosazaustre.es/blog/los-5-patrones-del-responsive-design/>
+
+- El futuro del CSS Grid Layout
+    - <https://carlosazaustre.es/blog/css-grid-layout-css/>
+
+- El gran poder de CSS3: FlexBox
+    - <https://filisantillan.com/el-gran-poder-de-css3-flexbox/>

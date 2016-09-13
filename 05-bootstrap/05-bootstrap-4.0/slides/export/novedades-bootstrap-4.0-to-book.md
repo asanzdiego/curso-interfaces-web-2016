@@ -3,18 +3,6 @@
 % Septiembre 2016
 
 
-## Biblioteca Virtual FP 2016
-
-- **Código del curso**: IFC06CM16
-
-- **Nombre del curso**: Diseño de interfaces Responsive Web Design usables y accesibles con Saas y Bootstrap
-
-- **Autor del curso**: Adolfo Sanz De Diego
-
-<div style="text-align:center">![Logo Biblioteca Virtual FP 2016](../img/logo_BV_2016.jpg)</div>
-
-
-
 
 # El autor
 
@@ -254,6 +242,17 @@ Large       (LG) ≥992px
 
 - Bootstrap 4.0, novedades y ejemplos:
     - <http://funnyfrontend.com/bootstrap-4-alpha-novedades-y-ejemplos/>
+
+- El futuro del CSS Grid Layout
+    - <https://carlosazaustre.es/blog/css-grid-layout-css/>
+
+
+
+- El gran poder de CSS3: FlexBox
+    - <https://filisantillan.com/el-gran-poder-de-css3-flexbox/>
+
+- Los 5 patrones del Responsive Design con FlexBox
+    - <https://carlosazaustre.es/blog/los-5-patrones-del-responsive-design/>
 
 - Learn CSS Flexbox in 3 Minutes
     - <https://medium.com/learning-new-stuff/learn-css-flexbox-in-3-minutes-c616c7070672>
