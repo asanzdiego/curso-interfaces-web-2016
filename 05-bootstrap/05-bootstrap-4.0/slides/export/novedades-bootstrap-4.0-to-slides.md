@@ -160,7 +160,7 @@ Extra large (XL) ≥1200px
 
 - Los items del dropdown tienen que tener la clase **.dropdown-item**.
 
-- Ya no es necesario añadir <span class="caret"></span>.
+- Ya no es necesario añadir \<span class="caret"\>\<\/span\>.
 
 ## Navs
 
